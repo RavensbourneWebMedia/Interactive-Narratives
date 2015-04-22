@@ -8,14 +8,17 @@
 
 # Hacking games with verbs
 
+Whether it is running or collecting, shooting or trading, games are driven by **verbs**. 
+
+In this workshop we pick out the verbs that make up a game and explore how these verbs express certain **messages** and **morals**. 
+
+Then we **hack** the game with new verbs, so that it communicates our own messages and morals.
+
+> old game + alternative narrative / mechanics = new game
+
+[![image alt text](https://github.com/matteomenapace/hacking-games-with-verbs/raw/ravensbourne2015/images/verbs.jpg)](https://github.com/matteomenapace/hacking-games-with-verbs)
+
 All the workshop material is [here](https://github.com/matteomenapace/hacking-games-with-verbs). 
-
-Whether it is running or collecting, shooting or trading, games are driven by **verbs**. In this workshop we pick out the verbs that make up a game and explore how these verbs express certain **messages** and **morals**. Then we **hack** the game with new verbs, so that it communicates our own messages and morals.
-
-**old game + alternative message / narrative / mechanics = new game**
-
-![image alt text](https://github.com/matteomenapace/hacking-games-with-verbs/raw/ravensbourne2015/images/verbs.jpg)
-
 
 
 <!--Case studies: [Tax Evaders](http://www.taxevaders.net)-->
