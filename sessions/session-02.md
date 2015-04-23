@@ -78,12 +78,14 @@ Find at least one **feedback loop** that contributes to the overall system of th
 
 <!--Let's **brainstorm** concepts related to games, stories, what they have in common and what they don't have in common.-->
 
+![](assets/branches.png)
+
 
 Before videogames...
 
 * **Dada** poems		>	**To make a Dadaist poem**
 	
-	> 1. Take a newspaper.
+	> * Take a newspaper.
 	> * Take a pair of scissors.
 	> * Choose an article as long as you are planning to make your poem.
 	> * Cut out the article.
@@ -105,63 +107,154 @@ Before videogames...
 * [Gamebooks](http://samizdat.cc/cyoa), aka *Choose Your Own Adventure* in the 1970s and 80s
 
 	[![](assets/ufo-acorn-nodes.png)](http://samizdat.cc/cyoa)
+	
+	You can find many of them on [Project AON](http://www.projectaon.org/en/Main/Books)
 
 * **HyperText** is a word [Ted Nelson](http://en.wikipedia.org/wiki/Ted_Nelson) coined in the 60s. 
 
 	> A system of **non-sequential writing** that would allow the reader to aggregate meaning in snippets, in the order of his or her choosing, rather than according to a pre-established structure fixed by the author.
 		We're now familiar with hypertext because of the World Wide Web (invented in 1989) but in the 80s it was quite a weird thing, with a literary potential.
-<!--Examples: [Afternoon](http://www.wwnorton.com/college/english/pmaf/hypertext/aft/index.html) and [253](http://www.ryman-novel.com/)-->* Text Adventures, such as [ZORK](http://en.wikipedia.org/wiki/Zork), were massively popular in the 80s.
+<!--Examples: [Afternoon](http://www.wwnorton.com/college/english/pmaf/hypertext/aft/index.html) and [253](http://www.ryman-novel.com/)-->* **Text Adventures** like [ZORK](http://en.wikipedia.org/wiki/Zork) were massively popular in the 80s.
 
 	[![](assets/zork.png)](https://www.youtube.com/watch?v=ikYv6OsgGSk)
 
 <!--[Choose your own adventure](http://www.theguardian.com/commentisfree/2014/oct/20/gamergate-internet-toughest-game-woman-enemies) (sort of) by Charlie Brooker-->
 
+More and more on [Electronic Literature](http://directory.eliterature.org)
+
 # Twine
 
-Creating branching narratives with [Twine](http://twinery.org) (download app or use the [online editor](http://twinery.org/2)), an open-source tool for telling interactive, nonlinear stories.
+![](assets/twine-logo.svg)
+
+> [Twine](http://twinery.org) is an open-source tool for telling interactive, nonlinear stories.
+
+> You don't need to write any code to create a simple story with Twine, but you can extend your stories with variables, conditional logic, images, CSS, and JavaScript when you're ready.
+
+Learn how to use Twine on the [Twine Wiki](http://twinery.org/wiki/twine2:guide). 
+
+### Getting started
+
+1. Go to [Twine](http://twinery.org) and **download version 2**
+2. Unzip the Twine package
+3. Open the `index.html` in your favourite browser
+4. Click on `+ Story` to create a new story.
+
+![](assets/twine-map.png)
+
+Your story *building blocks* are called **passages** and Twine lets you move them around in this *map*.
+
+### Editing passages
+
+Double-click a passage to edit it.
+
+Twine uses a  *markup language* similar to MarkDown, called [**TwineMarkup**](http://twine2.neocities.org). 
+
+### Linking passages
+
+To set your story in motion you create clickable **hyperlinks between passages**. 
+
+```
+You just woke up. The sky is bleak.
+
+* [[Make a coffee->coffee]] is a link that goes to a passage named "coffee"
+* [[tea<-Make a tea]]  is a link that goes to a passage named "tea"
+```
+
+Inside matching non-nesting pairs of `[[` and `]]`, place the link text and the passage expression, separated by either `->` or `<-` with the arrow pointing to the passage expression.
+
+### Images
+
+You can use good old HTML to include images
+
+```html
+<img src="assets/bleak.jpg">
+<!-- you can also use HTML comments to make notes and hide secret messages -->
+<!-- <img src="https://farm9.staticflickr.com/8206/8214045617_f43890920c_z.jpg"> -->
+```
+
+Create a sub-folder in the Twine folder and call it `images` or `assets` or whatever you like, and dump all your story media files in there.
+
+![](assets/twine-assets.png)
+
+Later, when you publish your story, you will need to copy all your `assets` in the same folder where your story is published, so that you won't have broken links.
+
+More on that [here](http://twinery.org/forum/index.php/topic,2085.msg6056.html#msg6056)
+
+
+### Variables
+
+To achieve more than simply branching narratives, you can use **variables** and *macros*.
+
+The code that a passage can contain includes ways of setting a variable to a particular value and conditionally displaying text based on variables' current values. 
+
+```php
+You had no milk for $milkDays days. You have $quid quid on you. 
+```
+
+`$milkDays` and `$quid` are variables.
+
+All variables must start with `$`, like in PHP :elephant:
+
+### Macros
+
+You can manipulate your *game state* with **macros**, which are snippets of code to set or compare variables.
+
+
+
+ such as 
+`(set: $foo to 4)` and `(if: $foo > 3)[...]. ()`
+
+
+
+
+
+
+![](assets/twine-markup.png)
 
 Great examples of interactive narratives made with Twine:
 
 * [Ultra business tycoon III](http://aliendovecote.com/uploads/twine/tycoon/crime.html)
-
 * more [games by Porpentine](http://aliendovecote.com/hypertext.html)
 
-More sophisticated tools worth mentioning:
+<!--More sophisticated tools worth mentioning:
 
 * [Undum](http://undum.com/) (allows for more variables/states)
 
-* [Inform 7](http://inform7.com/) it's a whole different way to conceive programming (using natural language)
+* [Inform 7](http://inform7.com/) it's a whole different way to conceive programming (using natural language)-->
 
-Tutorial on how Twine works (see [this video tutorial](https://vimeo.com/5010370) and the following from that guy), then..
+<!--Tutorial on how Twine works (see [this video tutorial](https://vimeo.com/5010370) and the following from that guy), then..-->
+
+## Your turn
 
 Write a branching story with one or more of the following features:
 
 * Non-human main character
-
 * Events out of chronological order
-
 * Multiple characters
 
 Write the first paragraph and (at least) a couple of examples of choices.
 
 Illustrations / images / animations are a bonus.
 
+
+
 # Assignment
 
-Write (and illustrate) your story using Twine.
+Build your story using [Twine](http://twinery.org).
 
-Upload it to your personal web space and post a link in the blog.
+Try to keep each passage to one or two paragraphs.
 
-Try to limit each block of text to one or two paragraphs.
+Don't provide many choices, provide *interesting choices*.
 
-Don't provide many choices, provide interesting choices
+Think about how your story can be delivered:
 
-Don't just think about the content, think about how it could be narrated:
-
-* spatial? metaphysical? puzzle?
-* self-aware / self referential?
-* first, second, third person?
-* multiple endings? multiple beginnings?
+* Spatial? Metaphysical? Puzzle?
+* Self-aware / self referential?
+* First, second, third person?
+* Multiple endings? 
+* Multiple beginnings?
 * Do you control an avatar?
 * Does it have graphics? 
 * What's the relation between graphics and text?
+
+Publish your *twine* to the Web (your personal Rave Web space, [Philomela](http://www.philome.la), [NeoCities](https://neocities.org), anywhere you like..), push the source code to your folder in the `students` folder on GitHub (with a link to the published twine).
