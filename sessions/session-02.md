@@ -124,7 +124,7 @@ More and more on [Electronic Literature](http://directory.eliterature.org)
 
 # Twine
 
-![](assets/twine-logo.svg)
+<!--![](assets/twine-logo.svg)-->
 
 > [Twine](http://twinery.org) is an open-source tool for telling interactive, nonlinear stories.
 
@@ -149,6 +149,8 @@ Double-click a passage to edit it.
 
 Twine uses a  *markup language* similar to MarkDown, called [**TwineMarkup**](http://twine2.neocities.org). 
 
+Click on the rocket :rocket: icon to set a passage as the **starting point** of your twine.
+
 ### Linking passages
 
 To set your story in motion you create clickable **hyperlinks between passages**. 
@@ -161,6 +163,14 @@ You just woke up. The sky is bleak.
 ```
 
 Inside matching non-nesting pairs of `[[` and `]]`, place the link text and the passage expression, separated by either `->` or `<-` with the arrow pointing to the passage expression.
+
+### Jumping to passages
+
+Sometimes you want to take people straight to a passage, without them having to click. Or as a result of a certain event...
+
+```
+(display: "tea")
+```
 
 ### Images
 
@@ -178,43 +188,98 @@ Create a sub-folder in the Twine folder and call it `images` or `assets` or what
 
 Later, when you publish your story, you will need to copy all your `assets` in the same folder where your story is published, so that you won't have broken links.
 
-More on that [here](http://twinery.org/forum/index.php/topic,2085.msg6056.html#msg6056)
+More on that [here](http://twinery.org/forum/index.php/topic,2085.msg6056.html#msg6056).
 
 
 ### Variables
 
-To achieve more than simply branching narratives, you can use **variables** and *macros*.
+So far we've just linked a bunch of texts (*hypertext*).
 
-The code that a passage can contain includes ways of setting a variable to a particular value and conditionally displaying text based on variables' current values. 
+How about keeping a *score*? Or asking players a *question* and then using their answer later on in the game?
 
-```php
-You had no milk for $milkDays days. You have $quid quid on you. 
+<!--The code that a passage can contain includes ways of setting a variable to a particular value and conditionally displaying text based on variables' current values.--> 
+
+```
+You had no milk for $milkDays days. 
+You have $quid quid on you. 
 ```
 
 `$milkDays` and `$quid` are variables.
 
 All variables must start with `$`, like in PHP :elephant:
 
-### Macros
+#### Setting variables
 
 You can manipulate your *game state* with **macros**, which are snippets of code to set or compare variables.
 
+```
+(set: $milkDays to 2)
+```
 
+You may want to set certain variables at the very beginning of your twine, in the first *starting point* passage.
 
- such as 
-`(set: $foo to 4)` and `(if: $foo > 3)[...]. ()`
+<!--Geeks call this to *initialise variables*.-->
 
+To increment a numeric variable
 
+```
+(set: $milkDays to $milkDays + 1) 
+```
 
+#### Comparing variables
 
+```
+(if: $quid is 0) [You need to [[get money]] first]
+```
 
+### Randomness
+
+To get a random number in a range of numbers
+
+```
+(set: $milkDays to (random: 1,10)) 
+```
+
+### Branching logic
+
+To simulate a 50-50 coin flip
+
+```
+(if: (either: 0, 1) is 0)[ The off-licence is shut! ]
+(else:)[ They have only goat milk ]
+```
+
+A slightly more sophisticated example from [this tutorial](http://lambdamaphone.blogspot.co.uk/2015/02/using-twine-for-games-research-part-ii.html)
+
+```
+(if: (either: 0, 1) is 0)[  
+  The monster bites you! 
+  (set: $health to $health - (either: 1,2,3))  
+  (if: $health < 1)[ You are [[dead]]! ]  
+  (else:)[ Your health is $health. 
+    [[fight]] 
+    [[flee|main]] ]  
+]
+(else:)[ You hit the monster!  
+  (set:$monsterHealth = $monsterHealth - 1)  
+  (if: $monsterHealth < 1)[ The [[monster is dead]]! ]  
+  (else:)[    
+    Its health is $monsterHealth.
+    [[fight]] 
+    [[flee|main]] ]  
+]
+```
+
+#### All together now...
 
 ![](assets/twine-markup.png)
+
+### Inspiration
 
 Great examples of interactive narratives made with Twine:
 
 * [Ultra business tycoon III](http://aliendovecote.com/uploads/twine/tycoon/crime.html)
-* more [games by Porpentine](http://aliendovecote.com/hypertext.html)
+* More [games by Porpentine](http://aliendovecote.com/hypertext.html)
 
 <!--More sophisticated tools worth mentioning:
 
@@ -224,7 +289,7 @@ Great examples of interactive narratives made with Twine:
 
 <!--Tutorial on how Twine works (see [this video tutorial](https://vimeo.com/5010370) and the following from that guy), then..-->
 
-## Your turn
+# Your turn
 
 Write a branching story with one or more of the following features:
 
@@ -257,4 +322,5 @@ Think about how your story can be delivered:
 * Does it have graphics? 
 * What's the relation between graphics and text?
 
-Publish your *twine* to the Web (your personal Rave Web space, [Philomela](http://www.philome.la), [NeoCities](https://neocities.org), anywhere you like..), push the source code to your folder in the `students` folder on GitHub (with a link to the published twine).
+1. Publish your *twine* to the Web (your personal Rave Web space, [Philomela](http://www.philome.la), [NeoCities](https://neocities.org), anywhere you like..)
+2. Push the source code to [your folder inside the students folder on GitHub](../students), together with a link to the published twine.
