@@ -15,19 +15,82 @@ We'll play *critically* two popular board games
 1. Monopoly 
 2. Settlers of Catan
 
-Your tasks
 
-* Write down what you're doing and how you're feeling
+### [Settlers](http://www.catan.com)
+
+Designed by [Klaus Teuber](http://en.wikipedia.org/wiki/Klaus_Teuber), first published in 1995.
+
+This game started the board game *resurgence*.
+
+### [Monopoly](http://en.wikipedia.org/wiki/Monopoly_%28game%29)
+
+Originally designed as an educational game in 1903, called the *Landlord's game* to teach people about the negative impact of monopolies.
+
+It then turned into the opposite.
+
+There's even an *electronic banking* version for that post-credit-crunch dopamine rush..
+
+### Your tasks
+
+<!--Questions
+
+* What makes this game(s) so good?-->
+
+**Player experience**
+
+* Write down **what you're doing** and how you're **feeling**
+* What are you expected to feel? 	
+
+**Core mechanic**
+
+How does the game function? 
+
+**Objective**
+
+* How do you win?
+* Can you win?
+
+**Rules**
+
+* Which are the most influential?
+* How do they limit behaviour?
+* How many rules are enough?
+
+**Resources**
+
+* What are they?
+* How do they aid achieving the objective?
+
+**Conflict**
+
+* How is it created?
+* How does it aid experience goals?
+
+**Outcome**
+
+What happens when you win?
+
+**Story**
+
+* How does the backstory contribute to player experience?
+* Are there any **characters**?
+* How do they contribute to the premise?
+
+**Simulation**
+
 * What activities in life does the game simulate?
-* List 5 areas of your life that could be games. Then briefly describe a possible underlying game structure for each.
+* How closely does the game relate to real life?
+
+
+<!--* List 5 areas of your life that could be games. Then briefly describe a possible underlying game structure for each.
 * Think of things you enjoyed as a child.
 * List 10 games you played as a child. What was compelling about those games?
-
-Player experience goals
+-->
+<!--Player experience goals
 
 Core mechanic
 
-Videos - Big Bang Theory, Tutorial
+Videos - Big Bang Theory, Tutorial-->
 
 
 
