@@ -193,6 +193,15 @@ More and more on [Electronic Literature](http://directory.eliterature.org)
 
 > You don't need to write any code to create a simple story with Twine, but you can extend your stories with variables, conditional logic, images, CSS, and JavaScript when you're ready.
 
+Great examples of interactive narratives made with Twine:
+
+* [Ultra business tycoon III](http://aliendovecote.com/uploads/twine/tycoon/crime.html)
+* More [games by Porpentine](http://aliendovecote.com/hypertext.html)
+
+![](assets/UBT3.png)
+
+<!-- Review of UBT3  on http://www.gamasutra.com/view/news/198341/The_poignant_vocabulary_of_Porpentines_Ultra_Business_Tycoon_III.php -->
+
 Learn how to use Twine on the [Twine Wiki](http://twinery.org/wiki/twine2:guide). 
 
 ### Getting started
@@ -295,12 +304,25 @@ To increment a numeric variable
 (if: $quid is 0) [You need to [[get money]] first]
 ```
 
+### Asking questions
+
+Use the `prompt` function, like in JavaScript 
+```
+(set: $userName to prompt("What's your name?"))
+Hello $userName :)
+```
+
 ### Randomness
 
 To get a random number in a range of numbers
 
 ```
 (set: $milkDays to (random: 1,10)) 
+```
+
+To display a random word/string from a list
+```
+Why don't you (print: (either: "tell me", "let him know", "write to her")) how you feel?
 ```
 
 ### Branching logic
@@ -333,16 +355,15 @@ A slightly more sophisticated example from [this tutorial](http://lambdamaphone.
 ]
 ```
 
+### Custom stuff
+
+You can add [your own Javascript and CSS](http://twinery.org/wiki/twine2:adding_custom_javascript_and_css) to twines.
+
 #### All together now...
 
 ![](assets/twine-markup.png)
 
-### Inspiration
-
-Great examples of interactive narratives made with Twine:
-
-* [Ultra business tycoon III](http://aliendovecote.com/uploads/twine/tycoon/crime.html)
-* More [games by Porpentine](http://aliendovecote.com/hypertext.html)
+![](assets/UBT3-nodes.png)
 
 <!--More sophisticated tools worth mentioning:
 
@@ -387,3 +408,5 @@ Think about how your story can be delivered:
 
 1. Publish your *twine* to the Web (your personal Rave Web space, [Philomela](http://www.philome.la), [NeoCities](https://neocities.org), anywhere you like..)
 2. Push the source code to [your folder inside the students folder on GitHub](../students), together with a link to the published twine.
+
+
