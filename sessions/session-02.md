@@ -387,9 +387,9 @@ Illustrations / images / animations are a bonus.
 
 
 
-# Assignment
+# Assignments
 
-Build your story using [Twine](http://twinery.org).
+### 1. Build your story using [Twine](http://twinery.org) <sup>INDIVIDUAL</sup>
 
 Try to keep each passage to one or two paragraphs.
 
@@ -409,4 +409,10 @@ Think about how your story can be delivered:
 1. Publish your *twine* to the Web (your personal Rave Web space, [Philomela](http://www.philome.la), [NeoCities](https://neocities.org), anywhere you like..)
 2. Push the source code to [your folder inside the students folder on GitHub](../students), together with a link to the published twine.
 
+### 2. Ideas hoarding <sup>TEAMS</sup>
 
+Each member of your team jots down a couple of game ideas that could enhance the story you developed last term. 
+
+Write a couple of paragraphs for each game idea. A sketch of its interface is a bonus.
+
+You should end up with 6 ideas per group.
