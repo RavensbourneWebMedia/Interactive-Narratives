@@ -416,3 +416,9 @@ Each member of your team jots down a couple of game ideas that could enhance the
 Write a couple of paragraphs for each game idea. A sketch of its interface is a bonus.
 
 You should end up with 6 ideas per group.
+
+<!-- 
+
+http://www.sibylmoon.com/twine-as-a-prototyping-tool/
+
+-->
