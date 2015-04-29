@@ -4,6 +4,9 @@
 
 Show&tell presentation: what [DrumRoll](http://drumrollhq.com/) does, how and why
 
+- [Jane McGonigal - Gaming can make a better world](http://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world?language=en#t-464468)
+- [Erase All Kittens](https://eraseallkittens.com)
+
 ### Story-line ice-breaker
 
 * Line people up on one side of the room. 
@@ -22,7 +25,9 @@ Show&tell presentation: what [DrumRoll](http://drumrollhq.com/) does, how and wh
 
 We give students the first sentence of a story, their brief is to develop it in a branching narrative. Working in small groups for an hour or so, then present and discuss results with the rest of the class.
 
-Examples and inspirations: [Gamer mom](http://adventure.gamism.org/gamer_mom/)
+Examples and inspirations: 
+- [Coming Out Simulator 2014](http://ncase.itch.io/coming-out-simulator-2014)
+- [Gamer mom](http://adventure.gamism.org/gamer_mom/)
 
 ### WORKSHOP: Phaser
 
