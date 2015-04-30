@@ -93,23 +93,24 @@ There may be some time left for q&a-->
 
 # Homework
 
-Use Twine to create a **multiple choice dialogue** with a virtual character. 
+Using [Twine](http://twinery.org), create a **multiple choice dialogue** with a virtual character. 
 
-Choose one of the following:
+Pick one of these creative constraints:
 
-* The character is a portrait/caricature of a person you know
+1. The non-player character (aka *NPC*) is the portrait or caricature of a person you know
 
-* The character is based on the personality types from the Myers-Briggs test (note: pseudo-science)
+* The NPC is based on the personality types from the [Myers-Briggs](http://www.16personalities.com/free-personality-test) test (it's [pseudo-science](http://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator))
 
-* The character is a credible depiction of a person affected by mental or behavioural disorder
+* The NPC is a credible depiction of someone affected by mental or behavioural disorder
 
-* Any of the above, but applied to the player’s character
+* Any of the above, but applied to the player's character
 
-What’s the type of conversation: Interview? Date? Interrogation? Fight? etc.
+These questions may help you get started:
 
-What’s the power relationship between the two character?
-
-How do the player and NPC feel initially? Friendly? Bored? Aggressive? etc.
+* What's the type of conversation: banter, interview, date, interrogation, argument? etc.
+* What's the relationship between the two characters?
+* What's the *power relationship* between the two characters?
+* How do the player and NPC feel initially: friendly, bored, anxious, relaxed, aggressive? etc.
 
 
 <!--brew install cowsay -->
