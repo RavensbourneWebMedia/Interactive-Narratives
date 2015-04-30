@@ -3,16 +3,18 @@
 ### Today, Thursday 14th May 
 
 * Present game ideas
-* [Sort out Git repo](#sort-out-git-repo)
+* [Sort out Git](#sort-out-git)
 * Running a web server
 * Phaser again
 
-# Sort out Git repo
+# Sort out Git
+
+### Forking this repository 
 
 1. Log in to [GitHub](https://github.com)
 * Go to [github.com/RavensbourneWebMedia/Interactive-Narratives](https://github.com/RavensbourneWebMedia/Interactive-Narratives)
-* [**Fork**](https://github.com/RavensbourneWebMedia/Interactive-Narratives#fork-destination-box) it
-* Copy the *HTTPS clone URL* from your new fork, should look something like `https://github.com/YOUR_NAME/Interactive-Narratives.git`
+* [**Fork**](https://github.com/RavensbourneWebMedia/Interactive-Narratives#fork-destination-box) it!
+* Copy the *HTTPS clone URL* of your new fork, it should look something like `https://github.com/YOUR_NAME/Interactive-Narratives.git`
 * Open the [SourceTree](http://www.sourcetreeapp.com/) app
 * `File > New / Clone` or `cmd + N`
 * `Clone from URL`
