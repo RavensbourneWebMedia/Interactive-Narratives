@@ -1,8 +1,20 @@
-## Week 3 | 30th April | Joe Dytrych
+# Week 3 
 
-### Games with a purpose
+### Today, 30th April
 
-Show&tell presentation: what [DrumRoll](http://drumrollhq.com/) does, how and why
+* Special guest: [Joe Dytrych](https://twitter.com/somehats) form [DrumRoll](http://drumrollhq.com/)
+* 
+
+# Games with a purpose
+
+10.000 hours time needed to master something
+also time people spend playing games by the time they're 21
+
+
+
+
+
+
 
 - [Jane McGonigal - Gaming can make a better world](http://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world?language=en#t-464468)
 - [Erase All Kittens](https://eraseallkittens.com)
