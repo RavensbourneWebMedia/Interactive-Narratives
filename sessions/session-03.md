@@ -6,15 +6,15 @@ Show&tell presentation: what [DrumRoll](http://drumrollhq.com/) does, how and wh
 
 ### Story-line ice-breaker
 
-* Line people up on one side of the room. 
+* Line people up on one side of the room.
 
-* On the other side is the *story line*. 
+* On the other side is the *story line*.
 
-* One person at a time moves to the story line and says their story line. 
+* One person at a time moves to the story line and says their story line.
 
-* The first two people must either choose the beginning (eg: *Once upon a time*) or the end of the story (eg: *And since then, everyone revered Joe*). 
+* The first two people must either choose the beginning (eg: *Once upon a time*) or the end of the story (eg: *And since then, everyone revered Joe*).
 
-* Everyone can take their spot in between the beginning and the end. 
+* Everyone can take their spot in between the beginning and the end.
 
 * Every time someone joins the line, the story loops from the beginning.
 
@@ -40,7 +40,7 @@ Check out [RenPy](http://www.renpy.org), a *visual novel engine*
 
 ### Homework (team)
 
-Use a visual novel editor (such as Dialogger or RenPy) to create a multiple choice dialogue with a virtual character. 
+Use a visual novel editor (such as Dialogger or RenPy) to create a multiple choice dialogue with a virtual character.
 
 Choose one of the following:
 
