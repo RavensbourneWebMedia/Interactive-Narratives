@@ -16,6 +16,9 @@ also time people spend playing games by the time they're 21
 
 
 
+- [Jane McGonigal - Gaming can make a better world](http://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world?language=en#t-464468)
+- [Erase All Kittens](https://eraseallkittens.com)
+
 ### Story-line ice-breaker
 
 * Line people up on one side of the room. 
@@ -34,9 +37,17 @@ also time people spend playing games by the time they're 21
 
 We give students the first sentence of a story, their brief is to develop it in a branching narrative. Working in small groups for an hour or so, then present and discuss results with the rest of the class.
 
-Examples and inspirations: [Gamer mom](http://adventure.gamism.org/gamer_mom/)
+Examples and inspirations: 
+- [Coming Out Simulator 2014](http://ncase.itch.io/coming-out-simulator-2014)
+- [Gamer mom](http://adventure.gamism.org/gamer_mom/)
 
 ### WORKSHOP: Phaser
+
+Links:
+- [ServerThingy](https://github.com/DecodedCo/server-thingy/releases)
+- [Mighty Editor](http://mightyfingers.com/)
+- [Phaser Examples](http://phaser.io/examples)
+- [Phaser Sandbox](http://phaser.io/sandbox)
 
 [Dialogger](http://j.dytry.ch/stuff/dialogger) (or similar tool that integrates with [Phaser](https://phaser.io/learn)) tutorial and workshop: how to translate a story into JSON
 
