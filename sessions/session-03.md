@@ -48,7 +48,7 @@ Watch this TED talk [Jane McGonigal - Gaming can make a better world](http://www
 * avoid repetition 
 * make the story more personal
 
-# Branching narratives vs expanding possibilities
+# Expanding narratives
 
 ![](assets/branching-narrative-expanding-possibilities.png)
 
@@ -59,40 +59,29 @@ From [Nick Case's blog](http://blog.ncase.me/if-games-were-like-game-stories/)
 We give students the first sentence of a story, their brief is to develop it in a branching narrative. Working in small groups for an hour or so, then present and discuss results with the rest of the class.-->
 
 Examples and inspirations: 
+
 - [Coming Out Simulator 2014](http://ncase.itch.io/coming-out-simulator-2014) and its [source code](https://github.com/ncase/coming-out-simulator-2014)
 - [Gamer mom](http://adventure.gamism.org/gamer_mom/)
 
 
 
-
-
-
-
-# Story-line ice-breaker
-
-* Line people up on one side of the room.
-
-* On the other side is the *story line*.
-
-* One person at a time moves to the story line and says their story line.
-
-* The first two people must either choose the beginning (eg: *Once upon a time*) or the end of the story (eg: *And since then, everyone revered Joe*).
-
-* Everyone can take their spot in between the beginning and the end.
-
-* Every time someone joins the line, the story loops from the beginning.
-
-
-
-
-
 # Phaser
 
+[Phaser](http://phaser.io/) is a free, fast and flexible framework to makes HTML5 games.
+
+![](assets/phaser.png)
+
 Links:
-- [ServerThingy](https://github.com/DecodedCo/server-thingy/releases)
+
+- [ServerThingy](https://github.com/DecodedCo/server-thingy/releases) is a little app to get a simple Web server running from any folder on your computer. If you have [WAMP](http://www.wampserver.com/en/#wampserver-64-bits-php-5-3), [MAMP](https://www.mamp.info/en) or [XAMPP](https://www.apachefriends.org) you can use one of those instead
 - [Mighty Editor](http://mightyfingers.com/)
 - [Phaser Examples](http://phaser.io/examples)
 - [Phaser Sandbox](http://phaser.io/sandbox)
+
+Today we'll build *Moorio*, a [platform game starter kit](../resources/hellophaser)
+
+[![](assets/moorio.png)](../resources/hellophaser)
+
 
 <!--[Dialogger](http://j.dytry.ch/stuff/dialogger) (or similar tool that integrates with [Phaser](https://phaser.io/learn)) tutorial and workshop: how to translate a story into JSON
 
@@ -100,7 +89,7 @@ There may be some time left for q&a-->
 
 <!--Check out [RenPy](http://www.renpy.org), a *visual novel engine*-->
 
-
+> Vertical movement gives people motion sickness
 
 # Homework
 
@@ -121,3 +110,6 @@ What’s the type of conversation: Interview? Date? Interrogation? Fight? etc.
 What’s the power relationship between the two character?
 
 How do the player and NPC feel initially? Friendly? Bored? Aggressive? etc.
+
+
+<!--brew install cowsay -->
