@@ -1,8 +1,20 @@
-## Week 3 | 30th April | Joe Dytrych
+# Week 3 
 
-### Games with a purpose
+### Today, 30th April
 
-Show&tell presentation: what [DrumRoll](http://drumrollhq.com/) does, how and why
+* Special guest: [Joe Dytrych](https://twitter.com/somehats) form [DrumRoll](http://drumrollhq.com/)
+* 
+
+# Games with a purpose
+
+10.000 hours time needed to master something
+also time people spend playing games by the time they're 21
+
+
+
+
+
+
 
 ### Story-line ice-breaker
 
