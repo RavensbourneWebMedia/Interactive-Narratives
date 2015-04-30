@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html data-build-number="201504120723">
+<head>
+<title>Twine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="rsrc/css/twine_cdn.css" media="screen"/>
+
+<link rel="stylesheet" href="rsrc/css/twine.css" media="screen"/>
+
+</head>
+
+<body>
+
+<div id="regions">
+<div class="main"></div>
+</div>
+
+<div id="templates">
+
+<script type="text/html" class="welcomeView">
+<div id="welcomeView">
+
+<div class="hi">
+
+<h1>
+Hi!
+</h1>
+
+<p>
+Twine is an open-source tool for telling interactive, nonlinear stories.
+There are a few things you should know before you get started.
+</p>
+
+<p class="buttons">
+<button class="btn btn-primary">Tell Me More</button>
+<a href="javascript:void(0)" class="done">Skip</a>
+</p>
+
+</div> <!-- .hi -->
+
+<div class="help">
+
+<h1>
+New here?
+</h1>
+
+<p>
+If you've never used Twine before, then welcome! The <a
+href="http://twinery.org/wiki" target="_blank">official wiki</a> has great
+resources to help you get started. Keep in mind that some articles
+you'll encounter were written about Twine 1, which is a little bit different
+than this version. But most of the concepts are the same.
+</p>
+
+<p>
+You can also get help over at the <a href="http://twinery.org/forum"
+target="_blank">Twine forum</a>, too.
+</p>
+
+<p class="buttons">
+<button class="btn btn-primary">OK</button>
+</p>
+
+</div> <!-- .save -->
+
+<div class="save">
+
+<h1>
+Your work is saved only in your browser.
+</h1>
+
+<p>
+That means you don't need to create an account to use Twine 2, and everything
+you create isn't stored on a server somewhere else &mdash; it stays right
+in your browser.
+</p>
+
+<p>
+Two <b>very important</b> things to remember, though. Since your work is saved
+only in your browser, if you clear its saved data, then you'll lose your work!
+Not good. Remember to use that <i
+class="fa fa-briefcase"></i>&nbsp;<strong>Archive</strong> button often. You can
+also publish individual stories to files using the dropdown menu next to the
+<b><i class="fa fa-play"></i>&nbsp;Play</b> button in the story editor. Both
+archive and story files can always be re-imported into Twine.
+</p>
+
+<p>
+Secondly, <b>anyone who can use this browser can see and make changes to your
+work</b>. So if you've got a nosy kid brother, look into setting up a separate
+profile for yourself.
+</p>
+
+<p class="buttons">
+<button class="btn btn-primary">OK</button>
+</p>
+
+</div> <!-- .save -->
+
+<div class="thanks">
+
+<h1>
+That's it!
+</h1>
+
+<p>
+Thanks for reading, and have fun with Twine.
+</p>
+
+<p class="buttons">
+<button class="btn btn-primary done">Go to the Story List</button>
+</p>
+
+</div> <!-- .thanks -->
+
+</div> <!-- #welcomeView -->
+
+</script>
+
+<script type="text/html" class="storyListView">
+<div id="storyListView">
+
+<nav class="listControls">
+
+<h1 class="logo">Twine</h1>
+
+<div class="bubbleContainer">
+<p>
+<button class="addStory create block" title="Create a brand-new story" data-bubble="toggle" data-bubble-dir="right" data-tooltip-dir="w">
+<i class="fa fa-plus"></i> Story
+</button>
+</p>
+
+<div class="bubble left">
+<form id="addStoryForm">
+<p>
+What should your story be named?<br>
+(You can change this later.)
+</p>
+
+<p>
+<input class="newName block" type="text" required>
+</p>
+
+<p class="dialogButtons">
+<button type="button" class="cancelAdd subtle" data-bubble="hide"><i class="fa fa-times"></i> Cancel</button>
+<button type="submit" class="add create"><i class="fa fa-plus"></i> Add</button>
+</p>
+</form>
+</div> <!-- .bubble -->
+</div> <!-- .bubbleContainer -->
+
+<div class="bubbleContainer">
+<p>
+<button class="importStory subtle block" title="Import a published story or Twine archive" data-bubble="toggle" data-bubble-dir="left" data-tooltip-dir="w">
+<i class="fa fa-upload"></i> Import From File
+</button>
+</p>
+
+<div class="bubble left">
+<div class="form">
+<p>
+Import this file:
+</p>
+
+<p>
+<input class="importFile" type="file">
+</p>
+
+<p>
+<button class="subtle" data-bubble="hide"><i class="fa fa-times"></i> Cancel</button>
+</p>
+</div>
+
+<div class="working hide">
+<p>
+<i class="fa fa-2x fa-circle-o-notch fa-spin"></i>
+</p>
+<p>
+Importing...
+</p>
+</div>
+
+</div> <!-- .bubble -->
+</div> <!-- .bubbleContainer -->
+
+<p>
+<button class="saveArchive subtle" title="Save all stories to a Twine archive file" data-tooltip-dir="w">
+<i class="fa fa-briefcase"></i> Archive
+</button>
+</p>
+
+<p>
+<button class="showFormats subtle" title="Work with story and proofing formats" data-tooltip-dir="w">
+<i class="fa fa-files-o"></i> Formats
+</button>
+</p>
+
+<footer>
+
+<p class="quota">
+<span class="total">
+<span class="used"></span>
+</span>
+
+<span class="percent"></span>% space available
+</p>
+
+<p>
+version <button class="link" data-modal-show="#aboutModal"><span class="app-version"></span></button>
+<br>
+<a href="https://bitbucket.org/klembot/twinejs/issues"><i class="fa fa-bug"></i> Report a bug</a>
+</p>
+</footer>
+
+</nav>
+
+<div class="main">
+
+<h1>Stories
+
+<span class="pull-right normal buttonGroup">
+Sort By
+
+<button class="sortByDate subtle active" title="Last changed date">
+Edit Date
+</button>
+
+<button class="sortByName subtle" title="Story name">
+Name
+</button>
+</span>
+
+</h1>
+
+<p class="noStories">
+There are no stories saved in Twine right now. To get started, you can either create a new
+story or import an existing one from a file.
+</p>
+
+<div class="stories"></div>
+</div> <!-- .main -->
+
+</div> <!-- #storyListView -->
+
+<div id="aboutModal" class="modal hide">
+
+<button class="save close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">
+About Twine <span class="app-version"></span>
+</h2>
+
+<p>
+Build 201504120723
+</p>
+
+<p>
+Twine is an open-source tool for telling interactive, nonlinear stories.
+</p>
+
+<p>
+Twine 2.0 is released under the <a href="http://www.gnu.org/licenses/gpl-3.0.html">GPL v3</a>
+license, but any work created with it may be released under any terms, including commercial ones.
+<a href="https://bitbucket.org/klembot/twinejs">Source Code Repository</a>
+</p>
+
+<p>
+<a href="http://twinery.org/donate" class="button">
+<i class="fa fa-heart-o"></i>
+Help Twine Grow With A Donation</a>
+</p>
+
+<div class="credits">
+
+<h4>
+Code
+</h4>
+
+<p>
+Chris Klimas<br>
+Leon Arnott<br>
+Ingrid Cheung<br>
+Daithi O Crualaoich<br>
+Thomas Michael Edwards<br>
+Micah Fitch<br>
+Juhana Leinonen<br>
+Ross Smith
+</p>
+
+<h4>
+Libraries
+</h4>
+
+<p>
+<a href="http://backbonejs.org/">Backbone</a><br>
+<a href="https://github.com/jeromegn/Backbone.localStorage">Backbone Local Storage</a><br>
+<a href="https://github.com/eligrey/Blob.js/">Blob.js</a><br>
+<a href="http://codemirror.net/">CodeMirror</a><br>
+<a href="https://github.com/eligrey/FileSaver.js">FileSaver.js</a><br>
+<a href="http://jquery.com/">jQuery</a><br>
+<a href="http://marionettejs.com/">Marionette</a><br>
+<a href="http://0x000000.github.io/OmniWindow/">OmniWindow</a><br>
+<a href="https://stevenbenner.github.io/jquery-powertip/">PowerTip</a><br>
+<a href="http://underscorejs.org/">Underscore</a><br>
+<a href="http://arshaw.com/xdate/">XDate</a>
+</p>
+
+<h4>
+Fonts
+</h4>
+
+<p>
+Source Sans Pro and Source Code Pro were designed by Paul D. Hunt under the guidance of Robert Slimbach for <a href="http://adobe.com/">Adobe</a><br>
+Nunito was designed by <a href="http://code.newtypography.co.uk/">Vernon Adams</a>
+</p>
+
+<h4>
+Icons
+</h4>
+
+<p>
+<a href="http://fontawesome.io/">Font Awesome</a><br>
+<a href="http://thenounproject.com/term/document/12036/">Document designed by Rob Gill from the Noun Project</a><br>
+<a href="http://thenounproject.com/term/question/2036/">Question designed by Henry Ryder from the Noun Project</a><br>
+<a href="http://thenounproject.com/term/smile/10696/">Smile designed by jelio dimitrov from the Noun Project</a><br>
+</p>
+
+</div> <!-- .credits -->
+
+</div> <!-- #aboutModal -->
+
+<div id="appUpdateModal" class="modal confirm info hide">
+
+<button class="close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<p class="message">
+A new version of Twine, <span class="version"></span>, has been released.
+</p>
+
+<p class="buttons">
+<button class="subtle cancel" data-modal-hide="this"><i class="fa fa-times"></i> Not Right Now</a></button>
+<a href="#stories" class="button download" target="_blank"><i class="fa fa-download"></i> Download</a>
+</p>
+
+</div>
+
+<div id="donateModal" class="modal hide">
+
+<div class="message">
+
+<p>
+If you love Twine as much as I do, please consider helping it grow with a
+donation. Twine is as an open source project that will always be free to use &mdash;
+and with your help, Twine will continue to thrive. 
+</p>
+
+<p class="signature">
+Chris Klimas, Twine creator
+</p>
+
+</div>
+
+<p class="buttons">
+<a href="http://twinery.org/donate" class="button"><i class="fa fa-heart-o"></i> Donate</a>
+<a href="#stories" class="subtle" data-modal-hide="this">No Thanks</a>
+</p>
+
+<p class="coda">
+This message will only be shown to you once.<br>
+If you'd like to donate to Twine
+development in the future, you can do so at <a
+href="http://twinery.org/donate" target="_blank">http://twinery.org/donate</a>.
+</p>
+
+</div>
+
+<div id="formatsModal" class="modal hide">
+
+<button class="close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<div class="title">
+<p class="tabs">
+<button class="showStoryFormats" data-content=".storyFormatsContent">Story Formats</button>
+<button class="showProofingFormats" data-content=".proofingFormatsContent">Proofing Formats</button>
+<button class="showAddFormat" data-content=".addFormatContent">Add a New Format</button>
+</p>
+</div>
+
+<div class="tabContent">
+
+<div class="storyFormatsContent">
+
+<p>
+Story formats control the appearance and behavior of stories during play.
+</p>
+
+<div class="storyFormatList"></div>
+
+</div>
+
+<div class="proofingFormatsContent">
+
+<p>
+Proofing formats create a versions of stories tailored for editing and proofreading.
+</p>
+
+<div class="proofingFormatList"></div>
+
+</div>
+
+<div class="addFormatContent">
+
+<p>
+To add a story format, enter its address below.
+</p>
+
+<form class="addFormat">
+
+<p>
+<input type="text" name="newFormatUrl" required>
+<button class="create" type="submit"><i class="fa fa-plus"></i> Add</button>
+</p>
+
+</form>
+
+</div>
+
+<p class="loading">
+<i class="fa fa-circle-o-notch fa-lg fa-spin"></i> Loading...
+</p>
+
+<p class="error"></p>
+
+</div> <!-- .tabContent -->
+
+</div> <!-- #formatsModal -->
+
+
+</script>
+
+<script type="text/html" class="formatItem">
+<div class="format" data-format="<%- name %>">
+
+<p class="buttons">
+<span class="removeConfirm">
+Are you sure?
+<button class="remove danger"><i class="fa fa-lg fa-trash-o"></i> Remove</button>
+<button class="hideRemoveConfirm subtle">Cancel</button>
+</span>
+
+<span class="normalButtons">
+<% if (typeof userAdded != 'undefined' && userAdded) { %>
+<button class="showRemoveConfirm subtle danger" title="Remove this format"><i class="fa fa-lg fa-trash-o"></i></button>
+<% } %>
+<button class="setDefault subtle" title="Set this format as default for stories"><i class="fa fa-lg fa-star"></i></button>
+</span>
+</p>
+
+<!--
+This is used in both StoryFormatView and StoryEditView to display
+information about a story format.
+-->
+
+<div class="formatDetail">
+
+<%
+
+// if no image is available, use a placeholder based on name
+
+if (typeof image == 'string')
+	print('<img src="' + path + '/' + image + '">');
+else
+	print('<span class="placeholder">' + name.replace(/[a-z]/g, '') + '</span>');
+%>
+
+<div class="text">
+
+<h3><%- name %> <%- version %>
+
+<% if (typeof author == 'string') print('<br>by ' + author); %>
+
+</h3>
+
+<div class="description">
+<%= description %>
+
+<%
+if (typeof license == 'string') print('<p>License: ' + license + '</p>');
+%>
+
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+</script>
+
+<script type="text/html" class="storyItemView">
+<div class="story">
+
+<h2>
+<a href="javascript:void(0)" class="edit"><%- name %></a>
+</h2>
+
+<p class="changeDate">
+edited <%- new XDate(lastUpdate).toString('d MMMM yyyy, h:mm tt') %>
+</p>
+
+<div class="controls">
+
+<button class="edit subtle" title="Edit &ldquo;<%- name %>&rdquo;">
+<i class="fa fa-pencil fa-lg"></i>
+</button>
+
+<button class="play subtle" title="Play &ldquo;<%- name %>&rdquo;">
+<i class="fa fa-play fa-lg"></i>
+</button>
+
+<div class="bubbleContainer inline">
+
+<button class="confirmDelete danger subtle" title="Delete &ldquo;<%- name %>&rdquo;" data-bubble="toggle">
+<i class="fa fa-trash-o fa-lg"></i>
+</button>
+
+<div class="bubble up">
+
+<p>
+Are you sure you want to delete &ldquo;<%- name %>&rdquo;?
+This cannot be undone.
+</p>
+
+<p class="dialogButtons">
+<button class="cancelDelete subtle" data-bubble="hide"><i class="fa fa-times"></i> Cancel</button>
+<button class="delete danger" data-bubble="hide"><i class="fa fa-trash-o"></i> Delete Forever</button>
+</p>
+
+</div> <!-- .bubble -->
+</div> <!-- .bubbleContainer -->
+</div> <!-- .controls -->
+</div> <!-- #deleteStoryBubble -->
+</div> <!-- .story -->
+
+</script>
+
+<script type="text/html" class="storyEditView">
+<div id="storyEditView">
+
+<div class="toolbar main fullSlideUp fast">
+
+<div class="left">
+
+<a href="#stories" class="home subtle" title="Go to the story list" data-tooltip-dir="ne"><i class="fa fa-home fa-lg"></i></a>
+
+<div class="bubbleContainer inline">
+
+<button class="storyName subtle" data-bubble="toggle" data-tooltip-dir="ne" data-datetext="Last saved at %" data-dateformat="h:mm tt, d MMMM yyyy">
+<span class="storyNameVal"><%- name %></span>
+<i class="fa fa-caret-up fa-lg"></i>
+</button>
+
+<div class="storyBubble bubble down smaller">
+
+<ul class="menu">
+
+<li>
+<button class="editScript">Edit Story JavaScript</button>
+</li>
+
+<li>
+<button class="editStyle">Edit Story Stylesheet</button>
+</li>
+
+<li>
+<button class="changeFormat">Change Story Format</button>
+</li>
+
+<li>
+<button class="renameStory">Rename Story</button>
+</li>
+
+<li>
+<button class="snapToGrid">Snap to Grid</button>
+</li>
+
+<li>
+<button class="storyStats">Story Statistics</button>
+</li>
+
+<li class="divider"></li>
+
+<li>
+<button class="proofStory">View Proofing Copy</button>
+</li>
+
+<li>
+<button class="publishStory">Publish to File</button>
+</li>
+
+</ul>
+
+</div> <!-- .bubble -->
+</div> <!-- .bubbleContainer -->
+
+</div> <!-- .left -->
+
+<div class="right">
+
+<span class="searchContainer">
+<input type="search" placeholder="Quick Find" class="searchField">
+<button class="showSearch subtle" title="Find and replace across the entire story" data-tooltip-dir="n" data-modal-show="#searchModal"><i class="fa fa-list-alt"></i></button>
+</span>
+
+<span class="zooms">
+<button class="zoomSmall subtle" title="Show only story structure" data-tooltip-dir="n">
+<i class="fa fa-th fa-lg"></i>
+</button>
+
+<button class="zoomMedium subtle" title="Show only passage titles" data-tooltip-dir="n">
+<i class="fa fa-th-large fa-lg"></i>
+</button>
+
+<button class="zoomBig subtle" title="Show passage titles and excerpts" data-tooltip-dir="n">
+<i class="fa fa-stop fa-l"></i>
+</button>
+
+</span>
+
+<button class="testStory subtle" title="Play this story in test mode" data-tooltip-dir="n">
+<i class="fa fa-bug fa-lg"></i> Test
+</button>
+
+<button class="playStory subtle" title="Play this story" data-tooltip-dir="n">
+<i class="fa fa-play fa-lg"></i> Play
+</button>
+
+<button class="addPassage create" title="Add a new passage" data-tooltip-dir="nw">
+<i class="fa fa-plus fa-lg"></i> Passage
+</button>
+
+</div> <!-- .right -->
+</div> <!-- .toolbar -->
+
+
+<div class="passages">
+<div class="content"></div>
+<div class="marquee"></div>
+</div> <!-- .passages -->
+
+<div id="passageEditModal" class="editModal modal hide">
+
+<button class="save close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<p class="title">
+<input type="text" class="passageName fillin" placeholder="Passage Name">
+</p>
+
+<div class="content">
+
+<p class="error hide"></p>
+
+<div class="passageTags">
+<p>
+<span class="tags"></span>
+
+<button class="showNewTag subtle" type="button"><i class="fa fa-plus"></i> Tag</button>
+</p>
+
+<form class="newTag hide">
+<input class="newTagName" type="text" placeholder="Tag name" required>
+<button type="button" class="hideNewTag link"><i class="fa fa-times"></i></button>
+<button type="submit" class="link"><i class="fa fa-check"></i></button>
+</form>
+
+</div> <!-- .passageTags -->
+
+<div class="fullEdit">
+<textarea class="passageText"></textarea>
+</div> <!-- .fullEdit -->
+
+</div> <!-- .content -->
+</div> <!-- #passageEditModal -->
+
+<div id="stylesheetEditModal" class="editModal modal hide">
+
+<button class="save close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">
+Stylesheet
+</h2>
+
+<div class="content">
+
+<p>
+Any CSS entered here will override the default appearance of your story.
+</p>
+
+<div class="fullEdit">
+<textarea class="stylesheetSource" placeholder=""></textarea>
+</div> <!-- .fullEdit -->
+</div> <!-- .content -->
+
+</div> <!-- #stylesheetEditModal -->
+
+<div id="scriptEditModal" class="editModal modal hide">
+
+<button class="save close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">
+JavaScript
+</h2>
+
+<div class="content">
+
+<p>
+Any JavaScript entered here will immediately run when your story is opened in a
+Web browser.
+</p>
+
+<div class="fullEdit">
+<textarea class="scriptSource"></textarea>
+</div> <!-- .fullEdit -->
+</div> <!-- .content -->
+
+</div> <!-- #scriptEditModal -->
+
+<div id="searchModal" class="modal wide hide">
+
+<button class="close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">Find and Replace</h2>
+
+<div class="content">
+
+<p>
+<label for="searchFor">Search For</label>
+<textarea id="searchFor"></textarea>
+</p>
+
+<p>
+<input type="checkbox" id="searchNames" checked>
+<label for="searchNames">Include passage names</label>
+
+<input type="checkbox" id="searchCaseSensitive">
+<label for="searchCaseSensitive">Match case</label>
+
+<input type="checkbox" id="searchRegexp">
+<label for="searchRegexp">Regular expression</label>
+</p>
+
+<p>
+<label for="replaceWith">Replace With</label>
+<textarea id="replaceWith"></textarea>
+</p>
+
+<p class="resultSummary hide">
+<span class="controls">
+<button class="expandAll subtle" title="Expand all search results">
+<i class="fa fa-expand"></i>
+</button>
+
+<button class="collapseAll subtle" title="Collapse all search results">
+<i class="fa fa-compress"></i>
+</button>
+
+<button class="replaceAll danger">
+<i class="fa fa-bolt"></i> Replace All
+</button>
+</span>
+
+<span class="matches"><span class="matchCount"></span> passages match.</span>
+</p>
+
+<p class="loading hide">
+<i class="fa fa-circle-o-notch fa-spin"></i> Searching...
+</p>
+
+<div class="results"></div> <!-- .results -->
+</div> <!-- .content -->
+</div> <!-- #searchModal -->
+
+<div id="renameStoryModal" class="modal hide">
+
+<button class="save close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">
+Rename Story
+</h2>
+
+<div class="content">
+
+<p>
+What should this story's name be?
+</p>
+
+<form id="renameStoryForm">
+
+<p>
+<input class="storyName" type="text" required>
+</p>
+
+<p class="noNameError error">
+Please enter a name.
+</p>
+
+<p class="dialogButtons">
+<button class="subtle" data-modal-hide="this">Cancel</button>
+<button type="submit">Save</button>
+</p>
+
+</form>
+
+</div> <!-- .content -->
+
+</div> <!-- #renameStoryModal -->
+
+<div id="statsModal" class="modal hide">
+
+<button class="close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">
+Story Statistics
+</h2>
+
+<div class="content">
+
+<table>
+<tbody>
+<tr>
+<td class="charCount"></td>
+<td class="charDesc">
+<span class="singular">Character</span>
+<span class="plural">Characters</span>
+</td>
+</tr>
+<tr>
+<td class="wordCount"></td>
+<td class="wordDesc">
+<span class="singular">Word</span>
+<span class="plural">Words</span>
+</td>
+</tr>
+<tr>
+<td class="passageCount"></td>
+<td class="passageDesc">
+<span class="singular">Passage</span>
+<span class="plural">Passages</span>
+</td>
+</tr>
+<tr>
+<td class="linkCount"></td>
+<td class="linkDesc">
+<span class="singular">Link</span>
+<span class="plural">Links</span>
+</td>
+</tr>
+<td class="brokenLinkCount"></td>
+<td class="brokenLinkDesc">
+<span class="singular">Broken link</span>
+<span class="plural">Broken links</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+This story was last changed at <span class="lastUpdate"></span>.
+</p>
+
+<p>
+The IFID for this story is <span class="ifid"><%- ifid %></span>.
+(<a href="http://ifdb.tads.org/help-ifid" target="_blank">What's an IFID?</a>)
+</p>
+
+</div> <!-- .content -->
+
+</div> <!-- #statsModal -->
+
+<div id="storyFormatModal" class="modal hide">
+
+<button class="close subtle" data-modal-hide="this">
+<i class="fa fa-times"></i>
+</button>
+
+<h2 class="title">Story Format</h2>
+
+<div class="content">
+
+<p>
+A story format controls the appearance and behavior of your story during play.
+</p>
+
+<p class="loading">
+<i class="fa fa-circle-o-notch fa-lg fa-spin"></i> Loading...
+</p>
+
+<div class="formats"></div>
+
+</div> <!-- .content -->
+</div> <!-- #searchModal -->
+
+
+</div> <!-- #storyEditView -->
+
+</script>
+
+<script type="text/html" class="searchModalResult">
+<!-- this must be included outside any other template, to avoid data binding errors -->
+
+<div class="result collapseContainer hoverContainer" data-passage="<%- passageId %>">
+
+<p class="passageName">
+
+<button class="subtle link" data-collapse="toggle">
+<i class="fa fa-plus-square-o showCollapsed"></i>
+<i class="fa fa-minus-square-o showRevealed"></i>
+<%= passageName %> <!-- it's the view's responsibility to escape this -->
+(<%- numMatches %> matches)</a>
+</button>
+
+<span class="controls hover">
+
+<!--button class="link showPassage" title="Show this passage in the story map"><i class="fa fa-search fa-fw"></i>
+Show in Story Map</button-->
+
+<button class="link danger replacePassage" title="Replace in this passage"><i class="fa fa-bolt fa-fw"></i>
+Replace in Passage</button>
+
+</span>
+
+</p>
+
+<pre id="searchResult<%- resultNumber %>" class="collapse passageBody"><%= searchPreview %></pre>
+
+</div> <!-- .hoverContainer -->
+
+</script>
+
+<script type="text/html" class="singleStoryFormatItem">
+<div class="detail" data-format="<%- name %>">
+
+<button class="select subtle" data-format="<%- name %>">
+<i class="fa fa-square-o hideActive"></i>
+<i class="fa fa-check-square-o showActive"></i>
+</button>
+
+<!--
+This is used in both StoryFormatView and StoryEditView to display
+information about a story format.
+-->
+
+<div class="formatDetail">
+
+<%
+
+// if no image is available, use a placeholder based on name
+
+if (typeof image == 'string')
+	print('<img src="' + path + '/' + image + '">');
+else
+	print('<span class="placeholder">' + name.replace(/[a-z]/g, '') + '</span>');
+%>
+
+<div class="text">
+
+<h3><%- name %> <%- version %>
+
+<% if (typeof author == 'string') print('<br>by ' + author); %>
+
+</h3>
+
+<div class="description">
+<%= description %>
+
+<%
+if (typeof license == 'string') print('<p>License: ' + license + '</p>');
+%>
+
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+</script>
+
+<script type="text/html" class="passageItemView">
+<div class="bubbleContainer hoverContainer">
+<div class="frame">
+<p class="title"><%- name %></p>
+
+<p class="excerpt">
+<%= excerpt %>
+</p>
+
+</div> <!-- .frame -->
+
+<div class="bubble up alwaysVisible hover">
+<div class="toolbar">
+<button class="delete danger subtle" title="Delete &ldquo;<%- name %>&rdquo;"><i class="fa fa-trash-o"></i></button>
+<button class="edit subtle" title="Edit &ldquo;<%- name %>&rdquo;"><i class="fa fa-pencil"></i></button>
+<button class="test subtle" title="Test story starting here"><i class="fa fa-bug"></i></button>
+<button class="setAsStart subtle" title="Set &ldquo;<%- name %>&rdquo; as starting point"><i class="fa fa-rocket"></i></button>
+</div> <!-- .toolbar -->
+</div> <!-- .bubble -->
+</div> <!-- .bubbleContainer.hoverContainer -->
+
+</script>
+
+</div>
+
+</div>
+
+<script src="rsrc/js/twine_cdn.js"></script>
+
+<script src="rsrc/js/twine.js"></script>
+
+</body>
+</html>
