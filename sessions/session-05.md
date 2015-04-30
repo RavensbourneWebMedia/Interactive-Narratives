@@ -21,8 +21,17 @@
 	* The `Name` can be whatever you want
 *	Press `Clone`
 *	Once the repository is cloned and downloaded, SourceTree will open up a new window for the repo.
-*	Click on `Settings` (the cog icon on the top-right corner)
-*	
+
+You will push your code to your forked repo, not to the original repo.
+
+### To get the latest files from the original repo
+
+1.	Click on `Settings` (the cog icon on the top-right corner)
+* `Remotes` > `Add`
+	* `Remote name` can be whatever you want, the convention is to call it `upstream`
+	* `URL / path` is `https://github.com/RavensbourneWebMedia/Interactive-Narratives.git`, which is the *HTTPS clone URL* of the original repo
+* When `upstream` is added to your SourceTree left sidebar, you can right-click on it and choose `Pull from upstream...`
+* This will pull (download) all the latest files from the original repository into your fork.	 		
 
 
 # Phaser again :)
