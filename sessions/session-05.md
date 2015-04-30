@@ -3,9 +3,27 @@
 ### Today, Thursday 14th May 
 
 * Present game ideas
-* Sort out Git repo
+* [Sort out Git repo](#sort-out-git-repo)
 * Running a web server
 * Phaser again
+
+# Sort out Git repo
+
+1. Log in to [GitHub](https://github.com)
+* Go to [github.com/RavensbourneWebMedia/Interactive-Narratives](https://github.com/RavensbourneWebMedia/Interactive-Narratives)
+* [**Fork**](https://github.com/RavensbourneWebMedia/Interactive-Narratives#fork-destination-box) it
+* Copy the *HTTPS clone URL* from your new fork, should look something like `https://github.com/YOUR_NAME/Interactive-Narratives.git`
+* Open the [SourceTree](http://www.sourcetreeapp.com/) app
+* `File > New / Clone` or `cmd + N`
+* `Clone from URL`
+	* Paste your *HTTPS clone URL* in the `Source URL`
+	* The `Destination Path` should be an *empty* folder on your computer
+	* The `Name` can be whatever you want
+*	Press `Clone`
+*	Once the repository is cloned and downloaded, SourceTree will open up a new window for the repo.
+*	Click on `Settings` (the cog icon on the top-right corner)
+*	
+
 
 # Phaser again :)
 
