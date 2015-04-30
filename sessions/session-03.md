@@ -26,6 +26,12 @@ Examples and inspirations: [Gamer mom](http://adventure.gamism.org/gamer_mom/)
 
 ### WORKSHOP: Phaser
 
+Links:
+- [ServerThingy](https://github.com/DecodedCo/server-thingy/releases)
+- [Mighty Editor](http://mightyfingers.com/)
+- [Phaser Examples](http://phaser.io/examples)
+- [Phaser Sandbox](http://phaser.io/sandbox)
+
 [Dialogger](http://j.dytry.ch/stuff/dialogger) (or similar tool that integrates with [Phaser](https://phaser.io/learn)) tutorial and workshop: how to translate a story into JSON
 
 There may be some time left for q&a
