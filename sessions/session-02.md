@@ -2,11 +2,11 @@
 
 ### Today, 23rd April 
 
-1. Board games 
-2. Home-play debate
-3. Branching narratives with Twine
+1. [Board games](#board-games)
+2. [Home-play debate](#home-play-debate)
+3. [Branching narratives](#branching-narratives) with [Twine](#twine)
 
-
+Your [homework](#assignments)!
 
 # Board games
 
@@ -260,7 +260,7 @@ Create a sub-folder in the Twine folder and call it `images` or `assets` or what
 
 Later, when you publish your story, you will need to copy all your `assets` in the same folder where your story is published, so that you won't have broken links.
 
-More on that [here](http://twinery.org/forum/index.php/topic,2085.msg6056.html#msg6056).
+More on that [here](http://twinery.org/forum/discussion/comment/6056/#Comment_6056).
 
 
 ### Variables
