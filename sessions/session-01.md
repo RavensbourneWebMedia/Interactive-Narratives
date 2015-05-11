@@ -3,7 +3,10 @@
 ### Today, 16th April 
 
 1. Unit intro
-2. Hacking games with verbs
+2. [Hacking games with verbs](#hacking-games-with-verbs)
+
+Your [homework](#assignment)!
+
 
 
 # Hacking games with verbs
@@ -12,9 +15,9 @@ Whether it is running or collecting, shooting or trading, games are driven by **
 
 In this workshop we pick out the verbs that make up a game and explore how these verbs express certain **messages** and **morals**. 
 
-Then we **hack** the game with new verbs, so that it communicates our own messages and morals.
+Then we **hack** the game with new verbs, so that it communicates** our own messages and morals**.
 
-> old game + alternative narrative / mechanics = new game
+`new game = old game + new verbs`
 
 [![image alt text](https://github.com/matteomenapace/hacking-games-with-verbs/raw/ravensbourne2015/images/verbs.jpg)](https://github.com/matteomenapace/hacking-games-with-verbs)
 

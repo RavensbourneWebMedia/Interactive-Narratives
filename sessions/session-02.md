@@ -389,7 +389,7 @@ Illustrations / images / animations are a bonus.
 
 # Assignments
 
-### 1. Build your story using [Twine](http://twinery.org) <sup>INDIVIDUAL</sup>
+### 1. Build your story using [Twine](#twine) <sup>INDIVIDUAL</sup>
 
 Try to keep each passage to one or two paragraphs.
 
