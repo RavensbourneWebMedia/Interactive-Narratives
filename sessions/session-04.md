@@ -2,26 +2,25 @@
 
 ### Today, 7th May 
 
-* Special guest: [Themis Gkion](http://www.flowathens.com/en)
+* Special guest: [Themis Gkion](#themis)
 * [Educational games and activities](#educational-games-and-activities)
 * [Questions](#questions)
-* [Food for thought](#food-for-thoughts)
-* Playtesting
-* Hacking videogames with MakeyMakey
-* Create a hybrid play experience
+* [Food for thought](#food-for-thought)
+* [Playtesting](#play-taste)
+* [Hacking videogames with MakeyMakey](#turning-the-world-into-an-input-device)
 
-Your [homework](#homework)
+Your [homework](#homework)!
 
 ### Themis
 
 > Mime something you like to do :)
 
-Likes maths and riddles. Studied mechanical engineering, worked in a fabric-dying factory. Then become a trader, then a teacher.
+Likes maths and riddles. Studied mechanical engineering, worked in a fabric-dying factory. Then become a trader, then he founded [Flow Athens](http://www.flowathens.com/en).
 
 Two goals in life:
 
 > 1. Create my own business
-> 2. I want to help young people develop skills to realise their potential and dreams
+> 2. Help young people develop skills to realise their potential and dreams
 
 
 
@@ -64,9 +63,9 @@ Two goals in life:
 
 ![](http://cmuse.org/wp-content/uploads/2014/07/piano-stairs-stockholm-sweden.jpg)
 
-Turning mundane tasks into playful, fun activities.
+Turning mundane tasks into playful activities.
 
-Can you change people's behaviours through games?
+Can you change people's behaviours through games, [sans bullshit](http://bogost.com/writing/blog/gamification_is_bullshit/)?
 
 ### [Bounden](http://bounden.gameovenstudios.com)
 
@@ -103,6 +102,8 @@ Sounds and events are triggered based on where you go.
 * How would you approach this?
 * What are **transferable skills** from a project to another?
 
+
+
 # Food for thought
 
 * Physical collaboration: each player becomes part of a system
@@ -127,19 +128,26 @@ Sounds and events are triggered based on where you go.
 
 # Play-taste
 
-* Inspiration: tasting experiences
+<!--* Inspiration: tasting experiences
 * Ingredients: try with simple materials
-* Play-test each idea
+* Play-test each idea-->
 
 
-* **Thumb Wars** - to experience a few quick iterations of {idea / prototype / playtesting / evaluation} development cycles.
+### Hacking Thumb Wars 
 
-* **Basecamp** - We will discuss how the game idea gradually turned into a game concept and we will playtest various versions during the development of this game.
+To experience a few quick iterations of `idea / prototype / playtesting / evaluation` development cycles.
+
+![](assets/thumb-wars.jpg)
+
+### Basecamp
+
+We will discuss how the game idea gradually turned into a game concept and we will playtest various versions of this game.
 
 * 2 teams
-* 3 and 4 teams (completely different dynamics)
+* 3 and 4 teams (different dynamics)
 * blindfolded
 
+![](assets/basecamp.jpg)
 
 
 <!--
@@ -178,9 +186,11 @@ Playtesting (and analysing) a couple of games.
 
 # Turning the world into an input device
 
-Interaction between us and a *coded system* happens via **inputs** and **outputs**. We’re very familiar with input devices as buttons on a keyboard, or touch pad. 
+Interaction between us and a *coded system* happens via **inputs** and **outputs**. We're very familiar with input devices as buttons on a keyboard, or touch pad. 
 
-We don’t have to limit our imagination to those. We can use simple tech like [makey-makeys](http://makeymakey.com) (QR codes, shortlinks etc.) to turn pretty much anything into an input or output device that is part of our interactive narrative experience. 
+We don't have to limit our imagination to those. We can use simple tech like [makey-makeys](http://makeymakey.com) (QR codes, hyperlinks etc.) to turn pretty much anything into an input or output device that is part of our interactive narrative experience. 
+
+[![](assets/makey-makey.jpg)](http://makeymakey.com)
 
 ### Your turn
 
@@ -191,23 +201,24 @@ Craft functioning prototypes using [makey-makey](http://makeymakey.com).
 <!--This challenge will take place at the intersection of the digital and the physical world. We will use digital technology as a creative curiosity amplifier; even water can become a keyboard.
 -->
 
-Convert a [one-button single player game](http://adamatomic.com/canabalt/) into a multi player gaming experience within a very short time 20-30mins.
+Convert a [one-button single player game](http://adamatomic.com/canabalt/) into a multi player gaming experience within a very short time (20-30mins).
 
-Each group will demonstrate their creations and playtest each other’s.
+Each group will demonstrate their creations and playtest each other prototypes.
 
 <!--Teams will make working prototypes for a game controller or an interactive installation with makey-makey, a pre-programmed device that converts anything conductible into a keyboard, using any available crafting materials, like aluminium foil, wires, cardboard etc.-->
 
 We will discuss/demonstrate several game mechanics that could convert a single player game in a multi player activity, such as:
 
-* in-series or in-parallel connections (AND , OR logical gates)
+* in-series or in-parallel connections (AND, OR, XOR logical gates)
 
-* Passing the signal along the players...
+* Passing the signal along the players
 
-* Collaboratively guiding the game controller, like Bounden and All for One.
+* Collaboratively guiding the game controller
 
-* Dramatic change of scale requiring collaboration (imagine two buttons three meters apart).
+* Dramatic change of scale requiring collaboration (imagine two buttons three meters apart)
 
-Then, students could opt to work on a different digital experience, such as another videogame, a twine, an audio narration etc. 
+<!--Then, students could opt to work on a different digital experience, such as another videogame, a twine, an audio narration etc. 
+-->
 
 <!--How to turn ideas and narratives into game prototypes.-->
 
@@ -224,8 +235,31 @@ Then, students could opt to work on a different digital experience, such as anot
 
 # Homework
 
-- [ ] TODO
+<!--Challenge for students (homework): can you adapt your interactive narrative concept & prototype so that they don’t rely on *makey-makey*?-->
 
-Challenge for students (homework): can you adapt your interactive narrative concept & prototype so that they don’t rely on *makey-makey*?
+Meet with your teammates and flesh out **two game ideas** to present in the formative assessment presentations on the 14th of May (next week).
 
-Flesh out game ideas (at least two) to present in the formative assessment next week.
+1. Each member of your team jots down a couple of game ideas that could enhance the mystery story you developed last term. 
+2. Write a paragraph for each game idea. A sketch of its interface is a bonus.
+3. You should end up with 6 ideas per team. 
+4. From those 6 pick the 2 you find strongest and flesh them out in more detail.
+5. Each team will have about 30 minutes to pitch their ideas to the rest of the class
+
+### Teams
+
+1. Margot, Matt and Cal
+2. Harry, Simeron and Liam 
+3. Kim, Burak and Innocent
+
+### Formative presentation checklist
+
+These are some questions that you can use to structure your formative presentation. It's not a strict checklist, pick and mix as your team pleases.
+
+* [ ] How did [modding the verbs](session-01.md#hacking-games-with-verbs) of an existing game influence the *story* that the game tells and the *morals* it embodies?
+* [ ] How did the [game-stories you analysed](session-01.md#assignment) convey a narrative through an interactive (and possibly playful) experience? What could you *steal* from them?
+* [ ] What can [board games](session-02.md#board-games) teach us about storytelling? Think about *role play* (`are you a knight, a trader, a builder?` etc.) and *social play* (`who are you trading with? who are your allies and enemies?` etc.).. 
+* [ ] What are the differences between writing a short story and a [twine](session-02.md#twine)?
+* [ ] Can [gaming make a better world](http://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world?language=en#t-464468)?
+* [ ] What elements of your mystery story from last term could be told through a *game* (or *games*)?
+* [ ] What are your **two game ideas**? Pitch them to us
+* [ ] Would you do that with [Twine](session-02.md#twine), [Phaser](session-03.md#phaser), or both?
