@@ -22,7 +22,9 @@ Two goals in life:
 > 1. Create my own business
 > 2. Help young people develop skills to realise their potential and dreams
 
+Here's a link to [Themis' presentation](https://drive.google.com/file/d/0Bwa-zerzlWL6b2luZG9hTlE0U3c/view?usp=sharing).
 
+[![](assets/themis.png)](https://drive.google.com/file/d/0Bwa-zerzlWL6b2luZG9hTlE0U3c/view?usp=sharing)
 
 # Educational games and activities
 
