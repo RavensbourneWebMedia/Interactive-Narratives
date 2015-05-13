@@ -120,13 +120,43 @@ Web server applications (pick one):
 
 > [URLs](http://en.wikipedia.org/wiki/Uniform_resource_locator) are just **paths to files** and folders on a server (either on your `localhost` or on some `remote server`).
 
+See [why Phaser needs a local Web server](http://phaser.io/tutorials/getting-started)
 
 
 # Locative games
 
-Mashing the GeoLocation API (native to your browser) with Phaser or Twine (or both!) 
+Often in videogames you control a character that navigates a **map**.
+
+What is a map? An **abstraction**, like a game.
+
+[![The map is not the territory](assets/map-not-territory.jpg)](http://en.wikipedia.org/wiki/Map%E2%80%93territory_relation)
+
+How about a **real** map? 
+
+Change the **scale**, take the game **beyond** the screen..
+
+
+### Ingredients
+
+* [Leaflet](http://leafletjs.com/): an Open-Source JS library for mobile-friendly interactive maps
+* Fancy map tiles: [MapBox](https://www.mapbox.com)
+* [HTML5 geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation)
+* [Phaser maze](http://phaser.io/tutorials/coding-tips-005)
+
+
+### Method
+
+
+### Resources
+
+* [How do Web maps work?](https://www.mapbox.com/guides/how-web-maps-work/)
+* [JavaScript Custom Events](http://davidwalsh.name/customevent)
+* [How to scale your HTML5 endless runner game to play it on mobile devices](http://www.emanueleferonato.com/2015/03/25/quick-tip-how-to-scale-your-html5-endless-runner-game-to-play-it-on-mobile-devices/)
+
+### Inspirations
 
 Check out [Hear us Here](http://www.hearushereapp.com)
+Zombies Run?
 
 
 # Homework
