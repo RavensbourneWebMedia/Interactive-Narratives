@@ -3,7 +3,7 @@ console.log(Phaser)
 // "global" variables, accessible outside of this JS file
 var game,
 	player,
-	playerSpeed = 100
+	playerSpeed = 53
 
 game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
 	preload: preload,
@@ -47,6 +47,8 @@ function create() {
 	// create the controls
 	cursors = game.input.keyboard.createCursorKeys()
 
+	// get the camera to follow the player
+	game.camera.follow(player)
 }	
 
 // called every single frame
@@ -73,4 +75,11 @@ function update() {
 		player.animations.stop()
 	}
 
+
+	// broadcast a "message" to whoever is listening ...
+	// ... with data about the camera
+	var data = { x: game.camera.x, y:game.camera.y }
+	document.dispatchEvent( new CustomEvent( 'Camera', { detail: data } ) )
+	// we can use Custom Events to get Phaser (game) and Leaflet (map) to talk to each other
+	// Leaflet will pick this data up and move the map accordingly
 }	
