@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 
-		<title>Phaser + Map</title>
+		<title>Moorio in London</title>
 
 		<link rel="stylesheet" href="leaflet/leaflet.css">	
 		<style>
@@ -23,7 +23,6 @@
 
 		</style>
 
-
 	</head>
 	<body>
 
@@ -31,71 +30,35 @@
 
 		<script type="text/javascript">
 
-			// STORE global vars here?
-			var gameReadyEvent = new CustomEvent('GameReady');
+			// make these variables accessible outside of functions
 
+			// we use custom events to get Phaser (game) and Leaflet (map) to talk to each other
+			var gameReadyEvent = new CustomEvent('GameReady')
+
+			// Leaflet map
 			var map
 
-			var cameraX = 0,
-				cameraY = 0
+			// we need to store the position of the game camera
+			// to pan the map around
+			var cameraPosition = 
+			{
+				x: 0,
+				y: 0
+			}	
 		
 		</script>
-
+		
+		<!-- Leaflet map engine -->
 		<script src="leaflet/leaflet.js"></script>
 
+		<!-- Phaser game engine -->
 		<script src="js/phaser.js"></script>
+		
+		<!-- our Moorio game logic -->
 		<script src="moorio.js"></script>
 
-
-		<script type="text/javascript">
-
-			document.addEventListener('GameReady', function()
-			{
-				console.log('GameReady')
-
-				map = L.map('map').setView([51.505, -0.09], 14)
-
-				// more options TODO
-				var mapOptions = 
-				{
-					attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-					maxZoom: 18
-				}
-
-				var mapTiles = '//{s}.tiles.mapbox.com/v3/baddeo.map-ad3lxx2v/{z}/{x}/{y}.png'
-
-				L.tileLayer(mapTiles, mapOptions).addTo(map)
-			})
-
-			document.addEventListener('Camera', function(event)
-			{
-				// console.log('Camera', event.detail.x)
-
-				var camera = 
-				{
-					x: event.detail.x,
-					y: event.detail.y
-				}
-
-				if (cameraX !== camera.x || cameraY !== camera.y)
-				{
-					var difference = 
-					{
-						x: camera.x - cameraX,
-						y: camera.y - cameraY 
-					}
-
-					map.panBy([difference.x, difference.y], {animate:false})
-
-					cameraX = camera.x
-					cameraY = camera.y
-				}
-
-			})
-
-		</script>
-
-
+		<!-- our map logic, will wait for Moorio's instructions -->
+		<script src="leaflet-moorio.js"></script>
 
 	</body>
 </html>
