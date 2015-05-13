@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<title>Phaser + Map</title>
+
+		<link rel="stylesheet" href="leaflet/leaflet.css">	
+		<style>
+
+			#map,
+			#game 
+			{
+				width: 500px;
+				height: 400px;
+
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+		</style>
+
+
+	</head>
+	<body>
+
+		<div id="map"></div>
+
+		<script type="text/javascript">
+
+			// STORE global vars here?
+			var gameReadyEvent = new CustomEvent('GameReady');
+
+			var map
+
+			var cameraX = 0,
+				cameraY = 0
+		
+		</script>
+
+		<script src="leaflet/leaflet.js"></script>
+
+		<script src="js/phaser.js"></script>
+		<script src="game.js"></script>
+
+
+		<script type="text/javascript">
+
+			document.addEventListener('GameReady', function()
+			{
+				console.log('GameReady')
+
+				map = L.map('map').setView([51.505, -0.09], 14)
+
+				// more options TODO
+				var mapOptions = 
+				{
+					attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+					maxZoom: 18
+				}
+
+				var mapTiles = '//{s}.tiles.mapbox.com/v3/baddeo.map-ad3lxx2v/{z}/{x}/{y}.png'
+
+				L.tileLayer(mapTiles, mapOptions).addTo(map)
+			})
+
+			document.addEventListener('Camera', function(event)
+			{
+				// console.log('Camera', event.detail.x)
+
+				var camera = 
+				{
+					x: event.detail.x,
+					y: event.detail.y
+				}
+
+				if (cameraX !== camera.x || cameraY !== camera.y)
+				{
+					var difference = 
+					{
+						x: camera.x - cameraX,
+						y: camera.y - cameraY 
+					}
+
+					map.panBy([difference.x, difference.y], {animate:false})
+
+					cameraX = camera.x
+					cameraY = camera.y
+				}
+
+			})
+
+		</script>
+
+
+
+	</body>
+</html>
