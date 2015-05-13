@@ -1,6 +1,9 @@
-console.log(Phaser);
+console.log(Phaser)
 
-var game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
+// "global" variables, accessible outside of this JS file
+var game
+
+game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
 	preload: preload,
 	create: create,
 	update: update
@@ -8,6 +11,10 @@ var game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
 
 
 function preload() {
+
+	// load a sprite, for the player: a pig
+	game.load.spritesheet('piggo', 'assets/pig-walk.png', 55, 55)
+
 }
 
 // set up the game
