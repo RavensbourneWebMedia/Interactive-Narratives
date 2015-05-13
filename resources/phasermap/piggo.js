@@ -1,7 +1,9 @@
 console.log(Phaser)
 
 // "global" variables, accessible outside of this JS file
-var game
+var game,
+	player,
+	playerSpeed = 100
 
 game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
 	preload: preload,
@@ -48,17 +50,26 @@ function create() {
 // called every single frame
 function update() {
 
-	// make the pig animate in four directions
+	// stop the pig by default
+	player.body.velocity.x = 0
+	player.body.velocity.y = 0
+
+	// make the pig animate and move in four directions
 	if (cursors.right.isDown) {
 		player.animations.play('right')
+		player.body.velocity.x = playerSpeed
 	} else if (cursors.left.isDown) {
 		player.animations.play('left')
+		player.body.velocity.x = -playerSpeed
 	} else if (cursors.up.isDown) {
 		player.animations.play('up')
+		player.body.velocity.y = -playerSpeed
 	} else if (cursors.down.isDown) {
 		player.animations.play('down')
+		player.body.velocity.y = playerSpeed
 	} else {
 		player.animations.stop()
 	}
+
 
 }	
