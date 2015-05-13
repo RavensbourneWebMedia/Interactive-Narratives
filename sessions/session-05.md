@@ -162,15 +162,15 @@ Change the **scale**, take the game **beyond** the screen..
 
 # Homework
 
-Using Phaser *remix* an exploration-based game so that it tells **your** [non]linear story through space. The work may have one or more of the following features:
+Using [Phaser](http://phaser.io/) *remix* an [exploration-based game](http://en.wikipedia.org/wiki/Adventure_game) so that it tells **your** team story through space. 
 
-* Broken time-space continuum
-
-* Non stereotypical kind of fantasy. Can you imagine a fantasy world that is not derived from Tolkien, Asimov, Disney?
-
-* Autobiographical (not necessarily a realistic contemporary setting)
+Your game may have one or more of the following features:
 
 * Based in the Greenwich Peninsula (at any point in history)
+* The map *is* the territory (to explore)
+* Autobiographical (not necessarily a realistic or contemporary setting)
+* Travelling in time
+* A soundscape that reveals clues
 
 
 
