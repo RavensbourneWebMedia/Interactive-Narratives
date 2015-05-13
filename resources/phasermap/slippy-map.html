@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<title>Phaser + Map</title>
+
+		<style>
+
+			#map,
+			#game 
+			{
+				width: 100% !important;
+				height: 100% !important;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+		</style>
+
+
+	</head>
+	<body>
+
+		<canvas id="map">
+			Your browser doesn't support canvas??!			
+		</canvas>
+
+		<script type="text/javascript">
+			var gameReadyEvent = new CustomEvent('GameReady');
+		</script>
+
+		<script src="js/map.js"></script>
+		<script src="js/map.geolocation.js"></script>
+
+		<script src="js/phaser.js"></script>
+		<script src="game.js"></script>
+
+
+		<script type="text/javascript">
+			var watch = { id: 0, index: 0}; 
+			document.addEventListener('GameReady', function()
+			{
+				console.log('GameReady')
+
+				var map = slippymap().init();
+				watch.id = map.geolocation.watch( 
+					function(position) 
+					{
+						if (watch.index === 0) 
+						{
+							map.geolocation.displayPosition(position);
+							// document.getElementById("hud").style.display = "block";
+							map.marker('location', {	
+								src : "assets/diamond.png",
+								lon : position.coords.longitude,
+								lat : position.coords.latitude,
+								offsetX : -24,
+								offsetY : -24
+							});
+						} 
+						else 
+						{
+							map.marker('location', {
+								lon : position.coords.longitude,
+								lat : position.coords.latitude									
+							}, true);
+						}
+						console.log(position)
+						watch.index++;
+					},
+					function(error){
+						map.geolocation.displayError(error);
+					},
+					{ maximumAge: 0, frequency: 1000 }						
+				);
+			}, false);
+
+			document.addEventListener('Camera', function(event)
+			{
+				// console.log('Camera', event.detail.x)
+			})
+			// document.dispatchEvent(gameReadyEvent)
+
+		</script>
+
+
+
+	</body>
+</html>
