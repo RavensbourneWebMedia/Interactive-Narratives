@@ -1,7 +1,17 @@
-## Week 8 | 9th June | MM
+# Session 8 
 
-### Group tutorials
+### Today, 9th June
 
-### Homework
+* Tutorials
+
+Your [homework](#homework)!
+
+
+
+# Group tutorials
+
+[ ] Google doc
+
+# Homework
 
 Finish your games and prep your presentations

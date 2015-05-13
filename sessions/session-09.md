@@ -1,5 +1,10 @@
-## Week 9 | 11th June | JDM + MM
+# Session 9 
 
-### Summative assessment 
+### Today, 11th June
 
-Presentations and play-testing
+* Summative assessment 
+
+# Presentations and play-testing
+
+[ ] Google spreadsheet
+[ ] Unit survey
