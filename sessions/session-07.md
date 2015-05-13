@@ -1,29 +1,35 @@
-## Week 7 | 28th May | MM
+# Session 7 
 
-### Workshop ideas (teams)
+### Today, 28th May
 
-#### Locative games
+* Special guest: Craig Steele
+* [Spy stories](#spy-stories)
+* [Workshop](#workshop)
 
-Mashing the GeoLocation API (native to your browser) with Phaser or Twine (or both!) 
+Your [homework](#homework)!
 
-#### Social interfaces
 
-What happens when your body is the controller? When you turn a single-player game into a multi-player one?
+# Spy-stories
 
-Examples: [Bounden](http://playbounden.com), [JS Joust](http://jsjoust.com)
+Enhancing linear narratives with game-like activities and puzzles. 
 
-Using Kinect + Scratch (and/or webcam + [Blockly](https://developers.google.com/blockly)) hack a game and take it *out of the screen*. We’ll show you some examples and demonstrate a few tricks, then it’s up to you to make your own.
+Case study: digital making workshop for Children's BBC based around the TV series MI High (a spy show for kids) - it combined specially filmed videos with the actors, with a hands-on coding workshop to create an interactive drama.
 
-#### Maze game remix
+Examples: [TouchTone](http://touchtonegame.com), [Decoded’s substitution cypher](http://hacker.decoded.com/substitution), Mini-Game Hacks in [Alien Isolation](https://www.youtube.com/watch?v=Y-i3RwZLbio), and [Rebooting Computers in 24: The Game](http://www.youtube.com/watch?v=bzc_i6jDdv8&t=48m0s)
 
-Using Phaser (or similar) *remix* an exploration-based game so that it tells **your** [non]linear story though space. The work may have one or more of the following features:
 
-* Broken time-space continuum
+### Workshop
 
-* Non stereotypical kind of fantasy. Can you imagine a fantasy world that is not derived from Tolkien, Asimov, Disney?
+Using [Phaser](https://phaser.io/learn). 
+Also check out [minica.de](http://minica.de)
 
-* Autobiographical (not necessarily a realistic contemporary setting)
+Keywords: digital lock-picking, cryptography, [steganography](http://en.wikipedia.org/wiki/Steganography)
 
-* Based in the Greenwich Peninsula (at any point in history)
+Conceptualise and hack together a puzzle mini-game that complements your main story (eg: 310515.com) and reveals / unlocks parts of the story. 
 
-### Homework? (teams)
+
+
+
+# Homework
+
+Play-test your team game(s) with players (to be recruited). Write a  report (MD to GitHub)
