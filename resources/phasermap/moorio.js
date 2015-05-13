@@ -24,7 +24,7 @@ function preload() {
 // set up the game
 function create() {
 
-	// give the gam canvas an ID so that we can style it with CSS
+	// give the game canvas an ID so that we can style it with CSS
 	game.canvas.id = 'game'
 
 	game.physics.startSystem(Phaser.Physics.ARCADE)
