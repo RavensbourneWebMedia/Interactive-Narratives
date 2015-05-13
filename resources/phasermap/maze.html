@@ -3,14 +3,37 @@
 	<head>
 		<meta charset="utf-8">
 		<title>London by pig</title>
+
+		<link rel="stylesheet" href="leaflet/leaflet.css">	
+		<style>
+			#map,
+			#game 
+			{
+				width: 500px;
+				height: 400px;
+
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		</style>
+
 	</head>
 	<body>
+
+		<div id="map"></div>
 
 		<!-- Phaser game engine -->
 		<script src="js/phaser.js"></script>
 
 		<!-- our Piggo game logic -->
 		<script src="piggo.js"></script>
+
+		<!-- Leaflet map engine -->
+		<script src="leaflet/leaflet.js"></script>
+
+		<!-- our map logic, will wait for Piggo's instructions -->
+		<script src="leaflet-piggo.js"></script>
 
 	</body>
 </html>
