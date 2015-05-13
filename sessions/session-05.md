@@ -397,7 +397,7 @@ Change the **scale**, take the game **beyond** the screen..
 	})
 	```
 
-![](assets/pig-map.png)
+[![](assets/pig-map.png)](../resources/phasermap)
 
 ### Resources
 
@@ -411,7 +411,7 @@ Change the **scale**, take the game **beyond** the screen..
 * [Hear us Here](http://www.hearushereapp.com)
 * [Zombies Run](https://www.zombiesrungame.com/)
 
-[![](https://www.zombiesrungame.com/images/public-front/browser/sites-short.jpg)](https://www.zombiesrungame.com)
+
 
 # Homework
 
