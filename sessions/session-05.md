@@ -4,8 +4,8 @@
 
 * [Sort out Git](#sort-out-git)
 * [Formative presentations](#formative-presentations)
-* [Running a Web server](#running-a-web-server)
 * [Saving Twine files](#saving-twine-files)
+* [Running a local Web server](#running-a-local-web-server)
 * [Locative games](#locative-games)
 
 Your [homework](#homework)!
@@ -92,9 +92,33 @@ If you have images or other media **linked** inside your Twine, make sure that t
 
 
 
-# Running a Web server
+# Running a *local* Web server
 
+In case you forgot..
 
+**Local development** is the process of building websites, apps or games from the comfort of a *virtual server*, and not needing to be connected to the Internet in order to run the *back-end* of your projects.
+
+Web server applications (pick one):
+
+1. [XAMP](https://www.apachefriends.org) is for Mac, Windows and Linux <sup>RECOMMENDED</sup>
+* [MAMP](https://www.mamp.info/en) is for Mac (well, now for Win too)
+* [WAMP](http://www.wampserver.com/en/#wampserver-64-bits-php-5-3) is for Windows
+
+> Q: what do you think ***AMP** stand for?
+
+### Your turn
+
+1. Download and install one of the Web server applications above.
+* Once it's done, locate the [*root folder*](https://www.google.co.uk/search?q=root+folder) from which your Web server files are served.
+* Inside the root folder, create a new folder and name it whatever you please.
+* Inside the new folder, create a new HTML document and name it **`index.html`**. Put some content into it (anything you like, for instance `<p>Matteo lives here</p>`)
+* Open a Web browser and point it to your *root folder*
+
+	`http://localhost` (XAMPP) or `http://localhost:8888` (MAMP)
+* Navigate to your new folder, eg `http://localhost/matteo`
+* What do you see?
+
+> [URLs](http://en.wikipedia.org/wiki/Uniform_resource_locator) are just **paths to files** and folders on a server (either on your `localhost` or on some `remote server`).
 
 
 
