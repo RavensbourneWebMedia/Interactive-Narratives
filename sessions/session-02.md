@@ -244,6 +244,15 @@ Sometimes you want to take people straight to a passage, without them having to 
 (display: "tea")
 ```
 
+### External links
+
+You can use good old HTML to include hyperlinks
+
+``html
+<a href="https://twitter.com/baddeo" target="_blank">Baddeo</a>?
+```
+
+
 ### Images
 
 You can use good old HTML to include images
