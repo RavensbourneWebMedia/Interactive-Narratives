@@ -6,7 +6,7 @@
 * [Formative presentations](#formative-presentations)
 * [Running a Web server](#running-a-web-server)
 * [Saving Twine files](#saving-twine-files)
-* Phaser again
+* [Locative games](#locative-games)
 
 Your [homework](#homework)!
 
@@ -75,9 +75,20 @@ These are some questions that you can use to structure your formative presentati
 
 # Saving Twine files
 
-(getting them out of LocalStorage)
+Twine saves your work in the browser's [LocalStorage](http://diveintohtml5.info/storage.html).
+
+![](assets/twine-local-storage.png)
+
+This means that your *twines* **may be wiped** if you clear your browser's cache! 
+
+To prevent that and safely back your work up:
+
+1. Publish your twines by clicking the `Publish to File` button
+	![](assets/twine-publish.jpg)
+2. Push your story HTML file plus any linked assets (eg images) to your GitHub repo fork.
 
 
+If you have images or other media **linked** inside your Twine, make sure that those links are not broken in your published twine. See [here](session-02.md#images).
 
 
 
@@ -87,7 +98,7 @@ These are some questions that you can use to structure your formative presentati
 
 
 
-# Phaser again :)
+# Locative games
 
 Mashing the GeoLocation API (native to your browser) with Phaser or Twine (or both!) 
 
