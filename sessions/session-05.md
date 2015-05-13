@@ -155,13 +155,14 @@ Change the **scale**, take the game **beyond** the screen..
 
 ### Inspirations
 
-Check out [Hear us Here](http://www.hearushereapp.com)
-Zombies Run?
+* [Hear us Here](http://www.hearushereapp.com)
+* [Zombies Run](https://www.zombiesrungame.com/)
 
+[![](https://www.zombiesrungame.com/images/public-front/browser/sites-short.jpg)](https://www.zombiesrungame.com)
 
 # Homework
 
-Using Phaser (or similar) *remix* an exploration-based game so that it tells **your** [non]linear story through space. The work may have one or more of the following features:
+Using Phaser *remix* an exploration-based game so that it tells **your** [non]linear story through space. The work may have one or more of the following features:
 
 * Broken time-space continuum
 
