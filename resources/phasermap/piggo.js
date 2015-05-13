@@ -29,10 +29,12 @@ function create() {
 	game.physics.startSystem(Phaser.Physics.ARCADE)
 
 	// set the game world boundaries
-	game.world.setBounds(0, 0, 2000, game.world.height)
+	game.world.setBounds(0, 0, 2000, game.height)
 
 	// create the player
-	player = game.add.sprite(200, 0, 'piggo')
+	player = game.add.sprite(0, 0, 'piggo')
+	player.x = (game.width - player.width) / 2
+	player.y = (game.height - player.height) / 2
 	game.physics.arcade.enable(player)
 	player.body.collideWorldBounds = true // so that player doesn't fall off the screen
 
@@ -70,6 +72,5 @@ function update() {
 	} else {
 		player.animations.stop()
 	}
-
 
 }	
