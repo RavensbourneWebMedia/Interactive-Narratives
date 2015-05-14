@@ -90,6 +90,8 @@ If you have images or other media **linked** inside your Twine, make sure that t
 
 
 
+
+
 # Running a *local* Web server
 
 In case you forgot..
@@ -121,6 +123,8 @@ Web server applications (pick one):
 See [why Phaser needs a local Web server](http://phaser.io/tutorials/getting-started)
 
 
+
+
 # Locative games
 
 Often in videogames you control a character that navigates a **map**.
@@ -145,18 +149,15 @@ Change the **scale**, take the game **beyond** the screen..
 
 <!--Clone the [phaser-coding-tips GitHub repo](https://github.com/photonstorm/phaser-coding-tips).-->
 
-* Find a *top-down* view of your game character on [OpenGameArt](http://opengameart.org/)
+1. Find a *top-down* view of your game character on [OpenGameArt](http://opengameart.org/)
 	
 	For example...
 	
 	[![](http://opengameart.org/sites/default/files/pig_walk.png)](http://opengameart.org/content/lpc-style-farm-animals)
-
-* Crop it if necessary (Photoshop + [TexturePacker](https://www.codeandweb.com/texturepacker)) 
+2. Crop it if necessary (Photoshop + [TexturePacker](https://www.codeandweb.com/texturepacker)) 
 
 	![](assets/pig-spritesheet.png)
-
-
-* New HTML
+3. New HTML
 
 	```html
 	<!DOCTYPE html>
@@ -176,8 +177,7 @@ Change the **scale**, take the game **beyond** the screen..
 		</body>
 	</html>
 	```
-
-* New JS file `piggo.js`
+4. New JS file `piggo.js`
 	
 	```js
 	var game 
@@ -210,7 +210,7 @@ Change the **scale**, take the game **beyond** the screen..
 	
 	}	
 	```
-* Set up the game, *inside* the function `create`
+5. Set up the game, *inside* the function `create`
 
 	```js
 	function create() {
@@ -246,8 +246,7 @@ Change the **scale**, take the game **beyond** the screen..
 	
 	}	
 	```
-
-* Make the pig **animate** in four directions, *inside* the function `update`
+6. Make the pig **animate** in four directions, *inside* the function `update`
 
 	```js
 	function update() {
@@ -267,8 +266,7 @@ Change the **scale**, take the game **beyond** the screen..
 	
 	}
 	```
-
-* Make the pig **move** in four directions, *inside* the function `update` (don't delete the code to *animate* the pig from above)
+7. Make the pig **move** in four directions, *inside* the function `update` (don't delete the code to *animate* the pig from above)
 
 	```js
 	var playerSpeed = 53
@@ -292,17 +290,17 @@ Change the **scale**, take the game **beyond** the screen..
 		
 	}
 	```	
-	
-* Get the camera to **follow** the pig, *inside* the function `create`	
+8. Get the camera to **follow** the pig. Add the line below *inside* the function `create` (don't delete the rest of the code inside that function)	
 
 	```js
 	function create() {
-		// 
+		
+		
+		
 		game.camera.follow(player)
 	}
 	```	
-
-* Add a [Leaflet](http://leafletjs.com) map underneath (download the latest stable version of Leaflet and then paste the whole `leaflet` folder in the same folder as `index.html`)
+9. Add a [Leaflet](http://leafletjs.com) map under your player. Download the latest stable version of Leaflet and then paste the whole `leaflet` folder in the same folder as `index.html`
 	
 	Inside the `head` of `index.html`
 	```html
@@ -346,21 +344,23 @@ Change the **scale**, take the game **beyond** the screen..
 		// for more options see http://leafletjs.com/reference.html#map-options
 	}
 	
-	// get your tiles at https://www.mapbox.com
+	// get YOUR OWN MAP tiles at https://www.mapbox.com
 	var mapTiles = '//{s}.tiles.mapbox.com/v3/baddeo.map-ad3lxx2v/{z}/{x}/{y}.png'
 	
 	map = L.map('map').setView(raveCoordinates, initialZoom)
 	
 	L.tileLayer(mapTiles, mapOptions).addTo(map)
 	```
-		
-* Make the pig *talk* to the map
+10. Make the pig *talk* to the map
 	
-	*Inside* the function `update`, add the following lines to [dispatch an event](http://www.slideshare.net/MsWillcox/event-driven-programming-amazeballs) (ie, *send a message*) that contains data about the current position of the game camera
+	*Inside* the function `update`, add the following lines to [**dispatch an event**](http://www.slideshare.net/MsWillcox/event-driven-programming-amazeballs) (ie *send a message*) which contains data about the current position of the game camera
 	```js
 	function update() {
 		
+		// let's store data about the camera position in a variable
 		var data = { x: game.camera.x, y:game.camera.y }
+		// dispatch a custom event with that data attached
+		// the name of the event is up to us, as long as we call it consistently (including lowercase and UPPERCASE letters)
 		document.dispatchEvent( new CustomEvent( 'Camera', { detail: data } ) )
 	}
 	```	
@@ -405,6 +405,8 @@ Change the **scale**, take the game **beyond** the screen..
 		}
 	})
 	```
+
+The *pig-on-a-map-game* so far..
 
 [![](assets/pig-map.png)](../resources/phasermap)
 
