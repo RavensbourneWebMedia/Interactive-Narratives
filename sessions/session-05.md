@@ -149,266 +149,294 @@ Change the **scale**, take the game **beyond** the screen..
 
 <!--Clone the [phaser-coding-tips GitHub repo](https://github.com/photonstorm/phaser-coding-tips).-->
 
-1. Find a *top-down* view of your game character on [OpenGameArt](http://opengameart.org/)
+##### 1. Find a *top-down* view of your game character on [OpenGameArt](http://opengameart.org/)
 	
-	For example...
+For example...
 	
-	[![](http://opengameart.org/sites/default/files/pig_walk.png)](http://opengameart.org/content/lpc-style-farm-animals)
-2. Crop it if necessary (Photoshop + [TexturePacker](https://www.codeandweb.com/texturepacker)) 
+[![](http://opengameart.org/sites/default/files/pig_walk.png)](http://opengameart.org/content/lpc-style-farm-animals)
 
-	![](assets/pig-spritesheet.png)
-3. New HTML
+##### 2. Crop it if necessary 
 
-	```html
-	<!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title>London by pig</title>
-		</head>
-		<body>
+Photoshop + [TexturePacker](https://www.codeandweb.com/texturepacker) 
+
+![](assets/pig-spritesheet.png)
+
+##### 3. New HTML
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>London by pig</title>
+	</head>
+	<body>
+
+		<!-- Phaser game engine -->
+		<script src="js/phaser.js"></script>
+
+		<!-- our Piggo game logic -->
+		<script src="piggo.js"></script>
+
+	</body>
+</html>
+```
+
+##### 4. New JS file `piggo.js`
 	
-			<!-- Phaser game engine -->
-			<script src="js/phaser.js"></script>
+```js
+var game 
+game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
+	preload: preload,
+	create: create,
+	update: update
+}, true) // true here means that the game background is going to be transparent
+
+
+function preload() {
+}
+
+// set up the game
+function create() {
+}	
+
+// called every single frame
+function update() {
+}
+```
+
+##### 5. Preload the pig (and any other assets you may need)
+
+*Inside* the function `preload`
+
+```js
+function preload() {
+
+	// load a sprite, for the player: a pig
+	game.load.spritesheet('piggo', 'assets/pig-walk.png', 55, 55)
+
+}	
+```
+
+##### 6. Set up the game
+
+*Inside* the function `create`
+
+```js
+function create() {
+
+	// give the game canvas an ID so that we can style it with CSS
+	game.canvas.id = 'game'
+
+	// give the game world some physics rules
+	game.physics.startSystem(Phaser.Physics.ARCADE)
+
+	// set the game world boundaries
+	game.world.setBounds(0, 0, 2000, game.height)
+
+	// create the player
+	player = game.add.sprite(0, 0, 'piggo')
 	
-			<!-- our Piggo game logic -->
-			<script src="piggo.js"></script>
+	// centre the player in the game "stage"
+	player.x = (game.width - player.width) / 2
+	player.y = (game.height - player.height) / 2
 	
-		</body>
-	</html>
-	```
-4. New JS file `piggo.js`
+	// enable physics for the player
+	game.physics.arcade.enable(player)
+	player.body.collideWorldBounds = true // so that player doesn't fall off the screen
+
+	// create pig walking animations
+	player.animations.add('up', [0,1,2,3], 10, true)
+	player.animations.add('left', [4,5,6,7], 10, true)
+	player.animations.add('right', [12,13,14,15], 10, true)
+	player.animations.add('down', [8,9,10,11], 10, true)
+
+	// create the controls
+	cursors = game.input.keyboard.createCursorKeys()
+
+}	
+```
+
+##### 7. Make the pig **animate** in four directions
+
+*Inside* the function `update`
+
+```js
+function update() {
+
+	// make the pig animate in four directions
+	if (cursors.right.isDown) {
+		player.animations.play('right')
+	} else if (cursors.left.isDown) {
+		player.animations.play('left')
+	} else if (cursors.up.isDown) {
+		player.animations.play('up')
+	} else if (cursors.down.isDown) {
+		player.animations.play('down')
+	} else {
+		player.animations.stop()
+	}
+
+}
+```
+
+##### 8. Make the pig **move** in four directions
+
+*Inside* the function `update` (don't delete the code to *animate* the pig from above)
+
+```js
+var playerSpeed = 53
+
+function update() {
 	
-	```js
-	var game 
-	game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
-		preload: preload,
-		create: create,
-		update: update
-	}, true) // true here means that the game background is going to be transparent
-	
-	
-	function preload() {
+	// stop the pig by default
+	player.body.velocity.x = 0
+	player.body.velocity.y = 0
+
+	// make the pig animate and move in four directions
+	if (cursors.right.isDown) {
+		player.body.velocity.x = playerSpeed
+	} else if (cursors.left.isDown) {
+		player.body.velocity.x = -playerSpeed
+	} else if (cursors.up.isDown) {
+		player.body.velocity.y = -playerSpeed
+	} else if (cursors.down.isDown) {
+		player.body.velocity.y = playerSpeed
 	}
 	
-	// set up the game
-	function create() {
-	}	
+}
+```	
+##### 9. Get the camera to **follow** the pig. 
+
+Add the line below *inside* the function `create` (don't delete the rest of the code inside that function.
+
+```js
+function create() {
 	
-	// called every single frame
-	function update() {
+	
+	
+	game.camera.follow(player)
+}
+```	
+
+##### 10. Add a [Leaflet](http://leafletjs.com) map under your player. 
+
+Download the latest stable version of Leaflet and then paste the whole `leaflet` folder in the same folder as `index.html`
+	
+Inside the `head` of `index.html`
+	
+```html
+<link rel="stylesheet" href="leaflet/leaflet.css">	
+<style>
+	#map,
+	#game 
+	{
+		width: 500px;
+		height: 400px;
+
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
-	```
+</style>
+```
+	
+Inside the `body` of `index.html`
 
-* Preload the pig (and any other assets you may need), *inside* the function `preload`
+```html
+<div id="map"></div>
 
-	```js
-	function preload() {
+<script src="leaflet/leaflet.js"></script>
+<script src="piggo-leaflet.js"></script>
+```
 	
-		// load a sprite, for the player: a pig
-		game.load.spritesheet('piggo', 'assets/pig-walk.png', 55, 55)
-	
-	}	
-	```
-5. Set up the game, *inside* the function `create`
+New JS file `piggo-leaflet.js`
 
-	```js
-	function create() {
+```js
+// "global" variables, accessible outside of this JS file
+var map
 
-		// give the game canvas an ID so that we can style it with CSS
-		game.canvas.id = 'game'
-	
-		// give the game world some physics rules
-		game.physics.startSystem(Phaser.Physics.ARCADE)
-	
-		// set the game world boundaries
-		game.world.setBounds(0, 0, 2000, game.height)
-	
-		// create the player
-		player = game.add.sprite(0, 0, 'piggo')
-		
-		// centre the player in the game "stage"
-		player.x = (game.width - player.width) / 2
-		player.y = (game.height - player.height) / 2
-		
-		// enable physics for the player
-		game.physics.arcade.enable(player)
-		player.body.collideWorldBounds = true // so that player doesn't fall off the screen
-	
-		// create pig walking animations
-		player.animations.add('up', [0,1,2,3], 10, true)
-		player.animations.add('left', [4,5,6,7], 10, true)
-		player.animations.add('right', [12,13,14,15], 10, true)
-		player.animations.add('down', [8,9,10,11], 10, true)
-	
-		// create the controls
-		cursors = game.input.keyboard.createCursorKeys()
-	
-	}	
-	```
-6. Make the pig **animate** in four directions, *inside* the function `update`
+// create the map
 
-	```js
-	function update() {
+var raveCoordinates = [51.501499, 0.005374]
+var initialZoom = 17
 
-		// make the pig animate in four directions
-		if (cursors.right.isDown) {
-			player.animations.play('right')
-		} else if (cursors.left.isDown) {
-			player.animations.play('left')
-		} else if (cursors.up.isDown) {
-			player.animations.play('up')
-		} else if (cursors.down.isDown) {
-			player.animations.play('down')
-		} else {
-			player.animations.stop()
-		}
-	
-	}
-	```
-7. Make the pig **move** in four directions, *inside* the function `update` (don't delete the code to *animate* the pig from above)
+var mapOptions = 
+{
+	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+	maxZoom: 18
+	// for more options see http://leafletjs.com/reference.html#map-options
+}
 
-	```js
-	var playerSpeed = 53
-	
-	function update() {
-		
-		// stop the pig by default
-		player.body.velocity.x = 0
-		player.body.velocity.y = 0
-	
-		// make the pig animate and move in four directions
-		if (cursors.right.isDown) {
-			player.body.velocity.x = playerSpeed
-		} else if (cursors.left.isDown) {
-			player.body.velocity.x = -playerSpeed
-		} else if (cursors.up.isDown) {
-			player.body.velocity.y = -playerSpeed
-		} else if (cursors.down.isDown) {
-			player.body.velocity.y = playerSpeed
-		}
-		
-	}
-	```	
-8. Get the camera to **follow** the pig. Add the line below *inside* the function `create` (don't delete the rest of the code inside that function)	
+// get YOUR OWN MAP tiles at https://www.mapbox.com
+var mapTiles = '//{s}.tiles.mapbox.com/v3/baddeo.map-ad3lxx2v/{z}/{x}/{y}.png'
 
-	```js
-	function create() {
-		
-		
-		
-		game.camera.follow(player)
-	}
-	```	
-9. Add a [Leaflet](http://leafletjs.com) map under your player. Download the latest stable version of Leaflet and then paste the whole `leaflet` folder in the same folder as `index.html`
+map = L.map('map').setView(raveCoordinates, initialZoom)
+
+L.tileLayer(mapTiles, mapOptions).addTo(map)
+```
+
+##### 11. Make the pig *talk* to the map
 	
-	Inside the `head` of `index.html`
-	```html
-	<link rel="stylesheet" href="leaflet/leaflet.css">	
-	<style>
-		#map,
-		#game 
+*Inside* the function `update`, add the following lines to [**dispatch an event**](http://www.slideshare.net/MsWillcox/event-driven-programming-amazeballs) (ie *send a message*) which contains data about the current position of the game camera
+
+```js
+function update() {
+	
+	// let's store data about the camera position in a variable
+	var data = { x: game.camera.x, y:game.camera.y }
+	// dispatch a custom event with that data attached
+	// the name of the event is up to us, as long as we call it consistently (including lowercase and UPPERCASE letters)
+	document.dispatchEvent( new CustomEvent( 'Camera', { detail: data } ) )
+}
+```	
+	
+In `piggo-leaflet.js`
+
+```js
+
+// we need to store the position of the game camera
+// to pan the map around
+var cameraPosition = 
+{
+	x: 0,
+	y: 0
+}
+
+// when we receive the 'Camera' event..
+// pan the map around
+document.addEventListener('Camera', function(event)
+{
+	// console.log('Camera', event.detail)
+
+	var newCameraPosition = event.detail
+
+	// we only pan the map if the camera has moved
+	// we check that by comparing the previous positions to the current positions
+	if (cameraPosition.x !== newCameraPosition.x 
+	 || cameraPosition.y !== newCameraPosition.y)
+	{
+		// work out the difference
+		// how much has the camera actually moved since last update?
+		var difference = 
 		{
-			width: 500px;
-			height: 400px;
-
-			position: absolute;
-			top: 0;
-			left: 0;
+			x: newCameraPosition.x - cameraPosition.x,
+			y: newCameraPosition.y - cameraPosition.y 
 		}
-	</style>
-	```
-	
-	Inside the `body` of `index.html`
-	```html
-	<div id="map"></div>
-	
-	<script src="leaflet/leaflet.js"></script>
-	<script src="piggo-leaflet.js"></script>
-	```
-	
-	New JS file `piggo-leaflet.js`
-	```js
-	// "global" variables, accessible outside of this JS file
-	var map
-	
-	// create the map
-	
-	var raveCoordinates = [51.501499, 0.005374]
-	var initialZoom = 17
-	
-	var mapOptions = 
-	{
-		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-		maxZoom: 18
-		// for more options see http://leafletjs.com/reference.html#map-options
+
+		// move by that difference
+		map.panBy([difference.x, difference.y], {animate:false})
+
+		// update cameraPosition
+		cameraPosition = newCameraPosition
 	}
-	
-	// get YOUR OWN MAP tiles at https://www.mapbox.com
-	var mapTiles = '//{s}.tiles.mapbox.com/v3/baddeo.map-ad3lxx2v/{z}/{x}/{y}.png'
-	
-	map = L.map('map').setView(raveCoordinates, initialZoom)
-	
-	L.tileLayer(mapTiles, mapOptions).addTo(map)
-	```
-10. Make the pig *talk* to the map
-	
-	*Inside* the function `update`, add the following lines to [**dispatch an event**](http://www.slideshare.net/MsWillcox/event-driven-programming-amazeballs) (ie *send a message*) which contains data about the current position of the game camera
-	```js
-	function update() {
-		
-		// let's store data about the camera position in a variable
-		var data = { x: game.camera.x, y:game.camera.y }
-		// dispatch a custom event with that data attached
-		// the name of the event is up to us, as long as we call it consistently (including lowercase and UPPERCASE letters)
-		document.dispatchEvent( new CustomEvent( 'Camera', { detail: data } ) )
-	}
-	```	
-	
-	In `piggo-leaflet.js`
-	```js
-	
-	// we need to store the position of the game camera
-	// to pan the map around
-	var cameraPosition = 
-	{
-		x: 0,
-		y: 0
-	}
-	
-	// when we receive the 'Camera' event..
-	// pan the map around
-	document.addEventListener('Camera', function(event)
-	{
-		// console.log('Camera', event.detail)
+})
+```
 
-		var newCameraPosition = event.detail
-
-		// we only pan the map if the camera has moved
-		// we check that by comparing the previous positions to the current positions
-		if (cameraPosition.x !== newCameraPosition.x 
-		 || cameraPosition.y !== newCameraPosition.y)
-		{
-			// work out the difference
-			// how much has the camera actually moved since last update?
-			var difference = 
-			{
-				x: newCameraPosition.x - cameraPosition.x,
-				y: newCameraPosition.y - cameraPosition.y 
-			}
-
-			// move by that difference
-			map.panBy([difference.x, difference.y], {animate:false})
-
-			// update cameraPosition
-			cameraPosition = newCameraPosition
-		}
-	})
-	```
-
-The *pig-on-a-map-game* so far..
+Et voila, the *pig-on-a-map-game* so far..
 
 [![](assets/pig-map.png)](../resources/phasermap)
+
 
 ### Next steps
 
