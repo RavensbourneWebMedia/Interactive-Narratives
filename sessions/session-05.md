@@ -52,6 +52,8 @@ Remember: you will push your work to **your forked repo**, not to the original r
 2. Harry, Simeron and Liam 
 3. Kim, Burak and Innocent
 
+### [Collective feedback spreadsheet](https://docs.google.com/spreadsheets/d/1Gd9x2G69W2dTos4Ea7YGVcZKW8VzS1zk8Sh3X6bEyV0/edit?usp=sharing)! 
+
 ### Checklist
 
 These are some questions that you can use to structure your formative presentation. It's not a strict checklist, pick and mix as your team pleases.
@@ -67,10 +69,6 @@ These are some questions that you can use to structure your formative presentati
 
 
 
-
-
-
-	 		
 
 
 # Saving Twine files
@@ -148,10 +146,15 @@ Change the **scale**, take the game **beyond** the screen..
 <!--Clone the [phaser-coding-tips GitHub repo](https://github.com/photonstorm/phaser-coding-tips).-->
 
 * Find a *top-down* view of your game character on [OpenGameArt](http://opengameart.org/)
-
-	[![](http://opengameart.org/sites/default/files/animalpreview_1.png)](http://opengameart.org/content/lpc-style-farm-animals)
+	
+	For example...
+	
+	[![](http://opengameart.org/sites/default/files/pig_walk.png)](http://opengameart.org/content/lpc-style-farm-animals)
 
 * Crop it if necessary (Photoshop + [TexturePacker](https://www.codeandweb.com/texturepacker)) 
+
+	![](assets/pig-spritesheet.png)
+
 
 * New HTML
 
@@ -197,7 +200,7 @@ Change the **scale**, take the game **beyond** the screen..
 	}
 	```
 
-* Preload the pig (and any other assets you may need)
+* Preload the pig (and any other assets you may need), *inside* the function `preload`
 
 	```js
 	function preload() {
@@ -207,7 +210,7 @@ Change the **scale**, take the game **beyond** the screen..
 	
 	}	
 	```
-* Set up the game
+* Set up the game, *inside* the function `create`
 
 	```js
 	function create() {
@@ -223,8 +226,12 @@ Change the **scale**, take the game **beyond** the screen..
 	
 		// create the player
 		player = game.add.sprite(0, 0, 'piggo')
+		
+		// centre the player in the game "stage"
 		player.x = (game.width - player.width) / 2
 		player.y = (game.height - player.height) / 2
+		
+		// enable physics for the player
 		game.physics.arcade.enable(player)
 		player.body.collideWorldBounds = true // so that player doesn't fall off the screen
 	
@@ -240,7 +247,7 @@ Change the **scale**, take the game **beyond** the screen..
 	}	
 	```
 
-* Make the pig **animate** in four directions
+* Make the pig **animate** in four directions, *inside* the function `update`
 
 	```js
 	function update() {
@@ -261,63 +268,63 @@ Change the **scale**, take the game **beyond** the screen..
 	}
 	```
 
-* Make the pig **move** in four directions
+* Make the pig **move** in four directions, *inside* the function `update` (don't delete the code to *animate* the pig from above)
 
 	```js
 	var playerSpeed = 53
-	...
+	
 	function update() {
-
+		
 		// stop the pig by default
 		player.body.velocity.x = 0
 		player.body.velocity.y = 0
 	
 		// make the pig animate and move in four directions
 		if (cursors.right.isDown) {
-			player.animations.play('right')
 			player.body.velocity.x = playerSpeed
 		} else if (cursors.left.isDown) {
-			player.animations.play('left')
 			player.body.velocity.x = -playerSpeed
 		} else if (cursors.up.isDown) {
-			player.animations.play('up')
 			player.body.velocity.y = -playerSpeed
 		} else if (cursors.down.isDown) {
-			player.animations.play('down')
 			player.body.velocity.y = playerSpeed
-		} else {
-			player.animations.stop()
 		}
+		
 	}
 	```	
 	
-* Get the camera to **follow** the pig	
+* Get the camera to **follow** the pig, *inside* the function `create`	
+
 	```js
 	function create() {
-		...
+		// 
 		game.camera.follow(player)
 	}
 	```	
 
-* Add a [Leaflet](http://leafletjs.com) map underneath
-
+* Add a [Leaflet](http://leafletjs.com) map underneath (download the latest stable version of Leaflet and then paste the whole `leaflet` folder in the same folder as `index.html`)
+	
+	Inside the `head` of `index.html`
 	```html
 	<link rel="stylesheet" href="leaflet/leaflet.css">	
-		<style>
-			#map,
-			#game 
-			{
-				width: 500px;
-				height: 400px;
+	<style>
+		#map,
+		#game 
+		{
+			width: 500px;
+			height: 400px;
 
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-		</style>
-	...
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	</style>
+	```
+	
+	Inside the `body` of `index.html`
+	```html
 	<div id="map"></div>
-	...
+	
 	<script src="leaflet/leaflet.js"></script>
 	<script src="piggo-leaflet.js"></script>
 	```
@@ -349,9 +356,10 @@ Change the **scale**, take the game **beyond** the screen..
 		
 * Make the pig *talk* to the map
 	
+	*Inside* the function `update`, add the following lines to [dispatch an event](http://www.slideshare.net/MsWillcox/event-driven-programming-amazeballs) (ie, *send a message*) that contains data about the current position of the game camera
 	```js
 	function update() {
-		...
+		
 		var data = { x: game.camera.x, y:game.camera.y }
 		document.dispatchEvent( new CustomEvent( 'Camera', { detail: data } ) )
 	}
@@ -435,7 +443,3 @@ Your game may have one or more of the following features:
 * Travelling in time
 * A soundscape that reveals clues
 -->
-
-
-
-
