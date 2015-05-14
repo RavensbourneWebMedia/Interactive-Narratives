@@ -177,7 +177,8 @@ Change the **scale**, take the game **beyond** the screen..
 * New JS file `piggo.js`
 	
 	```js
-		var game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
+	var game 
+	game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
 		preload: preload,
 		create: create,
 		update: update
@@ -399,6 +400,12 @@ Change the **scale**, take the game **beyond** the screen..
 
 [![](assets/pig-map.png)](../resources/phasermap)
 
+### Next steps
+
+* Can you get the pig to follow you as you physically move around? 
+* Can you simulate encounters with other animals, people or objects?
+
+
 ### Resources
 
 * [How do Web maps work?](https://www.mapbox.com/guides/how-web-maps-work/)
@@ -415,6 +422,9 @@ Change the **scale**, take the game **beyond** the screen..
 
 # Homework
 
+Continue working on your chosen game ideas and start developing the game prototypes you are going to present at the summative in a month.
+
+<!--
 Using [Phaser](http://phaser.io/) *remix* an [exploration-based game](http://en.wikipedia.org/wiki/Adventure_game) so that it tells **your** team story through space. 
 
 Your game may have one or more of the following features:
@@ -424,7 +434,7 @@ Your game may have one or more of the following features:
 * Autobiographical (not necessarily a realistic or contemporary setting)
 * Travelling in time
 * A soundscape that reveals clues
-
+-->
 
 
 
