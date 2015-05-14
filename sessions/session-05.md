@@ -185,13 +185,11 @@ Photoshop + [TexturePacker](https://www.codeandweb.com/texturepacker)
 ##### 4. New JS file `piggo.js`
 	
 ```js
-var game 
-game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
+var game = new Phaser.Game(500, 400, Phaser.AUTO, 'game', {
 	preload: preload,
 	create: create,
 	update: update
-}, true) // true here means that the game background is going to be transparent
-
+}, true) // true here means that the game background is going to be transparent.. otherwise it'd be black
 
 function preload() {
 }
@@ -314,7 +312,7 @@ Add the line below *inside* the function `create` (don't delete the rest of the 
 function create() {
 	
 	
-	
+	// get the camera to follow the player
 	game.camera.follow(player)
 }
 ```	
