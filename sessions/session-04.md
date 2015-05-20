@@ -211,7 +211,7 @@ Each group will demonstrate their creations and playtest each other prototypes.
 
 We will discuss/demonstrate several game mechanics that could convert a single player game in a multi player activity, such as:
 
-* in-series or in-parallel connections (AND, OR, XOR logical gates)
+* in-series or in-parallel connections (AND, OR, XOR logic gates)
 
 * Passing the signal along the players
 
