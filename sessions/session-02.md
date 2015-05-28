@@ -368,11 +368,15 @@ A slightly more sophisticated example from [this tutorial](http://lambdamaphone.
 
 You can add [your own Javascript and CSS](http://twinery.org/wiki/twine2:adding_custom_javascript_and_css) to twines.
 
-#### All together now...
+### All together now...
+
+[Watch this video](https://www.youtube.com/watch?v=paDQr05yhkY)!
+
+[![](assets/twine-tutorial-video.jpg)](https://www.youtube.com/watch?v=paDQr05yhkY)
 
 ![](assets/twine-markup.png)
 
-![](assets/UBT3-nodes.png)
+<!--![](assets/UBT3-nodes.png)-->
 
 <!--More sophisticated tools worth mentioning:
 
