@@ -6,11 +6,11 @@
 
 Your [homework](#homework)!
 
-
-
 # Group tutorials
 
-[ ] Google doc
+[ ] TRELLO!
+
+Check the [presentations' checklist](http://)
 
 # Homework
 

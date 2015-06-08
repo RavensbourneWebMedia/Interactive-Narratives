@@ -2,7 +2,44 @@
 
 ### Today, 11th June
 
-* Summative assessment 
+Summative presentations and play-testing
+
+### Teams
+
+1. Kim, Burak and Innocent
+* Margot, Matt and Cal
+* Harry, Simeron and Liam 
+
+
+# Presentation checklist
+
+This is a list of topics that your presentation *should* touch upon. 
+
+* The **narrative**
+	* What's your story in *one line*?
+	* What are the **events** that happen in your story-game?
+	* Who are the **characters** and what are their goals?
+	* How does the **plot** unfold through time on different media?
+	* How did **online audiences** react to it? Why?
+
+* The **interaction**
+	* Which narrative elements are **embedded** (pre-generated parts of the story, eg: scripted scenes)?
+	* Which narrative elements are **emergent** (created on-the-fly as you play)?
+	* What game (stereo)**types** have you used to communicate your narrative? Why?
+	* What **verbs** are powering your game(s)? Why?
+	* What are the **rules** of your game(s)?
+	* What are the **goals** of your game(s)? How do you win?
+	* What **conflicts** are there, between players or between player and the game system?
+	* What is the player's experience? What are you expected to ***feel***? 
+	
+* The **process**
+	* What **resources** did you use (eg: tutorials, ready-made scripts, forums, libraries)?
+	* How did you organise your **team work**?
+	* What did you **learn**? 
+
+Use this checklist as a starting point to structure your presentation. Don't simply answer the questions above, make it interesting!
+
+Remember, we do value *creativity* after all ;)
 
 
 # Tips
@@ -64,10 +101,3 @@
 # Feedback spreadsheet
 
 [This is the spreadsheet](https://docs.google.com/spreadsheets/d/12eA2ICRZ62Jzi25q3VySLBGaDfsvrlc6bb1Go9GurXk/edit?usp=sharing) where we all give each other feedback.
-
-
-
-# Presentations and play-testing
-
-[ ] Google spreadsheet
-[ ] Unit survey
