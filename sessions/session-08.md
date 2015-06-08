@@ -2,15 +2,15 @@
 
 ### Today, 9th June
 
-* Tutorials
+Tutorials
 
 Your [homework](#homework)!
 
 # Group tutorials
 
-[ ] TRELLO!
+- [ ] TRELLO!
 
-Check the [presentations' checklist](http://)
+Check the [presentations' checklist](session-09.md#presentation-checklist)
 
 # Homework
 
