@@ -3,7 +3,9 @@
 ### Today, Tuesday 9th January
 
 1. Welcome
-2. Workshop: Introducing Trans-media
+2. Launching your project
+3. Workshop: Introducing Trans-media
+4. Ideation 
 
 ### Your [homework](#homework) and [blog](#blog)!
 
