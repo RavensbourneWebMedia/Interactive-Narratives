@@ -66,6 +66,16 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 
 **What do you think this means? Let's discuss!**
 
+
+#### In a nutshell, leading up to the formative you will:
+1. Learn about creating stories
+2. Learn about creating characters
+3. Learn about weaving media into an interactive story
+4. Create a story and cast
+5. Create online avatars for them.
+6. Using Facebook, Flickr, Audio Boo, Vimeo, Blogger, Twitter, websites, etc
+7. Over three next weeks create the basis of your story
+
 # Lecture: Introducing Trans-media
 
 ### What is Trans-media?
@@ -95,15 +105,120 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 * Stories are ways of codifying a sequence of events.
 * Stories are arranged so they fall into a satisfying pattern.
 * They have a beginning.
-* They have a middle. n  They have an end.
+* They have a middle.
+* They have an end.
 
+### What is a non-linear story?
 
+![studyhours](assets/non-linear.png)
 
+* Non-Linear stories are those that are not told in any particular order.
+* Non-Linear stories are those that the audience can shape and change.
+* Non-Linear stories are those that we can participate in.
 
+### Where do we find non-linear stories?
 
+* Videogames
+* ARGs
+* Games played in the real world
+* MMOGs
+* Online Projects
+* Augmenting TV and Film Narrative
+* “Pervasive Games” - Games that cross between real and virtual
 
+### Digital Storytelling
 
+* Immersive
+* Navigable
+* Participatory
+* Can break the fourth wall
+* Blurs fiction and reality
+* Uses a huge narrative canvas
+* Offers a shared community experience
+* Offers opportunity to change character PoV
+* Can be malleable
+* Stories are active
 
+### Can interactive narratives have the same dramatic effect as linear narratives?
+
+**Spend 30-minutes researching and preparing a short presentation of Trans-Media Examples:**
+1. What?
+2. Where?
+3. Who played?
+4. Who made?
+5. How was the story told?
+6. Find us a video clip!
+
+### Characters
+
+* The foundations of your story
+* They need to be believeable
+* They need to be consistent
+* They need to be able to grow
+* They need to be interesting
+* Archetypes not stereotype
+
+### Archetype
+
+Are you a...
+willing hero, unwilling hero, anti hero, tragic, loner, mentor, shaman, trickster, fool, seductress, empress, hermit, wanderer, hunter, strongman, judge, death devil, dreeb, romantic, loyalist, angel, athlete, avenger, beggar, bully, detective, father, gossip, delicate flower, messiah, shape- shifter, slave, victim, visionary or nerd?
+
+#### What they look like?
+
+Steal a photograph from Flickr (or a dating
+site...)Search for the archetype terms and then grab the first picture that takes your fancy
+
+**That is you!**
+
+### Age/Nationality/Race
+* Look at the picture
+* How old are you?
+* Where are you from?
+* What race are you?
+
+### Background
+* Where have you lived in the past?
+* Where do you live now?
+* What did you do before?
+* Where are your family?
+* What has happened to you in the past?
+* What from the past do you carry with you now?
+
+### Likes and Dislikes, Quirks and Habits
+* Little details to make you real
+* Music, film, food, people, books, culture
+* Politics, religion, social behaviour
+* What are your bad habits?
+* What can’t you stop yourself doing?
+
+### Fears and motivations
+* What drives you?
+* Money, revenge, love, sex, fame, kindness, loss, happiness?
+* What are you frightened of?
+* Pain, rejection, loneliness, loss of status, hunger, others?
+* What do you think of yourself?
+* Do you actually really like yourself?
+
+### Online Mannerisms
+* How does all this manifest itself?
+* How do you communicate online?
+* How will we know this?
+
+### Your task:
+* Go to Twitter
+* Set up an account
+* Create your character
+* Write out a set of notes for who they are n Contact your group colleagues
+* Begin communicating!
+* Try to achieve your goals
+
+The Rules
+* Do it for real – think it through – be that person when you are online.
+* Don’t show each other your character cards.
+* All communication on Twitter. We need to follow the story.
+* Contact at least all the other people on your list, then follow / communicate with others
+* Have fun, be imaginative, believe in it and see what happens.
+* No bullying or freaking ‘real’ people out!
 
 # Homework
 
@@ -123,13 +238,39 @@ Also, you get to practice and build confidence in your **communication skills**.
 
 At the end of your mini-lessons we'll give each other **feedback**. *Honest* feedback can hurt but it's through that (and practice) that we improve.
 
+**GOING WAY BACK NOW...**
+* The roots of story telling
+* The roots of narrative
+* The roots of interaction
+
 Who | What
 --- | -----------
-Peyman<br>Callum  | Opening and Closing & Fire Starting
-Richardo<br>Jacob | Artifacts & Node Generation
-Muhammad<br>Emma  | Meaningful Space & Sketching and Model Making
-Domenic<br>Kevin  | Randomness, reversal, and reframing & Improvisation
-Mayur<br>Kaleshe  | Selection & Try something new
+Peyman<br>Callum  | Gilgamesh
+Richardo<br>Jacob | Aristotle
+Muhammad<br>Emma<br>Kaleshe  | The Dogon Dancers versus The Mystery Plays
+Domenic<br>Kevin<br>Mayur  | Beowulf
+
+Analyse the allocated story above with the help from the questions bellow to present next week.
+
+**Artistotle**
+* Who was he?
+* When and where?
+* What did he have to say about story? n  What is left of his ideas?
+
+**The Dogon Dancers vs The Mystery Plays**
+* What where and when?
+* How did they tell story?
+* Why are we talking about them?
+
+**Gilgamesh**
+* What was it?
+* What was the story?
+* Break it into three act structure
+
+**Beowulf**
+* What was it?
+* What was the story?
+* Break it into three act structure
 
 ### Blog
 
