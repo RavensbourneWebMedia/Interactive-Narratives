@@ -5,14 +5,21 @@
 1. Welcome
 2. Launching your project
 3. Workshop: Introducing Trans-media
-4. Ideation 
+4. Ideation
 
 ### Your [homework](#homework) and [blog](#blog)!
 
 # Welcome
 
+### How much time am  I meant to spend on this project?
+
 ![studyhours](assets/learninghours.png)
 
+### Marking critera
+
+[Link to PDF explaining them](assets/UG-Marking-Criteria-Matrix-with-Letter-Grades.pdf)
+
+### Expectations for this term 
 
 # Homework
 
