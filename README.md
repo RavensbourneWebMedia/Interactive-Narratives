@@ -13,7 +13,7 @@ When | In class | Homework | Blog
 [Tuesday<br>16.01](sessions/02)| <ul><li>**Lecture:** Introducing characters <li>**Workshop:** Build your character | Peer-learning mini-lesson | Research, evidence and explain case studies of how storytelling has been instrumental in the creation of communities and cultures in modern times
 [Tuesday<br>23.01](sessions/03)| <ul><li>**Lecture:** Non-linear storytelling <li>**Workshop:** Putting flesh on the bone  | Prepare for formative | If you could be the character in your own fictional story. What type of character would you be and why?  
 [Tuesday<br>30.01](sessions/04)| **Formative presentations** | Peer-learning mini-lesson | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
-[Tuesday<br>06.02](sessions/05)| Workshop | Peer-learning mini-lesson | Pair up with another person (not your team mate) and give each other feedback on your peer learning mini-lessons.
+[Tuesday<br>06.02](sessions/05)| <ul><li>**Lecture:** Introducing Twine <li>**Workshop:** Develop your twine  | Peer-learning mini-lesson | Pair up with another person (not your team mate) and give each other feedback on your peer learning mini-lessons.
 [Tuesday<br>13.02](sessions/06)| Workshop | Peer-learning mini-lesson | TBA
 [Tuesday<br>20.02](sessions/07)| Tutorials for summative | Prep for summative | TBA
 [Tuesday<br>27.02](sessions/08)| **Summative presentations** | | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  

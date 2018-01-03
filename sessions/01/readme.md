@@ -17,9 +17,25 @@
 
 ### Marking critera
 
-[Link to PDF explaining them](assets/UG-Marking-Criteria-Matrix-with-Letter-Grades.pdf)
+[Link to PDF outlining the marking Matrix](assets/UG-Marking-Criteria-Matrix-with-Letter-Grades.pdf)
 
-### Expectations for this term 
+**You will be marked on these deliverables in particular**
+* Research pack
+* Peer-learning mini-lessons
+* Blog-posts
+* Presentation
+* Meta-narrative (Plot & character)
+* Twine
+
+### Rules of the road
+
+* **Be present**. If you happen to be late or absent, make sure you email me about it before a session starts. Otherwise to not enter until the break.
+* **Participate** in class debates and workshops. We'll make sure that your ideas have space to be heard and that nobody makes you feel uncomfortable about sharing them.
+* **Present** your work during formative and summative assessments. If you can't make it those days then you'll record your presentation and upload it to YouTube (or similar).
+* **Be responsible** for what happens in class. Organise with your peers to get class information and material that you may have missed.
+* **Meet the deadlines**. If you submit your work after a deadline, your grade will be capped.
+* **Blog weekly**
+* **Study at home**, otherwise you will not be able to reach the expected learning.
 
 # Homework
 
