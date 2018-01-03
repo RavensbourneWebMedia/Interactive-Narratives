@@ -62,15 +62,18 @@ Analyse the allocated story above with the help from the questions bellow to pre
 **The foundations of modern storytelling**
 
 **ACT 1: COMPLICATION**
+<br>
 Balance, harmony, happiness... something comes to throw the character and the balance in their life.
 
 **ACT 2: DEVELOPMENT**
+<br>
 Problem worse than they thought, and character now faces a series of developments that raise the stakes..
 
 **ACT 3: RESOLUTION**
+<br>
 Character learns that he or she must pit everything in his or her power to resolve this issue and to achieve their goal.
 
-**ACT ONE: COMPLICATION**
+### ACT ONE: COMPLICATION
 * Protagonist is shown in his/her ordinary world
 * There is an event: A Call to Adventure n He/she must decide whether to answer “the call”
 * They encounter the first turning point
@@ -78,6 +81,31 @@ Character learns that he or she must pit everything in his or her power to resol
 ![studyhours](assets/act1.png)
 
 ![studyhours](assets/act1-1.png)
+
+### ACT TWO DEVELOPMENT
+* The body of the story.
+* What it is “about”
+* Encounter challenges n  Meet allies
+* Take advice from Mentors
+* Undergo an ordeal (the dark days)
+* Survive and return renewed
+
+![studyhours](assets/act2.png)
+
+![studyhours](assets/act2-1.png)
+
+### ACT THREE RESOLUTION
+* The protagonist returns, only stronger
+* Begins with the Second Turning Point
+* Resolution
+n Resurrection (re-born/change)
+* Return with the Elixir/Glory
+
+![studyhours](assets/act3.png)
+
+![studyhours](assets/act3-1.png)
+
+![studyhours](assets/act3-2.png)
 
 
 ### Your [homework](#homework) and [blog](#blog)!
