@@ -4,6 +4,7 @@
 
 1. Peer-learning mini-lesson
 2. Lecture: The principles of storytelling
+3. Workshop: Develop your  story!
 
 #Peer-learning mini-lesson
 
@@ -107,5 +108,96 @@ n Resurrection (re-born/change)
 
 ![studyhours](assets/act3-2.png)
 
+### The hero's journey
+
+https://www.youtube.com/watch?v=Hhk4N9A0oCA
+
+https://www.huffingtonpost.com/entry/is-joseph-campbells-the-h_b_8861998.html
+
+### Plot and Character
+* Plot describes what characters do.
+* The essence of character is revealed by the actions they take.
+* Plot brings pressure on the hero. n  Forcing him to change/reveal his inner self.
+
+### Aristotle identified elements of tragedy:
+1. Plot
+2. Character
+3. Thought
+4. Spectacle
+5. Diction
+6. Music
+
+### MORE ELEMENTS
+**PREMISE**
+The purpose of a story.
+The truth learnt by the protagonist.
+The more simple and direct – the stronger it is.
+It is the test against which every element is weighed.
+
+**CONFLICT**
+* There has to be conflict.
+* There have to be obstacles.
+
+For example...
+* Man vs Man.
+* Man vs Nature.
+* Man vs Woman.
+* Man vs Himself.
+* Man vs Machine.
+* Man vs Ghost...
+
+Hero | Villain
+--- | -----------
+Focus of story<br>Attempting to restore balance to his /
+her world<br>Most important thing is what he / she wants<br>The hero grows and in so doing becomes a better person<br>Makes gradual changes through the story | Obstructs hero’s progress<br>Starts off stronger and more resourceful<br>Believes they are justified in their actions<br>Conflict can be more powerful when the characters of Hero and Villain are matched
+
+
+![studyhours](assets/hero.png)
+
+![studyhours](assets/villain.png)
+
+
+### The Climax
+* The most important decision the hero takes
+* Ultimate point of tension
+* Most difficult decision n High point of action
+
+![studyhours](assets/climax1.png)
+
+![studyhours](assets/climax2.png)
+
+![studyhours](assets/climax3.png)
+
+# Workshop: Develop your story!
+
+* What event can happen to our characters?
+* What event could we create that they could respond to?
+* How shall we make this event happen?
+* How would your character respond?
+
+### Diversify your character!
+
+* Create Tumblr / LinkedIn etc for your character n  Status updates
+* Written pieces
+* Photos
+* Videos
+* Build websites for fake companies / portfolios of work / blogs
+* Tell the story through the content posted by the character
+
+### Creating the backstory...
+* Go to your character on Twitter etc
+* Start chatting
+* Make communications
+* Make links
+* Steal pictures...
+* Steal videos...
+* Steal text...
+* Borrow the real to make the imaginary...
+* What happened to you last week? n  Was it a good week or bad week? n  Are you angry with anyone?
+* Has someone let you down?
+* Did you make any new friends?
+* Meet someone wonderful?
+* Have you got a picture of them?
+* Have you got a picture of where you went? n  What do you think of events in RL?
 
 ### Your [homework](#homework) and [blog](#blog)!
