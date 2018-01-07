@@ -48,6 +48,8 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 * Your Twine production
 * 500 word reflective report
 
+**What do you think this means? Let's discuss!**
+
 ### Learning outcomes for this project:
 
 **Covered mainly in term 2:**
@@ -70,17 +72,22 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 #### In a nutshell, leading up to the formative you will:
 1. Learn about creating stories
 2. Learn about creating characters
-3. Learn about weaving media into an interactive story
+3. Learn about weaving different media into an interactive story
 4. Create a story and cast
 5. Create online avatars for them.
 6. Using Facebook, Flickr, Audio Boo, Vimeo, Blogger, Twitter, websites, etc
-7. Over three next weeks create the basis of your story
+7. Over three next weeks you will basically create the basis of your story
 
 # Lecture: Introducing Trans-media
 
 ### What is Trans-media?
 
 ![studyhours](assets/Transmedia.png)
+
+> ‘The art of storytelling now requires the creation of
+a complex story structure: multi-layered, open-ended,
+and involving multiple users. Storytelling today is almost
+like designing a wicked problem itself.’ Jörgen Van Der Sloot
 
 * All media are equal
 * All media work together to tell the story
@@ -139,7 +146,10 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 * Can be malleable
 * Stories are active
 
-### Can interactive narratives have the same dramatic effect as linear narratives?
+
+### Workshop: Find case studies, analyse and present.
+
+#### Can interactive narratives have the same dramatic effect as linear narratives?
 
 **Spend 30-minutes researching and preparing a short presentation of Trans-Media Examples:**
 1. What?
@@ -152,7 +162,7 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 ### Characters
 
 * The foundations of your story
-* They need to be believeable
+* They need to be believable
 * They need to be consistent
 * They need to be able to grow
 * They need to be interesting
@@ -165,10 +175,33 @@ willing hero, unwilling hero, anti hero, tragic, loner, mentor, shaman, trickste
 
 #### What they look like?
 
-Steal a photograph from Flickr (or a dating
-site...)Search for the archetype terms and then grab the first picture that takes your fancy
+### Workshop: Ideation
 
-**That is you!**
+<!--
+* Step 1: Find ways you are going to capture your stories
+* Step 2: Begin ideating Characters
+* Step 3: Begin ideating storylines 
+
+This only needs to be bear bone -->
+
+**How are you going to capture the first initial character and story?**
+
+I think you should get some pens and paper out!
+
+* Storyboard
+* Media map
+
+Some options to star aggregating ideas:
+http://www.writingexercises.co.uk/firstlinegenerator.php
+http://www.writingexercises.co.uk/plotgenerator.php
+https://www.dailywritingtips.com/20-great-opening-lines-to-inspire-the-start-of-your-story/
+https://blog.intercom.com/get-the-most-out-of-your-research-storytelling/
+
+
+
+* Steal a photograph from Flickr (or a dating
+site...) Search for the archetype terms and then grab the first picture that takes your fancy
+
 
 ### Age/Nationality/Race
 * Look at the picture
@@ -277,3 +310,7 @@ Analyse the allocated story above with the help from the questions bellow to pre
 Keeping a **journal** to record your creative process is extremely important. Don't let your ideas and thoughts fade away! Think of your blog as your *digital sketchbook* (more on that [here](https://github.com/RavensbourneWebMedia/Blogging#why-blogging)). We ask you to blog regularly and we'll check that you do it every week.
 
 **What are some of the fundamental elements (for example structure and characteristics) that are required to develop a interactive narrative and why?**
+
+In addition please skim read this article
+https://www.slideshare.net/Fundacionesplai/tma-advanced-m2
+https://alistapart.com/article/building-nonlinear-narratives-for-the-web
