@@ -146,7 +146,6 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 * Can be malleable
 * Stories are active
 
-
 ### Workshop: Find case studies, analyse and present.
 
 #### Can interactive narratives have the same dramatic effect as linear narratives?
@@ -158,6 +157,8 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 4. Who made?
 5. How was the story told?
 6. Find us a video clip!
+
+### Workshop: Ideation
 
 ### Characters
 
@@ -175,12 +176,10 @@ willing hero, unwilling hero, anti hero, tragic, loner, mentor, shaman, trickste
 
 #### What they look like?
 
-### Workshop: Ideation
-
 <!--
 * Step 1: Find ways you are going to capture your stories
 * Step 2: Begin ideating Characters
-* Step 3: Begin ideating storylines 
+* Step 3: Begin ideating storylines
 
 This only needs to be bear bone -->
 
@@ -197,11 +196,8 @@ http://www.writingexercises.co.uk/plotgenerator.php
 https://www.dailywritingtips.com/20-great-opening-lines-to-inspire-the-start-of-your-story/
 https://blog.intercom.com/get-the-most-out-of-your-research-storytelling/
 
-
-
 * Steal a photograph from Flickr (or a dating
 site...) Search for the archetype terms and then grab the first picture that takes your fancy
-
 
 ### Age/Nationality/Race
 * Look at the picture
