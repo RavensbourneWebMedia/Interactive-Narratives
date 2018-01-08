@@ -137,6 +137,8 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 
 ### Digital Storytelling
 
+![studyhours](assets/digital-storytelling-is-NOT.png)
+
 * Immersive
 * Navigable
 * Participatory
