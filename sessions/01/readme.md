@@ -89,13 +89,15 @@ a complex story structure: multi-layered, open-ended,
 and involving multiple users. Storytelling today is almost
 like designing a wicked problem itself.’ Jörgen Van Der Sloot
 
+**Start by reading this article:** https://alistapart.com/article/building-nonlinear-narratives-for-the-web
+
 * All media are equal
 * All media work together to tell the story
 * Each type of media presents its own unique viewpoint
 * Rich media world - work together to create their own universe...
 * Not an adaptation
 * Doesn’t just re-tell the same story
-* Transmedia: you only get the full story by consuming all the media.
+* **Trans-media: you only get the full story by consuming all the media.**
 * Picture, text, film, audio, updates, blogs, characters n Fit together like a jigsaw
 
 ### Why are we doing this?
@@ -311,4 +313,3 @@ Keeping a **journal** to record your creative process is extremely important. Do
 
 In addition please skim read this article
 https://www.slideshare.net/Fundacionesplai/tma-advanced-m2
-https://alistapart.com/article/building-nonlinear-narratives-for-the-web
