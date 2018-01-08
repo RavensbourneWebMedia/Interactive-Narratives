@@ -158,7 +158,18 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 5. How was the story told?
 6. Find us a video clip!
 
-### Workshop: Ideation
+## Workshop: Ideation
+
+<!--
+* Step 1: Find ways you are going to capture your stories
+* Step 2: Begin ideating Characters
+* Step 3: Begin ideating storylines
+
+This only needs to be bear bone -->
+
+**How are you going to capture the first initial character and story?**
+
+I think you should get some pens and paper out!
 
 ### Characters
 
@@ -174,38 +185,18 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 Are you a...
 willing hero, unwilling hero, anti hero, tragic, loner, mentor, shaman, trickster, fool, seductress, empress, hermit, wanderer, hunter, strongman, judge, death devil, dreeb, romantic, loyalist, angel, athlete, avenger, beggar, bully, detective, father, gossip, delicate flower, messiah, shape- shifter, slave, victim, visionary or nerd?
 
-#### What they look like?
-
-<!--
-* Step 1: Find ways you are going to capture your stories
-* Step 2: Begin ideating Characters
-* Step 3: Begin ideating storylines
-
-This only needs to be bear bone -->
-
-**How are you going to capture the first initial character and story?**
-
-I think you should get some pens and paper out!
-
-* Storyboard
-* Media map
-
-Some options to star aggregating ideas:
-http://www.writingexercises.co.uk/firstlinegenerator.php
-http://www.writingexercises.co.uk/plotgenerator.php
-https://www.dailywritingtips.com/20-great-opening-lines-to-inspire-the-start-of-your-story/
-https://blog.intercom.com/get-the-most-out-of-your-research-storytelling/
+### What they look like?
 
 * Steal a photograph from Flickr (or a dating
 site...) Search for the archetype terms and then grab the first picture that takes your fancy
 
-### Age/Nationality/Race
+#### Age/Nationality/Race
 * Look at the picture
 * How old are you?
 * Where are you from?
 * What race are you?
 
-### Background
+#### Background
 * Where have you lived in the past?
 * Where do you live now?
 * What did you do before?
@@ -213,20 +204,31 @@ site...) Search for the archetype terms and then grab the first picture that tak
 * What has happened to you in the past?
 * What from the past do you carry with you now?
 
-### Likes and Dislikes, Quirks and Habits
+#### Likes and Dislikes, Quirks and Habits
 * Little details to make you real
 * Music, film, food, people, books, culture
 * Politics, religion, social behaviour
 * What are your bad habits?
 * What can’t you stop yourself doing?
 
-### Fears and motivations
+#### Fears and motivations
 * What drives you?
 * Money, revenge, love, sex, fame, kindness, loss, happiness?
 * What are you frightened of?
 * Pain, rejection, loneliness, loss of status, hunger, others?
 * What do you think of yourself?
 * Do you actually really like yourself?
+
+### Ideate storyline
+
+Some options to star aggregating ideas:
+* http://www.writingexercises.co.uk/firstlinegenerator.php
+* http://www.writingexercises.co.uk/plotgenerator.php
+* https://www.dailywritingtips.com/20-great-opening-lines-to-inspire-the-start-of-your-story/
+* https://blog.intercom.com/get-the-most-out-of-your-research-storytelling/
+
+* Storyboard
+* Media map
 
 ### Online Mannerisms
 * How does all this manifest itself?
