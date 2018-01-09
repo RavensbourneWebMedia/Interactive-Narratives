@@ -170,13 +170,13 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 5. How was the story told?
 6. Find us a video clip!
 
+## Workshop: Ideation
+
 Groups |
 --- |
 Callum<br />Dom<br />Ricardo  |
 Emma<br />Peyman<br />Muhammad<br />Kevin |
-Kaleshe<br />Jaco<br />bMayur  |
-
-## Workshop: Ideation
+Kaleshe<br />Jacob<br />Mayur  |
 
 <!--
 * Step 1: Find ways you are going to capture your stories
