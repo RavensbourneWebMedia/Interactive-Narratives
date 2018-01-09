@@ -255,13 +255,19 @@ Some options to star aggregating ideas:
 * Begin communicating!
 * Try to achieve your goals
 
-The Rules
+**The Rules**
 * Do it for real – think it through – be that person when you are online.
 * Don’t show each other your character cards.
 * All communication on Twitter. We need to follow the story.
 * Contact at least all the other people on your list, then follow / communicate with others
 * Have fun, be imaginative, believe in it and see what happens.
 * No bullying or freaking ‘real’ people out!
+
+### What did we learn today?
+
+Make a mindmap!
+
+![studyhours](assets/mindmap.png)
 
 # Homework
 
