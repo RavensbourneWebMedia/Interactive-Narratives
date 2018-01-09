@@ -150,11 +150,13 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 * Can be malleable
 * Stories are active
 
-### Workshop: Find case studies, analyse and present.
+## Workshop: Find case studies, analyse and present.
+
+![studyhours](assets/7-seven-deadly-sins.png)
 
 #### Can interactive narratives have the same dramatic effect as linear narratives?
 
-**Spend 30-minutes researching and preparing a short presentation of Trans-Media Examples:**
+**Spend one hour researching and preparing a short presentation of Trans-Media Examples:**
 1. What?
 2. Where?
 3. Who played?
