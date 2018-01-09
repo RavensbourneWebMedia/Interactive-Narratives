@@ -11,6 +11,8 @@
 
 # Welcome
 
+### Tell your winter holiday story to your mate and tell it back.
+
 ### Rules of the road
 
 * **Be present**. If you happen to be late or absent, make sure you email me about it before a session starts. Otherwise do not enter until the break.
