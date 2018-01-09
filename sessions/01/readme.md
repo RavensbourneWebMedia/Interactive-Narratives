@@ -41,10 +41,10 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 [Link to PDF outlining the marking matrix](assets/UG-Marking-Criteria-Matrix-with-Letter-Grades.pdf)
 
 **You will be marked on these parts of your deliverables in particular:**
-* Research pack (Narrative, character, Peer-learning mini-lessons)
+* Research pack (The underpinning of your Narrative, character and Peer-learning mini-lessons)
 * Blog-posts
 * Presentation
-* Meta-narrative description (Plot, narrative, context, genre, character)
+* Meta-narrative outline (Plot, narrative, context, genre, character)
 * Your Twine production
 * 500 word reflective report
 
@@ -76,7 +76,7 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 4. Create a story and cast
 5. Create online avatars for them.
 6. Using Facebook, Flickr, Audio Boo, Vimeo, Blogger, Twitter, websites, etc
-7. Over three next weeks you will basically create the basis of your story
+7. Over four next weeks you will basically create the basis of your story
 
 # Lecture: Introducing Trans-media
 
@@ -110,6 +110,8 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 
 ### What are stories, then?
 
+![gilgamesh](assets/gilgamesh.jpg)
+
 * Stories are ways of framing information.
 * Stories are ways of codifying a sequence of events.
 * Stories are arranged so they fall into a satisfying pattern.
@@ -126,6 +128,8 @@ like designing a wicked problem itself.’ Jörgen Van Der Sloot
 * Non-Linear stories are those that we can participate in.
 
 ### Where do we find non-linear stories?
+
+![studyhours](assets/worldofwarcraft.jpg)
 
 * Videogames
 * ARGs
