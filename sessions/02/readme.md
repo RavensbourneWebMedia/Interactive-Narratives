@@ -6,7 +6,9 @@
 2. Lecture: The principles of storytelling
 3. Workshop: Develop your  story!
 
-#Peer-learning mini-lesson
+### Your [homework](#homework) and [blog](#blog)!
+
+### Peer-learning mini-lesson
 
 **GOING WAY BACK NOW...**
 * The roots of story telling
@@ -59,7 +61,7 @@ Analyse the allocated story above with the help from the questions bellow to pre
 * A story is a sequence of events.
 * These events are known as the plot
 
-### Three-Act Structure
+## Three-Act Structure
 **The foundations of modern storytelling**
 
 **ACT 1: COMPLICATION**
@@ -148,8 +150,13 @@ For example...
 
 Hero | Villain
 --- | -----------
-Focus of story<br>Attempting to restore balance to his /
-her world<br>Most important thing is what he / she wants<br>The hero grows and in so doing becomes a better person<br>Makes gradual changes through the story | Obstructs hero’s progress<br>Starts off stronger and more resourceful<br>Believes they are justified in their actions<br>Conflict can be more powerful when the characters of Hero and Villain are matched
+* Focus of story
+* Attempting to restore balance to his / her world
+* Most important thing is what he / she wants
+* The hero grows and in so doing becomes a better person
+* Makes gradual changes through the story | Obstructs hero’s progress
+* Starts off stronger and more resourceful
+* Believes they are justified in their actions * Conflict can be more powerful when the characters of Hero and Villain are matched
 
 
 ![studyhours](assets/hero.png)
@@ -199,5 +206,3 @@ her world<br>Most important thing is what he / she wants<br>The hero grows and i
 * Meet someone wonderful?
 * Have you got a picture of them?
 * Have you got a picture of where you went? n  What do you think of events in RL?
-
-### Your [homework](#homework) and [blog](#blog)!
