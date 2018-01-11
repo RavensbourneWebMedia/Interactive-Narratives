@@ -150,11 +150,11 @@ For example...
 
 Hero | Villain
 --- | -----------
-Focus of story |
+Focus of story | Most important thing is what he / she wants
 Attempting to restore balance to his / her world | Obstructs hero’s progress
-Most important thing is what he / she wants | Believes they are justified in their actions
 The hero grows and in so doing becomes a better person | Starts off stronger and more resourceful
 Makes gradual changes through the story | Conflict can be more powerful when the characters of Hero and Villain are matched
+ | Believes they are justified in their actions
 
 
 ![studyhours](assets/hero.png)
