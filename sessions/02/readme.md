@@ -150,7 +150,11 @@ For example...
 
 Hero | Villain
 --- | -----------
-<ul><li>Focus of story <li>Attempting to restore balance to his / her world <li>Most important thing is what he / she wants <li>The hero grows and in so doing becomes a better person <li>Makes gradual changes through the story | <ul><li>Obstructs hero’s progress <li>Starts off stronger and more resourceful <li>Believes they are justified in their actions <li>Conflict can be more powerful when the characters of Hero and Villain are matched
+Focus of story |
+Attempting to restore balance to his / her world | Obstructs hero’s progress
+Most important thing is what he / she wants | Believes they are justified in their actions
+The hero grows and in so doing becomes a better person | Starts off stronger and more resourceful
+Makes gradual changes through the story | Conflict can be more powerful when the characters of Hero and Villain are matched
 
 
 ![studyhours](assets/hero.png)
