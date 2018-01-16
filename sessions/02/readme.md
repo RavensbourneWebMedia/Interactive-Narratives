@@ -63,18 +63,19 @@ Analyse the allocated story above with the help from the questions bellow to pre
 * A story is a sequence of events.
 * These events are known as the plot
 
-## Three-Act Structure
+# Three-Act Structure
+
 **The foundations of modern storytelling**
 
-**ACT 1: COMPLICATION**
+## ACT 1: COMPLICATION
 <br>
 Balance, harmony, happiness... something comes to throw the character and the balance in their life.
 
-**ACT 2: DEVELOPMENT**
+## ACT 2: DEVELOPMENT
 <br>
 Problem worse than they thought, and character now faces a series of developments that raise the stakes..
 
-**ACT 3: RESOLUTION**
+## ACT 3: RESOLUTION
 <br>
 Character learns that he or she must pit everything in his or her power to resolve this issue and to achieve their goal.
 
@@ -177,6 +178,8 @@ N/A | Believes they are justified in their actions
 
 ![studyhours](assets/linear.png)
 
+### Non-linear
+
 ![studyhours](assets/non-linear.png)
 
 * ‘If’ the character does
@@ -213,6 +216,14 @@ something
 * Create impression of interactivity when it is very structured.
 
 ![studyhours](assets/explorernarrative.png)
+
+![studyhours](assets/game2.png)
+
+Which are you going to use?
+*  What tools??
+*  Who does what?
+*  What does the user/explorer/audience do? n Can you do this in the next few weeks?
+*  What is your story anyway?
 
 # Workshop: Develop your story!
 
