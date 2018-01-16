@@ -204,7 +204,15 @@ something
 
 ![studyhours](assets/parralell-paths.png)
 
-## Parallel Storyline
+## Explorer Interactive Narrative
+* Used in ARGs, MMORPGs and “sandbox” games
+* Many discrete storylines
+* Multiple connections between events
+* User – Explorer may not even experience them all
+* Allows personalisation of the experience
+* Create impression of interactivity when it is very structured.
+
+![studyhours](assets/explorernarrative.png)
 
 # Workshop: Develop your story!
 
