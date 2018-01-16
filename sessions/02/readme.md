@@ -131,10 +131,10 @@ https://www.huffingtonpost.com/entry/is-joseph-campbells-the-h_b_8861998.html
 
 ### MORE ELEMENTS
 **PREMISE**
-The purpose of a story.
-The truth learnt by the protagonist.
-The more simple and direct – the stronger it is.
-It is the test against which every element is weighed.
+* The purpose of a story.
+* The truth learnt by the protagonist.
+* The more simple and direct – the stronger it is.
+* It is the test against which every element is weighed.
 
 **CONFLICT**
 * There has to be conflict.
