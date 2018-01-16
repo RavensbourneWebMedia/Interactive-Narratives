@@ -126,14 +126,6 @@ https://www.huffingtonpost.com/entry/is-joseph-campbells-the-h_b_8861998.html
 
 ![studyhours](assets/AristotlesSixElementsofDrama.jpg)
 
-### Aristotle identified elements of tragedy:
-1. Plot
-2. Character
-3. Thought
-4. Spectacle
-5. Diction
-6. Music
-
 ![studyhours](assets/Difference-Between-Aristotle-and-Shakespearean-Tragedy-infographic.jpg)
 
 ### MORE ELEMENTS
@@ -179,6 +171,40 @@ N/A | Believes they are justified in their actions
 ![studyhours](assets/climax2.png)
 
 ![studyhours](assets/climax3.png)
+
+
+## Introduction to non-linear story-storytelling
+
+![studyhours](assets/linear.png)
+
+![studyhours](assets/non-linear.png)
+
+* ‘If’ the character does
+something
+* ‘Then’ something else happens
+* Allows only two possible outcomes
+
+![studyhours](assets/non-linear-if-then.png)
+
+### Branching Narrative
+* Much more complex
+* Much more multi-layered
+* Involves a great deal of planning
+* Can begin to create the impression of free-will
+* Player has to be subtly guided along the correct paths
+
+![studyhours](assets/branching-narrative.png)
+
+## Parallel Paths
+* Two ways of playing the game
+* The good guy or the bad guy
+* Two different perspectives on the same events
+* Limits options but can make game manageable
+* As used in Bioshock – ie kill or don’t kill little sisters
+
+![studyhours](assets/parralell-paths.png)
+
+## Parallel Storyline
 
 # Workshop: Develop your story!
 
