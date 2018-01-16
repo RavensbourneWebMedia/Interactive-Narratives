@@ -124,6 +124,8 @@ https://www.huffingtonpost.com/entry/is-joseph-campbells-the-h_b_8861998.html
 * The essence of character is revealed by the actions they take.
 * Plot brings pressure on the hero. n  Forcing him to change/reveal his inner self.
 
+![studyhours](assets/AristotlesSixElementsofDrama.jpg)
+
 ### Aristotle identified elements of tragedy:
 1. Plot
 2. Character
@@ -131,6 +133,8 @@ https://www.huffingtonpost.com/entry/is-joseph-campbells-the-h_b_8861998.html
 4. Spectacle
 5. Diction
 6. Music
+
+![studyhours](assets/Difference-Between-Aristotle-and-Shakespearean-Tragedy-infographic.jpg)
 
 ### MORE ELEMENTS
 **PREMISE**
