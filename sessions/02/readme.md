@@ -48,6 +48,8 @@ Analyse the allocated story above with the help from the questions bellow to pre
 
 ### WHEN DO WE TELL STORIES?
 
+![studyhours](assets/How-storytelling-affects-the-brain.png)
+
 **To convey information**
 * To give instructions
 * To create an impression
@@ -88,7 +90,8 @@ Character learns that he or she must pit everything in his or her power to resol
 ### ACT TWO DEVELOPMENT
 * The body of the story.
 * What it is “about”
-* Encounter challenges n  Meet allies
+* Encounter challenges
+* Meet allies
 * Take advice from Mentors
 * Undergo an ordeal (the dark days)
 * Survive and return renewed
@@ -101,7 +104,7 @@ Character learns that he or she must pit everything in his or her power to resol
 * The protagonist returns, only stronger
 * Begins with the Second Turning Point
 * Resolution
-n Resurrection (re-born/change)
+* Resurrection (re-born/change)
 * Return with the Elixir/Glory
 
 ![studyhours](assets/act3.png)
@@ -154,7 +157,7 @@ Focus of story | Most important thing is what he / she wants
 Attempting to restore balance to his / her world | Obstructs hero’s progress
 The hero grows and in so doing becomes a better person | Starts off stronger and more resourceful
 Makes gradual changes through the story | Conflict can be more powerful when the characters of Hero and Villain are matched
- | Believes they are justified in their actions
+N/A | Believes they are justified in their actions
 
 
 ![studyhours](assets/hero.png)
@@ -182,7 +185,8 @@ Makes gradual changes through the story | Conflict can be more powerful when the
 
 ### Diversify your character!
 
-* Create Tumblr / LinkedIn etc for your character n  Status updates
+* Create Tumblr / LinkedIn etc for your character
+* Status updates
 * Written pieces
 * Photos
 * Videos
@@ -198,9 +202,24 @@ Makes gradual changes through the story | Conflict can be more powerful when the
 * Steal videos...
 * Steal text...
 * Borrow the real to make the imaginary...
-* What happened to you last week? n  Was it a good week or bad week? n  Are you angry with anyone?
+* What happened to you last week?
+* Was it a good week or bad week?
+* Are you angry with anyone?
 * Has someone let you down?
 * Did you make any new friends?
 * Meet someone wonderful?
 * Have you got a picture of them?
-* Have you got a picture of where you went? n  What do you think of events in RL?
+* Have you got a picture of where you went?
+* What do you think of events in RL?
+
+# Homework
+
+### Peer-learning mini-lessons
+
+Pick your favourite film, analyse it with the three act theory and the hero's journey theory. Next week you will present your analysis in an interactive way.
+
+### Blog
+
+Keeping a **journal** to record your creative process is extremely important. Don't let your ideas and thoughts fade away! Think of your blog as your *digital sketchbook* (more on that [here](https://github.com/RavensbourneWebMedia/Blogging#why-blogging)). We ask you to blog regularly and we'll check that you do it every week.
+
+**Research, evidence and explain case studies of how storytelling has been instrumental in the creation of communities and cultures in modern times**
