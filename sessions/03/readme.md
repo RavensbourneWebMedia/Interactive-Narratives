@@ -31,6 +31,11 @@ How far can we take a twine and incorporate it in your story?
 
 Read [https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/03/assets/BelieveMeStoryManifesto_ReadandShare.pdf](Believe Me)
 
+
+In small teams, you will research one storytelling concept or technique and prepare a **mini-lesson** (~15 minutes) to teach everyone else about it.
+
+Your mini-lesson will be **interactive**: try and make a mini-workshop, rather than just have us listen.
+
 Who | What
 --- | -----------
 Domenic<br>Callum  | Meaning (p. 4 - 6)
@@ -43,4 +48,4 @@ Muhammad<br>Mayur | Choice (p. 12 - 14)
 
 Keeping a **journal** to record your creative process is extremely important. Don't let your ideas and thoughts fade away! Think of your blog as your *digital sketchbook* (more on that [here](https://github.com/RavensbourneWebMedia/Blogging#why-blogging)). We ask you to blog regularly and we'll check that you do it every week.
 
-**Research, evidence and explain case studies of how storytelling has been instrumental in the creation of communities and cultures in modern times**
+**What are your strength and weaknesses in relation to completing this project? And how are you going to address them?**
