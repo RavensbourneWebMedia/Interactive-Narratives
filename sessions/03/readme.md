@@ -1,29 +1,33 @@
 # Session 3
 
-## Share a story from yesterday, tell your peer
+#### Share a story from yesterday, tell your peer
 
 Share a story from yesterday, your peer will listen and then tell your story back to the group.
 
+## Flesh out your character on paper
 
-### Flesh out your character on paper
+![connect](assets/fantasy.jpg)
 
-Refer to earlier sessions
+> Refer to earlier sessions
 
-### Flesh out your story line on paper
+## Flesh out your story line on paper
 
-Lets create some ***'touch points'***
+![connect](assets/transmedia-storytelling.jpg)
 
-### Twinery lecture
+> >Lets create some ***'touch points'***
 
-Follow my lecture on twine
+## Twinery lecture
+
+> Follow my lecture on twine
 
 
-### Twinery workshop
+## Twinery workshop
 
-How far can we take a twine and incorporate it in your story?
+> How far can we take a twine and incorporate it in your story?
 
 ## What did you learn today?
 
+![connect](assets/mindmap.png)
 
 # Homework
 
