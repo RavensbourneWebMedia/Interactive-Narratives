@@ -29,8 +29,7 @@ How far can we take a twine and incorporate it in your story?
 
 ### Peer-learning mini-lessons
 
-Read [https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/03/assets/BelieveMeStoryManifesto_ReadandShare.pdf](Believe Me)
-
+Use the book called [Believe Me](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/03/assets/BelieveMeStoryManifesto_ReadandShare.pdf) to find your allocated concepts to explain.
 
 In small teams, you will research one storytelling concept or technique and prepare a **mini-lesson** (~15 minutes) to teach everyone else about it.
 
