@@ -29,7 +29,7 @@ How far can we take a twine and incorporate it in your story?
 
 ### Peer-learning mini-lessons
 
-Read (https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/03/assets/BelieveMeStoryManifesto_ReadandShare.pdf)[Believe Me]
+Read [https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/03/assets/BelieveMeStoryManifesto_ReadandShare.pdf](Believe Me)
 
 Who | What
 --- | -----------
