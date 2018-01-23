@@ -6,20 +6,21 @@ Share a story from yesterday, your peer will listen and then tell your story bac
 
 ## Flesh out your character on paper
 
+> Refer to earlier sessions
+
 ![connect](assets/fantasy.jpg)
 
-> Refer to earlier sessions
 
 ## Flesh out your story line on paper
 
+> Lets create some ***'touch points'***
+
 ![connect](assets/transmedia-storytelling.jpg)
 
-> >Lets create some ***'touch points'***
 
 ## Twinery lecture
 
 > Follow my lecture on twine
-
 
 ## Twinery workshop
 
