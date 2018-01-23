@@ -22,6 +22,8 @@ Share a story from yesterday, your peer will listen and then tell your story bac
 
 > Follow my lecture on twine
 
+This is a [link to the twine lecture on moodle](https://moodle.rave.ac.uk/pluginfile.php/177228/mod_resource/content/1/Interactive%20Narrative%20Twine%201.pdf)
+
 ## Twinery workshop
 
 > How far can we take a twine and incorporate it in your story?
