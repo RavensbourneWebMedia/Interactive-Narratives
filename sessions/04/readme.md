@@ -14,18 +14,15 @@ Muhammad<br>Mayur | Choice (p. 12 - 14)
 
 > What have we learnt over the last couple of weeks?
 
-<!-- Transmedia - what is it? -->
+<!-- Transmedia, how storytelling affects the mind - what is it? -->
 
-<!-- Characters, plot - what is it? -->
+<!-- Characters, plot, aristotle tragedy - what is it? -->
 
 <!-- How stories are structurd - act1,act2,act3, the herous journey, the climax, hero vs villain,  -->
 
 <!-- The different types of narrative -->
 
 <!-- Twine -->
-
-
-
 
 
 ## Flesh out your character on paper
@@ -58,11 +55,11 @@ Your mini-lesson will be **interactive**: try and make a mini-workshop, rather t
 
 Who | What
 --- | -----------
-Domenic<br>Callum  | Disbelief (p. 18 - 20)
-Kaleshe<br>Jacob | Culture (p. 20 - 22)
-<br>Emma<br>Richardo  | Leadership (p. 22 - 24)
-Peyman<br>Kevin  | Convergence (p. 24 - 26)
-Muhammad<br>Mayur | Epic (p. 26 - )
+Domenic<br>Kaleshe  | Disbelief (p. 18 - 20)
+Callum<br>Jacob | Culture (p. 20 - 22)
+Emma<br>Peyman  | Leadership (p. 22 - 24)
+Richardo<br>Muhammad  | Convergence (p. 24 - 26)
+Kevin<br>Mayur | Epic (p. 26 - )
 
 ### Blog
 
