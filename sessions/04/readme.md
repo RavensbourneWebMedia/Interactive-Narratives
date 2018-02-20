@@ -14,13 +14,13 @@ Muhammad<br>Mayur | Choice (p. 12 - 14)
 
 > What have we learnt over the last couple of weeks?
 
-<!-- Transmedia, how storytelling affects the mind - what is it? -->
+<!-- Trans media universe, how storytelling affects the mind - what is it? -->
 
 <!-- Characters, plot, aristotle tragedy - what is it? -->
 
-<!-- How stories are structurd - act1,act2,act3, the herous journey, the climax, hero vs villain,  -->
+<!-- How stories are structurd - act1,act2,act3, the herous journey,  -->
 
-<!-- The different types of narrative -->
+<!-- The different types of narrative, the climax, hero vs villain,  -->
 
 <!-- Twine -->
 
