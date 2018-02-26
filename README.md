@@ -16,8 +16,8 @@ When | In class | Homework | Blog
 [Tuesday<br>06.02](sessions/05)| **Formative presentations** | Peer-learning mini-lesson | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
 Enhancement Week |
 [Tuesday<br>20.02](sessions/06)| Workshop | Peer-learning mini-lesson | If you could be the character in your own fictional story. What type of character would you be and why?  
-[Tuesday<br>27.02](sessions/07)| Tutorials for summative | Prep for summative | TBA
-[Tuesday<br>06.03](sessions/08)| **Summative presentations** | | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
+[Tuesday<br>27.02](sessions/07)| Peer-learning mini-lesson | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
+[Tuesday<br>06.03](sessions/08)| **Summative presentations** |
 
 
 ### License
