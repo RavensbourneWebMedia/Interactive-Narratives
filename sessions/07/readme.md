@@ -24,6 +24,8 @@ Kevin<br>Mayur | Epic (p. 26 - )
 
 Lets create a feedback matrix going from A to F and grade each others work.
 
+[Link to PDF outlining the marking matrix](assets/UG-Marking-Criteria-Matrix-with-Letter-Grades.pdf)
+
 ## Tutorials
 
 # Closing rounds
