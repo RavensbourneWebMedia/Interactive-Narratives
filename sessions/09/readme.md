@@ -2,9 +2,9 @@
 
 ### Today, Tuesday 17th of April
 
-![welcome](assets/https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20back%20minions%20GIF-source.gif)
+![welcome](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20back%20minions%20GIF-source.gif)
 
-![welcome](assets/https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20GIF-source.gif)
+![welcome](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20GIF-source.gif)
 
 # How is everyone doing?
 
