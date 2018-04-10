@@ -39,4 +39,11 @@ Papers, post-its and pens...
 
 ## Lecture: Boardgames
 
+The brief: (https://moodle.rave.ac.uk/pluginfile.php/178654/mod_resource/content/1/WEB14205%20Interactive%20Narratives%202017-2018%20Brief%202018-02-26.pdf)
+
+
+![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/monopoly_original.jpg)
+
+https://moodle.rave.ac.uk/pluginfile.php/162736/mod_resource/content/3/Interactive_Narrative_Boardgames.pdf
+
 ## Workshop: paper prototype a low fidelity board game
