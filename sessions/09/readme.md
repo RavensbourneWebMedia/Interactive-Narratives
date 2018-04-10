@@ -32,3 +32,11 @@ https://www.nngroup.com/articles/design-thinking/?epik=0DjkvE_IWH-93
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/146-dthinking.jpg)
 
 https://sheilapontis.wordpress.com/2015/06/04/design-thinking-revised/
+
+## Workshop: Can we develop one together?
+
+Papers, post-its and pens...
+
+## Lecture: Boardgames
+
+## Workshop: paper prototype a low fidelity board game
