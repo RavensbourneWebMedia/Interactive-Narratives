@@ -21,7 +21,7 @@ Enhancement Week |
 
 # Plan term 3
 
-When | In class | Homework | Blog
+When | In class | Homework | Blog 
 ---- | -------- | -------- | ----
 [Tuesday<br>17.04](sessions/09)| <ul><li>**Lecture:** Developing a design process and boardgames  <li>**Workshop:** Creating boardgames | Peer-learning mini-lesson | What is your favourite board game and why?
 [Tuesday<br>24.04](sessions/10)| <ul><li>**Lecture:** Gamification <li>**Workshop:** Hackings games with verbs | Peer-learning mini-lesson | When creating online content for children, what are some of the ethical considerations you need to take?
