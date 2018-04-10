@@ -2,17 +2,26 @@
 
 ### Today, Tuesday 17th of April
 
+# How is everyone doing?
+
 ![welcome](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20back%20minions%20GIF-source.gif)
 
 ![welcome](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20GIF-source.gif)
 
-# How is everyone doing?
-
 ## What can you remember from last term?
 
-## The missing link: Analysis and synthesis
 
-# The design process
+![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/01/assets/Transmedia.png)
+
+
+* Transmedia
+* Storytelling
+
+* What else?
+
+# The missing link: Analysis and synthesis
+
+## The design process
 
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final-01-01.png)
 
