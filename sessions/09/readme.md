@@ -14,12 +14,12 @@
 
 # The design process
 
-![designthinking](assets/designthinking_illustration_final-01-01.png)
+![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final-01-01.png)
 
-![designthinking](assets/designthinking_illustration_final2-02.png)
+![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final2-02.png)
 
 https://www.nngroup.com/articles/design-thinking/?epik=0DjkvE_IWH-93
 
-![designthinking](assets/146-dthinking.jpg)
+![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/146-dthinking.jpg)
 
 https://sheilapontis.wordpress.com/2015/06/04/design-thinking-revised/
