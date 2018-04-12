@@ -54,14 +54,14 @@ The aim will be to create an interactive narrative or augmented reality game (AR
 
 ### Learning outcomes for this project:
 
-**Covered mainly in term 2:**
+**Was covered mainly in term 2:**
 * An in-depth understanding of the development of storytelling and narrative structures including the main theoretical perspectives associated with narrative structure and storytelling and an awareness of the importance of storytelling to communities and cultures.
 
 * The ability to construct a compelling and sophisticated narrative that also contains mood, structure, characterisation and that may involve the active participation of the audience, reader, listener or engager.
 
 * A detailed understanding of how to construct and maintain stories that span multiple delivery formats simultaneously.
 
-**Covered mainly in term 3:**
+**Will mainly be covered in term 3:**
 * An understanding of how children consume online media; knowledge of the professional considerations of making content for children (technical, physical, cognitive, societal, cultural, regulatory and ethical).
 
 * Understanding the history of play and games culture; understanding the value of the creative use of play for serious purposes; a knowledge of the ways gaming and playful activities are being used economically and culturally by businesses, government, education and other sectors.

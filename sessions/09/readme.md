@@ -4,9 +4,35 @@
 
 # How is everyone doing?
 
-![welcome](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20back%20minions%20GIF-source.gif)
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20back%20minions%20GIF-source.gif" width="900">
 
-![welcome](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20GIF-source.gif)
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20GIF-source.gif" width="900">
+
+
+### Learning outcomes for this project:
+
+**Was covered mainly in term 2:**
+* An in-depth understanding of the development of storytelling and narrative structures including the main theoretical perspectives associated with narrative structure and storytelling and an awareness of the importance of storytelling to communities and cultures.
+
+* The ability to construct a compelling and sophisticated narrative that also contains mood, structure, characterisation and that may involve the active participation of the audience, reader, listener or engager.
+
+* A detailed understanding of how to construct and maintain stories that span multiple delivery formats simultaneously.
+
+**Will mainly be covered in term 3:**
+* An understanding of how children consume online media; knowledge of the professional considerations of making content for children (technical, physical, cognitive, societal, cultural, regulatory and ethical).
+
+* Understanding the history of play and games culture; understanding the value of the creative use of play for serious purposes; a knowledge of the ways gaming and playful activities are being used economically and culturally by businesses, government, education and other sectors.
+
+* An understanding of the tools and techniques available to businesses for creating games and interactive experiences for entertainment or educational purposes.
+
+**You will be marked on these parts of your deliverables in particular:**
+* Research pack (The research which led to your board game and phaser production. For example, references to other boardgames, online games, evidence of user testing, secondary research, what did you learn, analyse, and how did it influence your final productions)
+* Media assets (Graphics, layouts, typography, symbols, icons)
+* Blog-posts
+* Presentation
+* Board game production
+* Your Phaser production
+* 500 word reflective report
 
 ## What can you remember from last term?
 
@@ -16,22 +42,23 @@
 
 * Transmedia
 * Storytelling
-
 * What else?
+
 
 # The missing link: Analysis and synthesis
 
-## The design process
+### The design process
 
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final-01-01.png)
 
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final2-02.png)
 
-https://www.nngroup.com/articles/design-thinking/?epik=0DjkvE_IWH-93
+**Reference:** [Design Thinking 101](https://www.nngroup.com/articles/design-thinking/?epik=0DjkvE_IWH-93)
 
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/146-dthinking.jpg)
 
-https://sheilapontis.wordpress.com/2015/06/04/design-thinking-revised/
+**Reference:** [Design thinking revised](https://sheilapontis.wordpress.com/2015/06/04/design-thinking-revised/)
+
 
 ## Workshop: Can we develop one together?
 
