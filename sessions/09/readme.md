@@ -34,7 +34,7 @@
 * Your Phaser production
 * 500 word reflective report
 
-* [The Brief](https://moodle.rave.ac.uk/pluginfile.php/178654/mod_resource/content/1/WEB14205%20Interactive%20Narratives%202017-2018%20Brief%202018-02-26.pdf)
+[The Brief](https://moodle.rave.ac.uk/pluginfile.php/178654/mod_resource/content/1/WEB14205%20Interactive%20Narratives%202017-2018%20Brief%202018-02-26.pdf)
 
 ## What can you remember from last term?
 
