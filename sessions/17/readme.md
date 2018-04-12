@@ -1,6 +1,6 @@
-# Session 8
+# Session 17
 
-### Today, Tuesday 6th of March 2018
+### Today, Tuesday 5th of June 2018
 
 1. **Summative presentations**
 * Final [hand-in](#hand-in-package) of your interactive narratives project, [presentations](#presentations) and [blog posts](#blog-posts)
@@ -10,7 +10,7 @@
 
 ### Presentations
 
-Add your peer-learning, formative and summative presentations **links** to your [hand-in package](#hand-in-package).
+Add formative and summative presentations **links** to your [hand-in package](#hand-in-package).
 
 * If you used **Google Slides**, make sure they're accessible by *everyone with the link* and add the link to your [hand-in package](#hand-in-package).
 
@@ -26,13 +26,13 @@ Add all your blog **links** to your [hand-in package](#hand-in-package).
 
 Your blog will have **8 posts** (details in the links below):
 
-1. [Week 1](../01#blog): What are some of the fundamental elements (for example structure and characteristics) that are required to develop a interactive narrative and why?
-* [Week 2](../02#blog): Research, evidence and explain case studies of how storytelling has been instrumental in the creation of communities and cultures in modern times
-* [Week 3](../03#blog): What are your strength and weaknesses in relation to completing this project? And how are you going to address them?
-* [Week 4](../04#blog): Pair up with another person (not your team mate) and give each other feedback on your peer learning mini-lessons.
-* [Week 5](../05#blog): Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
-* [Week 6](../06#blog): If you could be the character in your own fictional story. What type of character would you be and why?
-* [Week 7](../07#blog): 500 words reflective report on your (Why, what, where, when & how) contribution to this project.
+1. [Week 9](../09#blog): What is your favourite board game and why?
+* [Week 10](../10#blog): When creating online content for children, what are some of the ethical considerations you need to take?
+* [Week 11](../11#blog): What are your strength and weaknesses in relation to completing this project? And how are you going to address them?
+* [Week 12](../12#blog): Pair up with another person (not your team mate) and give each other feedback on your peer learning mini-lessons.
+* [Week 13](../13#blog): Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
+* [Week 14](../14#blog): Evidence and analyse how games have developed through time.   
+* [Week 15](../15#blog): 500 words reflective report on your (Why, what, where, when & how) contribution to this project. 
 
 Your blog posts can be published *anywhere* (we recommend [Medium](https://medium.com)), as long as they are publicly accessible and linked in your [hand-in package](#hand-in-package).
 
@@ -41,18 +41,19 @@ Your blog posts can be published *anywhere* (we recommend [Medium](https://mediu
 Make sure all your project files are backed up on **GitHub** (use Google Drive for files larger than 50MB).
 
 **You will be marked on these parts of your deliverables in particular:**
-* Research pack (The underpinning of your Narrative, character and Peer-learning mini-lessons)
+* Research pack (The research which led to your board game and phaser production. For example, references to other boardgames, online games, evidence of user testing, secondary research, what did you learn, analyse, and how did it influence your final productions)
+* Media assets (Graphics, layouts, typography, symbols, icons)
 * Blog-posts
 * Presentation
-* Meta-narrative outline (Plot, narrative, context, genre, character)
-* Your Twine production
+* Board game production
+* Your Phaser production
 * 500 word reflective report
 
 Add all **links** to your [hand-in package](#hand-in-package).
 
 ### Hand-in package
 
-Create a `WEB14205-Name-Surname.md` MarkDown document (where `Name` is your own name and `Surname` is your own surname, like `WEB14205-Tor-MNJamo.md`).
+Create a `WEB14205-Name-Surname.md` MarkDown document (where `Name` is your own name and `Surname` is your own surname, like `WEB14205-Tor-Njamo.md`).
 
 > You can edit MarkDown documents with the [Mou app](http://25.io/mou/) on OSX, the [MarkdownPad app](http://markdownpad.com/) on Windows, or online with [Dillinger](http://dillinger.io/) (all free).
 
@@ -64,11 +65,13 @@ In that MarkDown document, include the following:
 
 	If you use Keynote/Powerpoint export a PDF, upload it to Google Drive or SlideShare, and then grab the link to it.
 
-- [ ] Research pack (The underpinning of your Narrative, character and Peer-learning mini-lessons)
+- [ ] Research pack (The research which led to your board game and phaser production. For example, references to other boardgames, online games, evidence of user testing, secondary research, what did you learn, analyse, and how did it influence your final productions)
+- [ ] Media assets (Graphics, layouts, typography, symbols, icons)
 - [ ] Blog-posts
 - [ ] Presentation
-- [ ] Meta-narrative outline (Plot, narrative, context, genre, character)
-- [ ] Your Twine production
+- [ ] Board game production
+- [ ] Your Phaser production
+- [ ] 500 word reflective report
 
 - [	] Images and texts to make your document more pleasant to read (see an example of an excellent `COURSECODE-Name-Surname.md` [here](https://github.com/TomSharmanWeb/HarrySeatonWebsite/blob/master/README.md)).
 

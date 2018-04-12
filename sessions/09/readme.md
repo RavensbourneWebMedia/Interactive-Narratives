@@ -1,4 +1,4 @@
-# Session 8
+# Session 9
 
 ### Today, Tuesday 17th of April
 
@@ -78,3 +78,18 @@ Papers, post-its and pens...
 ## Workshop: paper prototype a low fidelity board game
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/paperboardgame.jpg" width="900">
+
+# Homework
+
+### Peer-learning mini-lessons
+
+Create your paper prototype of your game, to be played next week and receive feedback.
+
+
+### Blog
+
+Keeping a **journal** to record your creative process is extremely important. Don't let your ideas and thoughts fade away! Think of your blog as your *digital sketchbook* (more on that [here](https://github.com/RavensbourneWebMedia/Blogging#why-blogging)). We ask you to blog regularly and we'll check that you do it every week.
+
+**What is your favourite board game and why?**
+
+In addition, look at the reading list for this brief and familiarise yourself with the books.
