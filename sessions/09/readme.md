@@ -2,6 +2,16 @@
 
 ### Today, Tuesday 17th of April
 
+1. Welcome
+2. Briefing: Learning outcomes and this term project
+3. What can we remember from last term?
+4. Mini-Lecture: The missing link: Analysis and synthesis
+5. Workshop: Can we develop one together?
+6. Lecture: Boardgames (and play)
+7. Workshop: paper prototype a low fidelity board game
+
+### Your [homework](#homework) and [blog](#blog)!
+
 # How is everyone doing?
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/welcome%20back%20minions%20GIF-source.gif" width="900">
