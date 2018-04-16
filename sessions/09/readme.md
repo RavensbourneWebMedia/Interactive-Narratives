@@ -35,7 +35,7 @@
 
 * An understanding of the tools and techniques available to businesses for creating games and interactive experiences for entertainment or educational purposes.
 
-**You will be marked on these parts of your deliverables in particular:**
+**You will be marked on these parts of your deliverables:**
 * Research pack (The research which led to your board game and phaser production. For example, references to other boardgames, online games, evidence of user testing, secondary research, what did you learn, analyse, and how did it influence your final productions)
 * Media assets (Graphics, layouts, typography, symbols, icons)
 * Blog-posts
@@ -91,9 +91,9 @@ Papers, post-its and pens...
 
 **Toolkits:**
 
-[100% open](https://www.100open.com/toolkit/)
-[IDEO Design](http://www.designkit.org/methods)
-[DIY Toolkit](http://diytoolkit.org/tools/)
+* [100% open](https://www.100open.com/toolkit/)
+* [IDEO Design](http://www.designkit.org/methods)
+* [DIY Toolkit](http://diytoolkit.org/tools/)
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/post-its-on-wall.jpg" width="900">
 
