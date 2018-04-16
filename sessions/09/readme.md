@@ -33,6 +33,7 @@
 * Board game production
 * Your Phaser production
 * 500 word reflective report
+* 500 words on core game mechanic, experience goals, objective and rules of an online game of your choice
 
 [The Brief](https://moodle.rave.ac.uk/pluginfile.php/178654/mod_resource/content/1/WEB14205%20Interactive%20Narratives%202017-2018%20Brief%202018-02-26.pdf)
 

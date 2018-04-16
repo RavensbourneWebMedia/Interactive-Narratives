@@ -32,7 +32,7 @@ Your blog will have **8 posts** (details in the links below):
 * [Week 12](../12#blog): Pair up with another person (not your team mate) and give each other feedback on your peer learning mini-lessons.
 * [Week 13](../13#blog): Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
 * [Week 14](../14#blog): Evidence and analyse how games have developed through time.   
-* [Week 15](../15#blog): 500 words reflective report on your (Why, what, where, when & how) contribution to this project. 
+* [Week 15](../15#blog): 500 words reflective report on your (Why, what, where, when & how) contribution to this project.
 
 Your blog posts can be published *anywhere* (we recommend [Medium](https://medium.com)), as long as they are publicly accessible and linked in your [hand-in package](#hand-in-package).
 
@@ -48,6 +48,7 @@ Make sure all your project files are backed up on **GitHub** (use Google Drive f
 * Board game production
 * Your Phaser production
 * 500 word reflective report
+* 500 words on core game mechanic, experience goals, objective and rules of an online game of your choice
 
 Add all **links** to your [hand-in package](#hand-in-package).
 
