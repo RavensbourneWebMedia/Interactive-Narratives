@@ -60,6 +60,18 @@
 
 # The missing link: Analysis and synthesis
 
+**Analysis**
+Analysis is defined as “the procedure by which we break down an intellectual or substantial whole into parts or components” (Ritchey, 1991, p.1). This means breaking down interview transcripts for example into relevant themes.
+
+**Synthesis**
+Synthesis is defined as the process of combining “separate elements or components in order to form a coherent whole” (Ritchey, 1991, p.1). Therefore, the synthesis stage involves revising, grouping and reorganising different themes laterally, in order to draw new insights that are not necessarily structured according to the questions asked in the discovery phase.
+
+
+“Analysis and synthesis, as scientific methods, always go hand-in-hand; they complement one another. Every synthesis is built upon the results of a preceding analysis, and every analysis requires a subsequent synthesis in order to verify and correct its results. In this context, to regard one method as being inherently better than the other is meaningless.” (Ritchey, 1991, p.1)
+
+Ritchey, T. (1991) 'Analysis and synthesis', Systems Research, vol. 8, no. 4, pp. 21-41.
+
+
 ### The design process
 
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final-01-01.png)
