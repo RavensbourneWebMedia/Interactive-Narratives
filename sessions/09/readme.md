@@ -77,6 +77,12 @@
 
 Papers, post-its and pens...
 
+**Toolkits:**
+
+[100% open](https://www.100open.com/toolkit/)
+[IDEO Design](http://www.designkit.org/methods)
+[DIY Toolkit](http://diytoolkit.org/tools/)
+
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/post-its-on-wall.jpg" width="900">
 
 ## Lecture: Boardgames
