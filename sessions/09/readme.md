@@ -74,7 +74,7 @@ Ritchey, T. (1991) 'Analysis and synthesis', Systems Research, vol. 8, no. 4, pp
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/implicit-explicit.jpg" width="900">
 
 
-### The design process
+## The design process
 
 ![designthinking](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/designthinking_illustration_final-01-01.png)
 
