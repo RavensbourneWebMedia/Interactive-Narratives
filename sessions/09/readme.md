@@ -71,6 +71,8 @@ Synthesis is defined as the process of combining “separate elements or compone
 
 Ritchey, T. (1991) 'Analysis and synthesis', Systems Research, vol. 8, no. 4, pp. 21-41.
 
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/implicit-explicit.jpg" width="900">
+
 
 ### The design process
 
