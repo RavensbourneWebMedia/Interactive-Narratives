@@ -110,8 +110,7 @@ Papers, post-its and pens...
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/paperboardgame.jpg" width="900">
 
-* [PlayTestingQuestion
-] ](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/PlayTestingQuestions.pdf)
+* [PlayTestingQuestion](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/PlayTestingQuestions.pdf)
 
 # Homework
 
