@@ -108,6 +108,8 @@ Papers, post-its and pens...
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/paperboardgame.jpg" width="900">
 
+* [PlayTestingQuestions ](https://moodle.rave.ac.uk/pluginfile.php/162736/mod_resource/content/3/Interactive_Narrative_Boardgames.pdf)
+
 # Homework
 
 ### Peer-learning mini-lessons
