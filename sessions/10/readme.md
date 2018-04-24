@@ -10,11 +10,15 @@
 
 # Lecture: Phaserrr
 
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/tutorial_header.png" width="900">
+
 Phaser is an HTML5 game framework which aims to help developers make powerful, cross-browser HTML5 games really quickly. It was created specifically to harness the benefits of modern browsers, both desktop and mobile. The only browser requirement is the support of the canvas tag.
 
-Download the source files from here:
+**First, set up a local host enviorment to place your files in**
 
-**Part 1**
+[Download the source files from here:](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/phaser3.zip)
+
+### Part 1
 
 Open the part1.html page in your editor of choice and let's have a closer look at the code. After a little boilerplate HTML that includes Phaser the code structure looks like this:
 
@@ -56,7 +60,7 @@ The width and height properties set the size of the canvas element that Phaser w
 The scene property of the configuration object will be covered in more detail further on in this tutorial.
 
 
-**Part 2**
+### Part 2
 
 Let's load the assets we need for our game. You do this by putting calls to the Phaser Loader inside of a Scene function called preload. Phaser will automatically look for this function when it starts and load anything defined within it.
 
@@ -86,7 +90,9 @@ In order to display one of the images we've loaded place the following code insi
 this.add.image(400, 300, 'sky');
 `
 
-You can find this in part3.html. If you load it in a browser you should now see a game screen with a blue sky backdrop covering it.
+You can find this in part3.html. If you load it in a browser you should now see a game screen with a blue sky backdrop covering it:
+
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part3.png" width="900">
 
 The values 400 and 300 are the x and y coordinates of the image. Why 400 and 300? It's because in Phaser 3 all Game Objects are positioned based on their center by default. The background image is 800 x 600 pixels in size, so if we were to display it centered at 0 x 0 you'd only see the bottom-right corner of it. If we display it at 400 x 300 you see the whole thing.
 
@@ -104,7 +110,7 @@ function create ()
 
 If you put the star image first it will be covered-up by the sky image.
 
-**Part 3**
+### Part 3
 
 Under the hood this.add.image is creating a new Image Game Object and adding it to the current Scenes display list. This list is where all of your Game Objects live. You could position the image anywhere and Phaser will not mind. Of course, if it's outside of the region 0x0 to 800x600 then you're not going to visually see it, because it'll be "off screen", but it will still exist within the Scene.
 
@@ -153,11 +159,11 @@ var config = {
 
 The new addition is the physics property. With this code in place if you run it, which you'll find as part4.html in the tutorial zip file, you should see a much more game-like scene:
 
-image
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part4.png" width="900">
 
 We've got a backdrop and some platforms, but how exactly are those platforms working?
 
-**Part 4**:
+### Part 4
 
 We just added a bunch of code to our create function that deserves a more detailed explanation. First, this part:
 
@@ -185,7 +191,7 @@ As we saw previously it creates this scene:
 
 During our preload we imported a 'ground' image. It's a simple green rectangle, 400 x 32 pixels in size and will serve for our basic plaform needs:
 
-image
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/platform.png" width="900">
 
 The first line of code above adds a new ground image at 400 x 568 (remember, images are positioned based on their center) - the problem is that we need this platform to span the full width of our game, otherwise the player will just drop off the sides. To do that we scale it x2 with the function setScale(2). It's now 800 x 64 in size, which is perfect for our needs. The call to refreshBody() is required because we have scaled a static physics body, so we have to tell the physics world about the changes we made.
 
@@ -203,7 +209,7 @@ The process is exactly the same as before, only we don't need to scale these pla
 
 So let's add our player.
 
-**Part 5**
+### Part 5
 
 We've got some lovely tempting platforms, but no-one to run around them. Let's rectify that.
 
@@ -253,11 +259,11 @@ This creates a new sprite called player, positioned at 100 x 450 pixels from the
 
 After creating the sprite it is given a slight bounce value of 0.2. This means when it lands after jumping it will bounce ever so slightly. The sprite is then set to collide with the world bounds. The bounds, by default, are on the outside of the game dimensions. As we set the game to be 800 x 600 then the player won't be able to run outside of this area. It will stop the player from being able to run off the edges of the screen or jump through the top.
 
-Animations
+### Animations
 
 If you glance back to the preload function you'll see that 'dude' was loaded as a sprite sheet, not an image. That is because it contains animation frames. This is what the full sprite sheet looks like:
 
-**image of sprite**
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/dude.png" width="900">
 
 There are 9 frames in total, 4 for running left, 1 for facing the camera and 4 for running right. Note: Phaser supports flipping sprites to save on animation frames, but for the sake of this tutorial we'll keep it old school.
 
@@ -278,7 +284,7 @@ This is our standard run-cycle and we repeat it for running in the opposite dire
 
 **Extra Info:** In Phaser 3 the Animation Manager is a global system. Animations created within it are globally available to all Game Objects. They share the base animation data while managing their own timelines. This allows you to define a single animation once and apply it to as many Game Objects as you require. This is different to Phaser 2 where animations belonged specifically to the Game Objects they were created on.
 
-**Part 6**
+### Part 6
 
 Phaser has support for a variety of different physics systems, each acting as a plugin available to any Phaser Scene. At the time of writing it ships with Arcade Physics, Impact Physics and Matter.js Physics. For the sake of this tutorial we will be using the Arcade Physics system for our game, which is simple and light-weight, perfect for mobile browsers.
 
@@ -292,7 +298,7 @@ player.body.setGravityY(300)
 
 This is an arbitrary value, but logically, the higher the value, the heavier your object feels and the quicker it falls. If you add this to your code or run part5.html you will see that the player falls down without stopping, completely ignoring the ground we created earlier:
 
-**image**
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part5.png" width="900">
 
 The reason for this is that we're not yet testing for collision between the ground and the player.
 
@@ -306,9 +312,9 @@ this.physics.add.collider(player, platforms);
 
 The Collider is the one that performs the magic. It takes two objects and tests for collision and performs separation against them. In this case we're giving it the player sprite and the platforms Group. It's clever enough to run collision against all Group members, so this one call will collide against the ground and all platforms. The result is a firm platform that doesn't collapse:
 
-**image**
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part6.png" width="900">
 
-**Part 7**
+### Part 7
 
 Colliding is all good and well, but we really need the player to move. You would probably think of heading to the documentation and searching about how to add an event listener, but that is not necessary here. Phaser has a built-in Keyboard manager and one of the benefits of using that is this handy little function:
 
@@ -356,9 +362,9 @@ The final part of the code adds the ability to jump. The up cursor is our jump k
 
 If both of these conditions are met we apply a vertical velocity of 330 px/sec sq. The player will fall to the ground automatically because of gravity. With the controls in place we now have a game world we can explore. Load up part7.html and have a play. Try tweaking values like the 330 for the jump to lower and higher values to see the effect it will have.
 
-**Image**
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part7.png" width="900">
 
-**Part 8**
+### Part 8
 
 It's time to give our little game a purpose. Let's drop a sprinkling of stars into the scene and allow the player to collect them. To achieve this we'll create a new Group called 'stars' and populate it. In our create function we add the following code (this can be seen in part8.html):
 
@@ -407,7 +413,7 @@ function collectStar (player, star)
 
 Quite simply the star has its physics body disabled and its parent Game Object is made inactive and invisible, which removes it from display. Running the game now gives us a player that can dash about, jump, bounce off the platforms and collecting the stars that fall from above. Not bad for a few lines of hopefully mostly quite readable code :)
 
-**image**
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part8.png" width="900">
 
 ### Part 9
 
@@ -442,7 +448,7 @@ function collectStar (player, star)
 
 So 10 points are added for every star and the scoreText is updated to show this new total. If you run part9.html you will see the stars fall and the score increase as you collect them.
 
-**image**
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part9.png" width="900">
 
 In the final part we'll add some baddies.
 
@@ -512,6 +518,8 @@ We use a Group method called countActive to see how many stars are left alive. I
 The next part of the code creates a bomb. First we pick a random x coordinate for it, always on the opposite side of the screen to the player, just to give them a chance. Then the bomb is created, it's set to collide with the world, bounce, ignore gravity and have a random velocity.
 
 The end result is a nice little bomb sprite that rebounds around the screen. Small enough to be easy to avoid, at the start, but as soon as the numbers build up it becomes a lot harder!
+
+<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part10.png" width="900">
 
 And our game is done :)
 
