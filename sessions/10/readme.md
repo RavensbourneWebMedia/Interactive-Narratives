@@ -18,7 +18,7 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 [Download the source files from here:](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/phaser3.zip)
 
-### Part 1
+## Part 1
 
 Open the part1.html page in your editor of choice and let's have a closer look at the code. After a little boilerplate HTML that includes Phaser the code structure looks like this:
 
@@ -60,7 +60,7 @@ The width and height properties set the size of the canvas element that Phaser w
 The scene property of the configuration object will be covered in more detail further on in this tutorial.
 
 
-### Part 2
+## Part 2
 
 Let's load the assets we need for our game. You do this by putting calls to the Phaser Loader inside of a Scene function called preload. Phaser will automatically look for this function when it starts and load anything defined within it.
 
@@ -110,7 +110,7 @@ function create ()
 
 If you put the star image first it will be covered-up by the sky image.
 
-### Part 3
+## Part 3
 
 Under the hood this.add.image is creating a new Image Game Object and adding it to the current Scenes display list. This list is where all of your Game Objects live. You could position the image anywhere and Phaser will not mind. Of course, if it's outside of the region 0x0 to 800x600 then you're not going to visually see it, because it'll be "off screen", but it will still exist within the Scene.
 
@@ -163,7 +163,7 @@ The new addition is the physics property. With this code in place if you run it,
 
 We've got a backdrop and some platforms, but how exactly are those platforms working?
 
-### Part 4
+## Part 4
 
 We just added a bunch of code to our create function that deserves a more detailed explanation. First, this part:
 
@@ -209,7 +209,7 @@ The process is exactly the same as before, only we don't need to scale these pla
 
 So let's add our player.
 
-### Part 5
+## Part 5
 
 We've got some lovely tempting platforms, but no-one to run around them. Let's rectify that.
 
@@ -284,7 +284,7 @@ This is our standard run-cycle and we repeat it for running in the opposite dire
 
 **Extra Info:** In Phaser 3 the Animation Manager is a global system. Animations created within it are globally available to all Game Objects. They share the base animation data while managing their own timelines. This allows you to define a single animation once and apply it to as many Game Objects as you require. This is different to Phaser 2 where animations belonged specifically to the Game Objects they were created on.
 
-### Part 6
+## Part 6
 
 Phaser has support for a variety of different physics systems, each acting as a plugin available to any Phaser Scene. At the time of writing it ships with Arcade Physics, Impact Physics and Matter.js Physics. For the sake of this tutorial we will be using the Arcade Physics system for our game, which is simple and light-weight, perfect for mobile browsers.
 
@@ -314,7 +314,7 @@ The Collider is the one that performs the magic. It takes two objects and tests 
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part6.png" width="900">
 
-### Part 7
+## Part 7
 
 Colliding is all good and well, but we really need the player to move. You would probably think of heading to the documentation and searching about how to add an event listener, but that is not necessary here. Phaser has a built-in Keyboard manager and one of the benefits of using that is this handy little function:
 
@@ -364,7 +364,7 @@ If both of these conditions are met we apply a vertical velocity of 330 px/sec s
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part7.png" width="900">
 
-### Part 8
+## Part 8
 
 It's time to give our little game a purpose. Let's drop a sprinkling of stars into the scene and allow the player to collect them. To achieve this we'll create a new Group called 'stars' and populate it. In our create function we add the following code (this can be seen in part8.html):
 
@@ -415,7 +415,7 @@ Quite simply the star has its physics body disabled and its parent Game Object i
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/10/assets/part8.png" width="900">
 
-### Part 9
+## Part 9
 
 There are two final touches we're going to add to our game: an enemy to avoid that can kill the player, and a score when you collect the stars. First, the score.
 
@@ -452,7 +452,7 @@ So 10 points are added for every star and the scoreText is updated to show this 
 
 In the final part we'll add some baddies.
 
-### Part 10
+## Part 10
 
 In order to round our game out it's time to add some baddies. This will give a nice element of challenge to the game, something that was previously missing.
 
