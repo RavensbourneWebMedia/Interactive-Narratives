@@ -2,16 +2,7 @@
 
 ### Today, Tuesday 1st of May 2018
 
-<img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/11/assets/phaser.png" width="900">
-
-* [Link to todays lecture ](https://moodle.rave.ac.uk/pluginfile.php/162740/mod_resource/content/3/Phaser1.pdf)
-
-# Homework
-
-### Peer-learning mini-lessons
-
-TBA
-
+Matteo's workshop
 
 ### Blog
 
