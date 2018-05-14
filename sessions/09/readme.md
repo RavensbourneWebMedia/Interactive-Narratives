@@ -110,8 +110,11 @@ Papers, post-its and pens...
 
 <img src="https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/paperboardgame.jpg" width="900">
 
+<<<<<<< HEAD
 * [PlayTestingQuestion](https://github.com/RavensbourneWebMedia/Interactive-Narratives/blob/2018/sessions/09/assets%20/PlayTestingQuestions.pdf)
 
+=======
+>>>>>>> parent of e0ba191... added PDF
 # Homework
 
 ### Peer-learning mini-lessons
