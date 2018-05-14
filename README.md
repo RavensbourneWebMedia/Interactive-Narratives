@@ -30,7 +30,7 @@ When | In class | Homework | Blog
 [Tuesday<br>15.05](sessions/13)| **Formative presentations** |  | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
 [Tuesday<br>22.05](sessions/14)| Workshop | | Evidence and analyse how games have developed through time.   
 [Tuesday<br>29.05](sessions/15)| Workshop | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
-[Tuesday<br>05.06](sessions/16)| Summative  | | Evidence and analyse how games have developed through time.   
+[Tuesday<br>05.06](sessions/16)| Summative  | | Games report
 
 
 ### License
