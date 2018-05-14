@@ -23,13 +23,13 @@ Enhancement Week |
 
 When | In class | Homework | Blog
 ---- | -------- | -------- | ----
-[Tuesday<br>17.04](sessions/09)| <ul><li>**Lecture:** Developing a design process and boardgames  <li>**Workshop:** Creating boardgames | Peer-learning mini-lesson | What is your favourite board game and why?
+[Tuesday<br>17.04](sessions/09)| <ul><li>**Lecture:** Developing a design process and boardgames  <li>**Workshop:** Creating boardgames | | What is your favourite board game and why?
 [Tuesday<br>24.04](sessions/10)| <ul><li>**Lecture:** Gamification <li>**Workshop:** Hackings games with verbs | Peer-learning mini-lesson | When creating online content for children, what are some of the ethical considerations you need to take?
-[Tuesday<br>01.05](sessions/11)| <ul><li>**Lecture:** Matteo Matteo<li>**Workshop:** Games  <li>**Workshop:** Putting flesh on the bone  | Peer-learning mini-lesson| What are your strength and weaknesses in relation to completing this project? And how are you going to address them?
+[Tuesday<br>01.05](sessions/11)| <ul><li>**Lecture:** Matteo Matteo<li>**Workshop:** Games  <li>**Workshop:** Putting flesh on the bone  | | What are your strength and weaknesses in relation to completing this project? And how are you going to address them?
 [Tuesday<br>08.05](sessions/12)| <ul><li>**Lecture:** Serious Play<li>**Workshop:** Tutorials  | |
-[Tuesday<br>15.05](sessions/13)| **Formative presentations** | Peer-learning mini-lesson | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
-[Tuesday<br>22.05](sessions/14)| Workshop | Peer-learning mini-lesson | Evidence and analyse how games have developed through time.   
-[Tuesday<br>29.05](sessions/15)| Peer-learning mini-lesson | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
+[Tuesday<br>15.05](sessions/13)| **Formative presentations** |  | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
+[Tuesday<br>22.05](sessions/14)| Workshop | | Evidence and analyse how games have developed through time.   
+[Tuesday<br>29.05](sessions/15)| | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
 [Tues
 
 
