@@ -29,8 +29,8 @@ When | In class | Homework | Blog
 [Tuesday<br>08.05](sessions/12)| <ul><li>**Lecture:** Serious Play<li>**Workshop:** Tutorials  | |
 [Tuesday<br>15.05](sessions/13)| **Formative presentations** |  | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
 [Tuesday<br>22.05](sessions/14)| Workshop | | Evidence and analyse how games have developed through time.   
-[Tuesday<br>29.05](sessions/15)| | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
-[Tues
+[Tuesday<br>29.05](sessions/15)| Workshop | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
+[Tuesday<br>05.06](sessions/16)| Summative  | | Evidence and analyse how games have developed through time.   
 
 
 ### License
