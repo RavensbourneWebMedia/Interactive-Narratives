@@ -24,11 +24,11 @@ Enhancement Week |
 When | In class | Homework | Blog
 ---- | -------- | -------- | ----
 [Tuesday<br>17.04](sessions/09)| <ul><li>**Lecture:** Developing a design process and boardgames  <li>**Workshop:** Creating boardgames | | What is your favourite board game and why?
-[Tuesday<br>24.04](sessions/10)| <ul><li>**Lecture:** Gamification <li>**Workshop:** Hackings games with verbs | Peer-learning mini-lesson | When creating online content for children, what are some of the ethical considerations you need to take?
+[Tuesday<br>24.04](sessions/10)| <ul><li>**Lecture:** Gamification <li>**Workshop:** Phaser | | When creating online content for children, what are some of the ethical considerations you need to take?
 [Tuesday<br>01.05](sessions/11)| **Lecture:** Matteo Matteo | | What are your strength and weaknesses in relation to completing this project? And how are you going to address them?
 [Tuesday<br>08.05](sessions/12)| <ul><li>**Lecture:** Serious Play<li>**Workshop:** Tutorials  | |
 [Tuesday<br>15.05](sessions/13)| **Formative presentations** |  | Reflect and evidence your contribution to this group project so far. (Why, what, where, when & how)
-[Tuesday<br>22.05](sessions/14)| **Workshop** Re-visit Phaser | | Evidence and analyse how games have developed through time.   
+[Tuesday<br>22.05](sessions/14)| <ul><li>**Lecture** Re-visit Phaser <li> **Tutorials**  | | Evidence and analyse how games have developed through time.   
 [Tuesday<br>29.05](sessions/15)| Workshop | Prep for summative | 500 words reflective report on your (Why, what, where, when & how) contribution to this project.  
 [Tuesday<br>05.06](sessions/16)| Summative  | | 500 words, dissect and discuss a core game mechanics behind an online game of their choice.
 
