@@ -68,10 +68,11 @@ In that MarkDown document, include the following:
 	If you use Keynote/Powerpoint export a PDF, upload it to Google Drive or SlideShare, and then grab the link to it.
 
 - [ ] Research pack (The underpinning of your Narrative, character and Peer-learning mini-lessons)
+- [ ] Media assets
 - [ ] Blog-posts
 - [ ] Presentation
-- [ ] Meta-narrative outline (Plot, narrative, context, genre, character)
-- [ ] Your Twine production
+- [ ] Link to your board game production
+- [ ] Link to your Phaser production
 
 - [	] Images and texts to make your document more pleasant to read (see an example of an excellent `COURSECODE-Name-Surname.md` [here](https://github.com/TomSharmanWeb/HarrySeatonWebsite/blob/master/README.md)).
 
@@ -79,8 +80,8 @@ In that MarkDown document, include the following:
 
 > Make sure all the folders, pages, documents & presentations you linked in your `WEB14205-Name-Surname.md` are publicly accessible (not just private to you)!
 
-**Upload and submit** your `WEB14205-Name-Surname.md` through Moodle here [moodle.rave.ac.uk/mod/assign/view.php?id=115483](https://moodle.rave.ac.uk/mod/assign/view.php?id=115483)
+**Upload and submit** your `WEB14205-Name-Surname.md` through Moodle here [moodle.rave.ac.uk/mod/assign/view.php?id=117704](https://moodle.rave.ac.uk/mod/assign/view.php?id=117704)
 
 #### Deadline
 
-Wednesday 6th of Feb 2018 (aka *today)* at **4pm**!
+Wednesday 5th of June 2018 (aka *today)* at **4pm**!
